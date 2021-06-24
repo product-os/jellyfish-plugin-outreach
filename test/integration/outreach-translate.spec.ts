@@ -67,7 +67,6 @@ syncIntegrationScenario.run(
 		plugins: [ActionLibrary, DefaultPlugin, OutreachPlugin],
 		cards: ['email-sequence'],
 		before: patchUser,
-		integration: {},
 		scenarios: webhooks,
 		baseUrl: 'https://api.outreach.io',
 		stubRegex: /.*/,
