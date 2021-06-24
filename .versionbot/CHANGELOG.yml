@@ -1,4 +1,17 @@
 - commits:
+    - subject: Enable Renovate
+      hash: f800231e718edbf6dfe959acce7a86a2a5e0d524
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 1.0.1
+  date: 2021-06-24T00:29:57.099Z
+- commits:
     - subject: 'Add code, convert to TypeScript'
       hash: c3b5449199674ffaf7f6cc3265ea18d83e16f3b6
       body: ''
