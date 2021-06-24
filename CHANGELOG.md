@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 1.0.6 - 2021-06-24
+
+* Update Renovate config [Josh Bowling]
+
 ## 1.0.5 - 2021-06-24
 
 * Add JF peer dependencies [Josh Bowling]

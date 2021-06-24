@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update Renovate config
+      hash: 7cf93db553638b8c9784117ce37b89d09f3221af
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 1.0.6
+  date: 2021-06-24T03:09:11.232Z
+- commits:
     - subject: Add JF peer dependencies
       hash: bf343d900f332bc84005455986681fc3ad359168
       body: ''
