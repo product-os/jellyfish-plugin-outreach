@@ -4,6 +4,11 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 1.0.7 - 2021-06-24
+
+* Bump jellyfish-core dev dependency [Graham McCulloch]
+* Fix expected test results [Graham McCulloch]
+
 ## 1.0.6 - 2021-06-24
 
 * Update Renovate config [Josh Bowling]

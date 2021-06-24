@@ -1,4 +1,27 @@
 - commits:
+    - subject: Bump jellyfish-core dev dependency
+      hash: 3a81553ddcc453f96f1b80640d26e9513ae8c319
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Graham McCulloch <graham@balena.io>
+        signed-off-by: Graham McCulloch <graham@balena.io>
+      author: Graham McCulloch
+      nested: []
+    - subject: Fix expected test results
+      hash: cd39e5ee828f5be7792a89ccc2584f278ac2650f
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Graham McCulloch <graham@balena.io>
+        signed-off-by: Graham McCulloch <graham@balena.io>
+      author: Graham McCulloch
+      nested: []
+  version: 1.0.7
+  date: 2021-06-24T05:50:23.551Z
+- commits:
     - subject: Update Renovate config
       hash: 7cf93db553638b8c9784117ce37b89d09f3221af
       body: ''
