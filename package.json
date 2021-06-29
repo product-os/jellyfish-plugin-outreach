@@ -54,7 +54,7 @@
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "@balena/ci-task-runner": "^0.3.2",
+    "@balena/ci-task-runner": "^0.3.3",
     "@balena/jellycheck": "^0.1.1",
     "@balena/jellyfish-config": "^1.3.3",
     "@balena/jellyfish-core": "^4.0.0",
