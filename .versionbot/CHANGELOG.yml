@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update internal-patch'
+      hash: bb4e8387310a113dcaec7b61021fd75bb33a7020
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.0.22
+  date: 2021-06-29T11:03:08.174Z
+- commits:
     - subject: 'patch: Update dependency @balena/ci-task-runner to ^0.3.3'
       hash: d81d4a81f2f0ecb1f3d8b0ce2f57cfbc113f483b
       body: ''
