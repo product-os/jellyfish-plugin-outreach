@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 1.0.32 - 2021-07-02
+
+* Replace ci-task-runner with go-task [Josh Bowling]
+
 ## 1.0.31 - 2021-06-30
 
 * patch: Update dependency @balena/jellyfish-action-library to ^14.1.1 [Renovate Bot]

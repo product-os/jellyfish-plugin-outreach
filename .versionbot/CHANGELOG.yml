@@ -1,4 +1,17 @@
 - commits:
+    - subject: Replace ci-task-runner with go-task
+      hash: bccd94d1b9810f47445ce3ec0c22815563cc126b
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 1.0.32
+  date: 2021-07-02T02:54:36.858Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^14.1.1'
       hash: 390b1b8494d4d3e814258ddae06f9774a335e7d5
       body: ''
