@@ -48,7 +48,7 @@
     "@balena/jellyfish-action-library": "^14.1.2",
     "@balena/jellyfish-assert": "^1.1.56",
     "@balena/jellyfish-environment": "^4.3.5",
-    "@balena/jellyfish-plugin-base": "^2.1.179",
+    "@balena/jellyfish-plugin-base": "^2.1.180",
     "bluebird": "^3.7.2",
     "is-uuid": "^1.0.2",
     "lodash": "^4.17.21"
