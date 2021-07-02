@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^14.1.2'
+      hash: 88b600050e38cc44416fcd21fd608cc205aa49fc
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.0.33
+  date: 2021-07-02T04:45:50.721Z
+- commits:
     - subject: Replace ci-task-runner with go-task
       hash: bccd94d1b9810f47445ce3ec0c22815563cc126b
       body: ''
