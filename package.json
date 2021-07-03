@@ -46,9 +46,9 @@
   "license": "UNLICENSED",
   "dependencies": {
     "@balena/jellyfish-action-library": "^14.1.2",
-    "@balena/jellyfish-assert": "^1.1.58",
-    "@balena/jellyfish-environment": "^4.3.8",
-    "@balena/jellyfish-plugin-base": "^2.1.182",
+    "@balena/jellyfish-assert": "^1.1.59",
+    "@balena/jellyfish-environment": "^4.3.9",
+    "@balena/jellyfish-plugin-base": "^2.1.183",
     "bluebird": "^3.7.2",
     "is-uuid": "^1.0.2",
     "lodash": "^4.17.21"
