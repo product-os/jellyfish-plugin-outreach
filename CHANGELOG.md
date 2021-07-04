@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 1.0.49 - 2021-07-04
+
+* patch: Update dependency nock to ^13.1.1 [Renovate Bot]
+
 ## 1.0.48 - 2021-07-04
 
 * patch: Update dependency @balena/jellyfish-action-library to ^14.1.10 [Renovate Bot]
