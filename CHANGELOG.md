@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 1.0.50 - 2021-07-05
+
+* patch: Update dependency @balena/jellyfish-plugin-default to v17 [Renovate Bot]
+
 ## 1.0.49 - 2021-07-04
 
 * patch: Update dependency nock to ^13.1.1 [Renovate Bot]
