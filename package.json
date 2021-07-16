@@ -47,7 +47,7 @@
   "dependencies": {
     "@balena/jellyfish-action-library": "^15.0.35",
     "@balena/jellyfish-assert": "^1.1.64",
-    "@balena/jellyfish-environment": "^4.3.16",
+    "@balena/jellyfish-environment": "^4.3.17",
     "@balena/jellyfish-plugin-base": "^2.1.196",
     "bluebird": "^3.7.2",
     "is-uuid": "^1.0.2",
