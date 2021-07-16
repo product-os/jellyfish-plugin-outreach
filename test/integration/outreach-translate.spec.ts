@@ -6,13 +6,11 @@
 
 import ActionLibrary from '@balena/jellyfish-action-library';
 import { defaultEnvironment } from '@balena/jellyfish-environment';
+import { DefaultPlugin } from '@balena/jellyfish-plugin-default';
 import { syncIntegrationScenario } from '@balena/jellyfish-test-harness';
 import _ from 'lodash';
 import { OutreachPlugin } from '../../lib';
 import webhooks from './webhooks/outreach';
-
-// tslint:disable-next-line: no-var-requires
-const DefaultPlugin = require('@balena/jellyfish-plugin-default');
 
 const TOKEN = defaultEnvironment.integration.outreach;
 

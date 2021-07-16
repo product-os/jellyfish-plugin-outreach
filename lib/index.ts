@@ -28,7 +28,7 @@ export class OutreachPlugin extends JellyfishPluginBase {
 				},
 				{
 					slug: 'jellyfish-plugin-default',
-					version: '>=15.x',
+					version: '>=19.x',
 				},
 			],
 		});
