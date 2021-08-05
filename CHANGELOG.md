@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 1.0.114 - 2021-08-05
+
+* Use balena convention for npm script names [Josh Bowling]
+
 ## 1.0.113 - 2021-08-05
 
 * patch: Update internal-patch [Renovate Bot]
