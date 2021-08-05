@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.0.60'
+      hash: e4f8e44930fe94ac3126f02787135cd9dfbf8fa4
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.0.115
+  date: 2021-08-05T03:47:26.243Z
+- commits:
     - subject: Use balena convention for npm script names
       hash: d2b1c598c1acffc9f646a45797543a64ea2806f8
       body: ''
