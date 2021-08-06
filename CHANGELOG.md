@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 1.0.118 - 2021-08-06
+
+* Add compose up command, more test docs [Josh Bowling]
+
 ## 1.0.117 - 2021-08-06
 
 * patch: Update dependency @balena/jellyfish-action-library to ^15.0.62 [Renovate Bot]
