@@ -1,4 +1,17 @@
 - commits:
+    - subject: Only disable internal patch bumps
+      hash: 9f78893996fde79feb2c035960bb8b62aa850094
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 1.0.120
+  date: 2021-08-20T06:32:35.111Z
+- commits:
     - subject: Bump jellyfish-action-library
       hash: 0b27b0c288cd3b5dae4097905023942d6e8ff147
       body: ''
