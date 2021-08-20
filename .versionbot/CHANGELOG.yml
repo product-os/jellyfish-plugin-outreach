@@ -1,4 +1,26 @@
 - commits:
+    - subject: Bump jellyfish-action-library
+      hash: 0b27b0c288cd3b5dae4097905023942d6e8ff147
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+    - subject: 'patch: Update dependency @balena/jellyfish-environment to v5'
+      hash: 5826b441c264d2a6b03c8e53b85fc0fab884b365
+      body: |
+        Update @balena/jellyfish-environment from 4.3.19 to 5.0.1
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.0.119
+  date: 2021-08-20T06:17:20.149Z
+- commits:
     - subject: 'Add compose up command, more test docs'
       hash: 47371f8130b9cc4f6d65ddffd627b8f4aa9ee4b6
       body: ''
