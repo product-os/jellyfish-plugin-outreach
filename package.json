@@ -59,7 +59,7 @@
     "@balena/jellycheck": "^0.1.3",
     "@balena/jellyfish-config": "^1.4.8",
     "@balena/jellyfish-core": "^5.1.20",
-    "@balena/jellyfish-plugin-default": "^19.7.15",
+    "@balena/jellyfish-plugin-default": "^19.9.0",
     "@balena/jellyfish-sync": "^6.1.3",
     "@balena/jellyfish-test-harness": "^6.0.1",
     "@balena/jellyfish-types": "^0.9.8",
@@ -82,7 +82,7 @@
   },
   "peerDependencies": {
     "@balena/jellyfish-core": "^5.1.20",
-    "@balena/jellyfish-plugin-default": "^19.7.15",
+    "@balena/jellyfish-plugin-default": "^19.9.0",
     "@balena/jellyfish-sync": "^6.1.3"
   },
   "simple-git-hooks": {
