@@ -5,11 +5,10 @@ version: '2.1'
 
 services:
   sut:
+    image: balena/jellyfish-plugin-outreach_sut:latest
     build:
       context: .
       dockerfile: Dockerfile
-      args:
-        NPM_TOKEN: $NPM_TOKEN
     depends_on:
       - postgres
       - redis
@@ -28,7 +27,17 @@ services:
       - INTEGRATION_DEFAULT_USER=admin
       - CI=1
       - NPM_TOKEN
-    env_file:
-      - test.env
+    secrets:
+      - integration_outreach_app_id
+      - integration_outreach_app_secret
+      - integration_outreach_signature_key
     networks:
       - internal
+
+secrets:
+  integration_outreach_app_id:
+    file: ./.balena/secrets/integration_outreach_app_id.txt
+  integration_outreach_app_secret:
+    file: ./.balena/secrets/integration_outreach_app_secret.txt
+  integration_outreach_signature_key:
+    file: ./.balena/secrets/integration_outreach_signature_key.txt

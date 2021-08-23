@@ -1,5 +1,13 @@
 version: '3'
 
+env:
+  INTEGRATION_OUTREACH_APP_ID:
+    sh: cat /run/secrets/integration_outreach_app_id
+  INTEGRATION_OUTREACH_APP_SECRET:
+    sh: cat /run/secrets/integration_outreach_app_secret
+  INTEGRATION_OUTREACH_SIGNATURE_KEY:
+    sh: cat /run/secrets/integration_outreach_signature_key
+
 tasks:
   test:
     cmds:
