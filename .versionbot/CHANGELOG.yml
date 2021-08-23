@@ -1,4 +1,17 @@
 - commits:
+    - subject: Bump internal dev dependencies
+      hash: f98845a3e2b6ae5cac6286028f5d5a47ac8c38f4
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 1.0.136
+  date: 2021-08-23T06:19:19.508Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.20'
       hash: 2f5e5c57093206b23c3a398f600b1df8b4ef18cb
       body: ''
