@@ -1,4 +1,25 @@
 - commits:
+    - subject: Add github secrets to gitignore
+      hash: 60a46a439bf2a8bdfc790b6afd987fdc89208e31
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+    - subject: "\U0001F504 Synced file(s) with product-os/secrets"
+      hash: e1cd7acabc0c440f02fd27629d14970e57708d7d
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: joshbwlng
+      nested: []
+  version: 1.0.139
+  date: 2021-08-24T05:54:06.804Z
+- commits:
     - subject: Add flowdock secrets to gitignore
       hash: 23650296b3670d2fe9d2a1523109061a9bb09214
       body: ''

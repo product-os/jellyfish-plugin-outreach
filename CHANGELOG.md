@@ -4,6 +4,11 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 1.0.139 - 2021-08-24
+
+* Add github secrets to gitignore [Josh Bowling]
+* 🔄 Synced file(s) with product-os/secrets [joshbwlng]
+
 ## 1.0.138 - 2021-08-24
 
 * Add flowdock secrets to gitignore [Josh Bowling]
