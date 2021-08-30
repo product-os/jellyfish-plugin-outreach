@@ -119,3 +119,5 @@ package-lock.json
 .balena/secrets/integration_github_private_key.txt
 .balena/secrets/integration_github_signature_key.txt
 .balena/secrets/integration_github_token.txt
+.balena/secrets/integration_front_token.txt
+.balena/secrets/integration_intercom_token.txt
