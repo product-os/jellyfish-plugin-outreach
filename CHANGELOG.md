@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 1.0.142 - 2021-08-31
+
+* patch: Update internal-patch [Renovate Bot]
+
 ## 1.0.141 - 2021-08-31
 
 * Ignore decrypted Discourse secrets [Josh Bowling]

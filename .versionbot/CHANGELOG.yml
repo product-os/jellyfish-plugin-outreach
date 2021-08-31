@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update internal-patch'
+      hash: 04fb0e6ba71e7ea9d472882fb4a094ae76fa583c
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.0.142
+  date: 2021-08-31T07:17:36.752Z
+- commits:
     - subject: Ignore decrypted Discourse secrets
       hash: b710725e3ca567275c0d6b48cdf3daba9a220af2
       body: ''
