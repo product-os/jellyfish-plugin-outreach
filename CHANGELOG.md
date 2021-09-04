@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 1.0.149 - 2021-09-04
+
+* patch: Update dependency @balena/jellyfish-types to v1 [Renovate Bot]
+
 ## 1.0.148 - 2021-09-04
 
 * patch: Update dependency @balena/jellyfish-action-library to ^15.1.42 [Renovate Bot]
