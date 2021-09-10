@@ -16,11 +16,14 @@ export const triggeredActionIntegrationOutreachMirrorEvent: ContractDefinition =
 			schedule: 'sync',
 			filter: {
 				type: 'object',
-				required: ['type'],
+				required: ['type', 'data'],
 				properties: {
 					type: {
 						type: 'string',
 						const: 'contact@1.0.0',
+					},
+					data: {
+						type: 'object',
 					},
 				},
 			},
