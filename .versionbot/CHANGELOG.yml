@@ -1,4 +1,19 @@
 - commits:
+    - subject: explicitely match on /data to ensure we get triggered
+      hash: 9f8acf547d1d14ec71d500c57e9c2a570a8c9f9c
+      body: >
+        this is necessary after the change of triggered actions to only run when
+        required data is changed
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Martin Rauscher <martin@balena.io>
+        signed-off-by: Martin Rauscher <martin@balena.io>
+      author: Martin Rauscher
+      nested: []
+  version: 1.0.163
+  date: 2021-09-10T11:46:40.896Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.237'
       hash: 410472b03617068242b72e8e6d1dc48fe7d90f7a
       body: ''
