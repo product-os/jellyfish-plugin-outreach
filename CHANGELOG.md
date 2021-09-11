@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 1.0.164 - 2021-09-11
+
+* patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.238 [Renovate Bot]
+
 ## 1.0.163 - 2021-09-10
 
 * explicitely match on /data to ensure we get triggered [Martin Rauscher]
