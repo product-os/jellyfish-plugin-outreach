@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency @types/lodash to ^4.14.174'
+      hash: 1b82df8d1a82df7c8b3e5303b4319d547515f740
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.0.192
+  date: 2021-09-25T10:16:05.398Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.70'
       hash: 3410a3682da9b8a5e54bdcfd5233cb98326c4d33
       body: ''

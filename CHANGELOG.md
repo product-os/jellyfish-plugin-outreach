@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 1.0.192 - 2021-09-25
+
+* patch: Update dependency @types/lodash to ^4.14.174 [Renovate Bot]
+
 ## 1.0.191 - 2021-09-25
 
 * patch: Update dependency @balena/jellyfish-action-library to ^15.1.70 [Renovate Bot]
