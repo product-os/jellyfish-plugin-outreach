@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 1.0.193 - 2021-09-25
+
+* patch: Update dependency @balena/jellyfish-test-harness to v8 [Renovate Bot]
+
 ## 1.0.192 - 2021-09-25
 
 * patch: Update dependency @types/lodash to ^4.14.174 [Renovate Bot]
