@@ -4,6 +4,11 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 1.0.198 - 2021-09-26
+
+* Ignore decrypted mailgun and meet secrets [Josh Bowling]
+* 🔄 Synced file(s) with product-os/secrets [joshbwlng]
+
 ## 1.0.197 - 2021-09-26
 
 * patch: Update dependency @balena/jellyfish-action-library to ^15.1.75 [Renovate Bot]
