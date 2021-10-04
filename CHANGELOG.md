@@ -4,6 +4,12 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 1.0.199 - 2021-10-04
+
+* Bring back test.env [Josh Bowling]
+* Update test:compose to match image name [Josh Bowling]
+* 🔄 Synced file(s) with product-os/jellyfish-config [joshbwlng]
+
 ## 1.0.198 - 2021-09-26
 
 * Ignore decrypted mailgun and meet secrets [Josh Bowling]

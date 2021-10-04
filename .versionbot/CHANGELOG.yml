@@ -1,4 +1,35 @@
 - commits:
+    - subject: Bring back test.env
+      hash: 04683a03adf3203f291ae3168e39c0fde97258e2
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+    - subject: 'Update test:compose to match image name'
+      hash: e7a72404834ff70247ee91e99e03df2c618238fd
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+    - subject: "\U0001F504 Synced file(s) with product-os/jellyfish-config"
+      hash: b91e36962b9041fe9a86a8ab8fbba3b349a2f19c
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: joshbwlng
+      nested: []
+  version: 1.0.199
+  date: 2021-10-04T07:17:38.466Z
+- commits:
     - subject: Ignore decrypted mailgun and meet secrets
       hash: 545f4d4ac10d1394ec6ae09616345cc04efbd945
       body: ''
