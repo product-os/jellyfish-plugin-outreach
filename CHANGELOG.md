@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 1.0.200 - 2021-10-18
+
+* 🔄 Synced file(s) with product-os/secrets [joshbwlng]
+
 ## 1.0.199 - 2021-10-04
 
 * Bring back test.env [Josh Bowling]

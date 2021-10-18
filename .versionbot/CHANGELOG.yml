@@ -1,4 +1,15 @@
 - commits:
+    - subject: "\U0001F504 Synced file(s) with product-os/secrets"
+      hash: 32c7da0978a726dea5aad6b893385725da6371d9
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: joshbwlng
+      nested: []
+  version: 1.0.200
+  date: 2021-10-18T04:17:12.171Z
+- commits:
     - subject: Bring back test.env
       hash: 04683a03adf3203f291ae3168e39c0fde97258e2
       body: ''
