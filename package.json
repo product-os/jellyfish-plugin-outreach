@@ -47,10 +47,10 @@
   "author": "Balena.io. <hello@balena.io>",
   "license": "UNLICENSED",
   "dependencies": {
-    "@balena/jellyfish-action-library": "^15.1.96",
+    "@balena/jellyfish-action-library": "^15.1.99",
     "@balena/jellyfish-assert": "^1.1.68",
-    "@balena/jellyfish-environment": "^5.0.6",
-    "@balena/jellyfish-plugin-base": "^2.1.250",
+    "@balena/jellyfish-environment": "^5.0.7",
+    "@balena/jellyfish-plugin-base": "^2.1.251",
     "bluebird": "^3.7.2",
     "is-uuid": "^1.0.2",
     "lodash": "^4.17.21"
