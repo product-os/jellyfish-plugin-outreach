@@ -50,13 +50,13 @@
     "@balena/jellyfish-action-library": "^15.1.107",
     "@balena/jellyfish-assert": "^1.1.68",
     "@balena/jellyfish-environment": "^5.0.9",
-    "@balena/jellyfish-plugin-base": "^2.1.254",
+    "@balena/jellyfish-plugin-base": "^2.1.255",
     "bluebird": "^3.7.2",
     "is-uuid": "^1.0.2",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "@balena/jellycheck": "^0.1.4",
+    "@balena/jellycheck": "^0.1.5",
     "@balena/jellyfish-config": "^1.5.4",
     "@balena/jellyfish-core": "^7.0.2",
     "@balena/jellyfish-plugin-default": "^21.1.0",
