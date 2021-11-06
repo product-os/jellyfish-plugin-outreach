@@ -50,7 +50,7 @@
     "@balena/jellyfish-action-library": "^15.1.112",
     "@balena/jellyfish-assert": "^1.1.68",
     "@balena/jellyfish-environment": "^5.0.12",
-    "@balena/jellyfish-plugin-base": "^2.1.260",
+    "@balena/jellyfish-plugin-base": "^2.1.261",
     "bluebird": "^3.7.2",
     "is-uuid": "^1.0.2",
     "lodash": "^4.17.21"
