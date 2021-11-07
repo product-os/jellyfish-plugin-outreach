@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 1.0.239 - 2021-11-07
+
+* patch: Update dependency typedoc to ^0.22.8 [Renovate Bot]
+
 ## 1.0.238 - 2021-11-07
 
 * patch: Update dependency @balena/jellyfish-action-library to ^15.1.114 [Renovate Bot]

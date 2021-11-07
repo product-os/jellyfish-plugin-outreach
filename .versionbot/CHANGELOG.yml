@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency typedoc to ^0.22.8'
+      hash: 93b03bee8e677a6d7c872a95fc49959c2248f03e
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.0.239
+  date: 2021-11-07T02:06:47.935Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.114'
       hash: a5a4a53b0371d50128098930fc901cbd137b0724
       body: ''
