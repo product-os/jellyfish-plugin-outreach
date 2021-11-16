@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 1.0.258 - 2021-11-16
+
+* patch: Update internal-patch [Renovate Bot]
+
 ## 1.0.257 - 2021-11-16
 
 * Set license [Josh Bowling]
