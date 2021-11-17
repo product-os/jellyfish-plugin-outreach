@@ -4,6 +4,14 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 1.0.260 - 2021-11-17
+
+* Update secrets in compose test config [Josh Bowling]
+* Update ignored secrets [Josh Bowling]
+* Remove old secrets [Josh Bowling]
+* Clean up test compose config [Josh Bowling]
+* 🔄 Synced file(s) with product-os/secrets [joshbwlng]
+
 ## 1.0.259 - 2021-11-16
 
 * Remove secret from test:compose script [Josh Bowling]

@@ -1,4 +1,55 @@
 - commits:
+    - subject: Update secrets in compose test config
+      hash: 8c2a9705148dfde15ecad043b211c1748afd0d32
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+    - subject: Update ignored secrets
+      hash: 000fcaeb41f0f104b74a813a977430a8adcbb8a4
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+    - subject: Remove old secrets
+      hash: d7520d77380ead5fa005571668006cfc357b6e6f
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+    - subject: Clean up test compose config
+      hash: a59103f3af174c702e5e6fd517ab5bd3e1f67d77
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+    - subject: "\U0001F504 Synced file(s) with product-os/secrets"
+      hash: b82f041c009a84b31b002ca4c43656930d07cd7b
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: joshbwlng
+      nested: []
+  version: 1.0.260
+  date: 2021-11-17T06:47:17.733Z
+- commits:
     - subject: 'Remove secret from test:compose script'
       hash: 422d76143e2d951109ce8c1884ae155c0adf9a8b
       body: ''
