@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 1.0.261 - 2021-11-17
+
+* patch: Update dependency @balena/jellyfish-action-library to ^15.1.120 [Renovate Bot]
+
 ## 1.0.260 - 2021-11-17
 
 * Update secrets in compose test config [Josh Bowling]

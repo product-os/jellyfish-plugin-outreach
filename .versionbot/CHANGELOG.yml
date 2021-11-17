@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.120'
+      hash: bef901cc481841f6f75b4696fb35b3075df521ee
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.0.261
+  date: 2021-11-17T10:21:50.803Z
+- commits:
     - subject: Update secrets in compose test config
       hash: 8c2a9705148dfde15ecad043b211c1748afd0d32
       body: ''
