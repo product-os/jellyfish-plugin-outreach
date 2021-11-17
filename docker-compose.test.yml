@@ -18,8 +18,8 @@ services:
 
 secrets:
   integration_outreach_app_id:
-    file: ./.balena/secrets/integration_outreach_app_id.txt
+    file: ./.balena/secrets/integration_outreach_app_id
   integration_outreach_app_secret:
-    file: ./.balena/secrets/integration_outreach_app_secret.txt
+    file: ./.balena/secrets/integration_outreach_app_secret
   integration_outreach_signature_key:
-    file: ./.balena/secrets/integration_outreach_signature_key.txt
+    file: ./.balena/secrets/integration_outreach_signature_key
