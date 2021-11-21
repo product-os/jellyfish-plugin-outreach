@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 1.0.269 - 2021-11-21
+
+* patch: Update dependency @balena/jellyfish-action-library to ^15.1.131 [Renovate Bot]
+
 ## 1.0.268 - 2021-11-21
 
 * Remove license headers [Josh Bowling]

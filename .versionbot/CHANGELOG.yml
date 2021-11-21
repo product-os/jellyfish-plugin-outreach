@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.131'
+      hash: bde59c7e309aa0c019593b9d4b07e841cd1b3500
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.0.269
+  date: 2021-11-21T14:09:29.509Z
+- commits:
     - subject: Remove license headers
       hash: c0cdfac65efeb3c0c19934e93c847b3be8890d1b
       body: ''
