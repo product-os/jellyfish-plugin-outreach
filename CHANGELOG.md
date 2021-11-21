@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 1.0.268 - 2021-11-21
+
+* Remove license headers [Josh Bowling]
+
 ## 1.0.267 - 2021-11-21
 
 * patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.287 [Renovate Bot]
