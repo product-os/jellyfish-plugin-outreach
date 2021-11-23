@@ -1,4 +1,17 @@
 - commits:
+    - subject: Bump lint-staged to v12.1.2
+      hash: c2f687acc6d25053016446457dae8835868ffe7b
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 1.0.277
+  date: 2021-11-23T01:52:49.598Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.136'
       hash: e4c68a8fc79ca0a1eefed0bb85340fb4a326b020
       body: ''

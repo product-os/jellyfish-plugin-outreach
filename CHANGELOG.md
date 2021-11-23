@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 1.0.277 - 2021-11-23
+
+* Bump lint-staged to v12.1.2 [Josh Bowling]
+
 ## 1.0.276 - 2021-11-22
 
 * patch: Update dependency @balena/jellyfish-action-library to ^15.1.136 [Renovate Bot]
