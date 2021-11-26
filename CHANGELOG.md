@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 1.0.293 - 2021-11-25
+
+* patch: Update dependency typescript to ^4.5.2 [Renovate Bot]
+
 ## 1.0.292 - 2021-11-25
 
 * patch: Update dependency @balena/jellyfish-action-library to ^15.1.148 [Renovate Bot]

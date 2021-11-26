@@ -1,4 +1,16 @@
 - commits:
+    - subject: 'patch: Update dependency typescript to ^4.5.2'
+      hash: f05133728ba89dbfb63cec70cb5a880a389a6e81
+      body: |
+        Update typescript from 4.4.4 to 4.5.2
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.0.293
+  date: 2021-11-25T17:50:08.261Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.148'
       hash: 39d1b9ed5abc962b58202689b250303ed5010567
       body: ''
