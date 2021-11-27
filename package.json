@@ -55,7 +55,7 @@
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "@balena/jellyfish-config": "^1.5.4",
+    "@balena/jellyfish-config": "^2.0.1",
     "@balena/jellyfish-core": "^8.1.0",
     "@balena/jellyfish-plugin-default": "^21.1.0",
     "@balena/jellyfish-sync": "^6.1.5",
