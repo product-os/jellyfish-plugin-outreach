@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 1.0.306 - 2021-11-29
+
+* patch: Update internal-patch [Renovate Bot]
+
 ## 1.0.305 - 2021-11-28
 
 * Remove old sync comments [Josh Bowling]
