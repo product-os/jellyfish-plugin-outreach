@@ -1,4 +1,25 @@
 - commits:
+    - subject: Remove old secrets from gitignore
+      hash: 8765156e1d2650e9f5af829b6c02f2415b41d7db
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+    - subject: "\U0001F504 Synced file(s) with product-os/secrets"
+      hash: 9f42a33471868651a00221e267c7c9f23bc38fbd
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: joshbwlng
+      nested: []
+  version: 1.0.310
+  date: 2021-12-01T07:35:39.355Z
+- commits:
     - subject: Bump jellyfish-environment to v5.2.0
       hash: aaec449b68537bcb2b9ce7074456ed9b3d9c086d
       body: ''

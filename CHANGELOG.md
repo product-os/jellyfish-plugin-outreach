@@ -4,6 +4,11 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 1.0.310 - 2021-12-01
+
+* Remove old secrets from gitignore [Josh Bowling]
+* 🔄 Synced file(s) with product-os/secrets [joshbwlng]
+
 ## 1.0.309 - 2021-12-01
 
 * Bump jellyfish-environment to v5.2.0 [Josh Bowling]
