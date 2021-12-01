@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.165'
+      hash: 8d48d0bf9d1ffb80ae496cd8bfe5612095f515f1
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.0.311
+  date: 2021-12-01T07:46:48.928Z
+- commits:
     - subject: Remove old secrets from gitignore
       hash: 8765156e1d2650e9f5af829b6c02f2415b41d7db
       body: ''
