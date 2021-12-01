@@ -10,16 +10,10 @@ services:
       - postgres
       - redis
     secrets:
-      - integration_outreach_app_id
-      - integration_outreach_app_secret
       - integration_outreach_signature_key
     networks:
       - internal
 
 secrets:
-  integration_outreach_app_id:
-    file: ./.balena/secrets/integration_outreach_app_id
-  integration_outreach_app_secret:
-    file: ./.balena/secrets/integration_outreach_app_secret
   integration_outreach_signature_key:
     file: ./.balena/secrets/integration_outreach_signature_key
