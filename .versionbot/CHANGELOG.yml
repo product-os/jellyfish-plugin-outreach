@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update readme
+      hash: 068634f82c4eb454cfef3d60c35bd4d1d4664608
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 1.0.315
+  date: 2021-12-02T00:56:50.255Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.168'
       hash: 6df90cb3f10999964777545022f812fc227169ca
       body: ''
