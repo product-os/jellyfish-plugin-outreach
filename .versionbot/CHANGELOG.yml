@@ -1,5 +1,18 @@
 - commits:
     - subject: Update readme
+      hash: 1aaa46a4374fa0b1da4ac04bc7b50711d524f6de
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 1.0.316
+  date: 2021-12-03T03:21:38.537Z
+- commits:
+    - subject: Update readme
       hash: 068634f82c4eb454cfef3d60c35bd4d1d4664608
       body: ''
       footer:
