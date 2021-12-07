@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update upstream repos
+      hash: 2dbf7c44782e087a18852a82fda7f4373abdde83
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 1.0.327
+  date: 2021-12-07T05:11:44.456Z
+- commits:
     - subject: 'patch: Update internal-patch'
       hash: 669548bac4a8ec39ae69cfd25c74c5e16920d108
       body: ''
