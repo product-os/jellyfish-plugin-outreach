@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 1.0.328 - 2021-12-07
+
+* patch: Update internal-patch [Renovate Bot]
+
 ## 1.0.327 - 2021-12-07
 
 * Update upstream repos [Josh Bowling]
