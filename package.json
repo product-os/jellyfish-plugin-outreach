@@ -50,7 +50,6 @@
     "@balena/jellyfish-assert": "^1.1.101",
     "@balena/jellyfish-environment": "^5.2.2",
     "@balena/jellyfish-plugin-base": "^2.1.320",
-    "bluebird": "^3.7.2",
     "is-uuid": "^1.0.2",
     "lodash": "^4.17.21"
   },
@@ -62,7 +61,6 @@
     "@balena/jellyfish-test-harness": "^8.1.4",
     "@balena/jellyfish-types": "^1.2.0",
     "@balena/lint": "^6.2.0",
-    "@types/bluebird": "^3.5.36",
     "@types/is-uuid": "^1.0.0",
     "@types/jest": "^27.0.3",
     "@types/lodash": "^4.14.177",
