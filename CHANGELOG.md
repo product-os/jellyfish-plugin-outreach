@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 1.0.329 - 2021-12-08
+
+* Remove Bluebird [Josh Bowling]
+
 ## 1.0.328 - 2021-12-07
 
 * patch: Update internal-patch [Renovate Bot]

@@ -1,4 +1,17 @@
 - commits:
+    - subject: Remove Bluebird
+      hash: 86f240cb2f6518fd5eaa87af77cd532d6f72205f
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 1.0.329
+  date: 2021-12-08T15:00:10.184Z
+- commits:
     - subject: 'patch: Update internal-patch'
       hash: f06a53230469c3e62c4312c66215d6f12cfca4e6
       body: ''
