@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.185'
+      hash: 74698b0b60d35341887f74f20f820f5e9cb121ed
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.0.330
+  date: 2021-12-09T00:49:25.223Z
+- commits:
     - subject: Remove Bluebird
       hash: 86f240cb2f6518fd5eaa87af77cd532d6f72205f
       body: ''
