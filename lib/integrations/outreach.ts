@@ -1,7 +1,6 @@
 import * as assert from '@balena/jellyfish-assert';
 import { Integration } from '@balena/jellyfish-plugin-base';
 import _ from 'lodash';
-import Bluebird from 'bluebird';
 import crypto from 'crypto';
 import { v4 as isUUID } from 'is-uuid';
 
@@ -405,11 +404,11 @@ module.exports = class OutreachIntegration implements Integration {
 	}
 
 	async initialize() {
-		return Bluebird.resolve();
+		return Promise.resolve();
 	}
 
 	async destroy() {
-		return Bluebird.resolve();
+		return Promise.resolve();
 	}
 
 	async mirror(card: any, options: any): Promise<any> {
