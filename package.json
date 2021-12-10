@@ -58,7 +58,7 @@
     "@balena/jellyfish-core": "^8.1.0",
     "@balena/jellyfish-plugin-default": "^21.1.0",
     "@balena/jellyfish-sync": "^6.1.5",
-    "@balena/jellyfish-test-harness": "^8.1.4",
+    "@balena/jellyfish-test-harness": "8.1.187-joshbwlng-remove-bluebird-0c1f6419117097e8ab363d73483e704a71f69382",
     "@balena/jellyfish-types": "^1.2.0",
     "@balena/lint": "^6.2.0",
     "@types/is-uuid": "^1.0.0",
