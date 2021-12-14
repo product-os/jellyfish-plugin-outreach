@@ -1,4 +1,17 @@
 - commits:
+    - subject: 'Drop depcheck, bump typescript'
+      hash: 92e7a4219d785a67f50b6ecf900fc55de52dd55b
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 1.0.338
+  date: 2021-12-14T03:14:38.767Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.192'
       hash: eb398edeb92cf57fd820ac35d0ee4a9be9857a72
       body: ''

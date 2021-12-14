@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 1.0.338 - 2021-12-14
+
+* Drop depcheck, bump typescript [Josh Bowling]
+
 ## 1.0.337 - 2021-12-13
 
 * patch: Update dependency @balena/jellyfish-action-library to ^15.1.192 [Renovate Bot]
