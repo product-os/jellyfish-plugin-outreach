@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 1.0.339 - 2021-12-14
+
+* patch: Update internal-patch [Renovate Bot]
+
 ## 1.0.338 - 2021-12-14
 
 * Drop depcheck, bump typescript [Josh Bowling]
