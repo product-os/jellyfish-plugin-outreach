@@ -10,7 +10,7 @@ export const triggeredActionIntegrationOutreachMirrorEvent: ContractDefinition =
 			schedule: 'sync',
 			filter: {
 				type: 'object',
-				required: ['type', 'data'],
+				required: ['type', 'data', 'tags'],
 				properties: {
 					type: {
 						type: 'string',
@@ -18,6 +18,9 @@ export const triggeredActionIntegrationOutreachMirrorEvent: ContractDefinition =
 					},
 					data: {
 						type: 'object',
+					},
+					tags: {
+						type: 'array',
 					},
 				},
 			},
