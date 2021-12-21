@@ -1,4 +1,17 @@
 - commits:
+    - subject: Add root tags to trigger filter
+      hash: be79a6f19babaa70dc0a59c2f71d69ef93a6e537
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 1.0.357
+  date: 2021-12-21T03:04:50.455Z
+- commits:
     - subject: 'patch: Update internal-patch'
       hash: 1f9624981173a08f3336b9b6e7a7ef75d1eec379
       body: ''
