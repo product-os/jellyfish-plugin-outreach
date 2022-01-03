@@ -175,11 +175,6 @@ async function upsertProspect(
 	const method = outreachUrl ? 'PATCH' : 'POST';
 	const uri = outreachUrl || `${baseUrl}/api/v2/prospects`;
 
-	context.log.info('Mirroring Outreach', {
-		url: uri,
-		remote: card,
-	});
-
 	const body: any = {
 		data: {
 			type: 'prospect',
@@ -205,6 +200,13 @@ async function upsertProspect(
 	if (outreachUrl) {
 		body.data.id = _.parseInt(_.last(outreachUrl.split('/')) || '');
 	}
+
+	context.log.info('Mirroring Outreach', {
+		url: uri,
+		remote: card,
+		method,
+		body,
+	});
 
 	const result = await context
 		.request(actor, {
