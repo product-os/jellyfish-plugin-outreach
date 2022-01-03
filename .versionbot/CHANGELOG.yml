@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update internal-patch'
+      hash: 2a65e39714e42b474a2fd112ae2e135a0fe7da73
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.0.370
+  date: 2022-01-03T16:13:17.931Z
+- commits:
     - subject: Add more details to mirror log
       hash: f3e35a34af154524b469e31defffaec5fd691ce5
       body: ''
