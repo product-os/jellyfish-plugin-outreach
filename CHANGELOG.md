@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 1.0.369 - 2022-01-03
+
+* Add more details to mirror log [Josh Bowling]
+
 ## 1.0.368 - 2022-01-03
 
 * patch: Update internal-patch [Renovate Bot]

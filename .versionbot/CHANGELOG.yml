@@ -1,4 +1,17 @@
 - commits:
+    - subject: Add more details to mirror log
+      hash: f3e35a34af154524b469e31defffaec5fd691ce5
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 1.0.369
+  date: 2022-01-03T01:24:37.751Z
+- commits:
     - subject: 'patch: Update internal-patch'
       hash: 5e602f17b9bd46921aea2a053daf2f529838c7c5
       body: ''
