@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 1.0.373 - 2022-01-04
+
+* Add more logs to Outreach mirror [Josh Bowling]
+
 ## 1.0.372 - 2022-01-04
 
 * Remove dev peer dependencies [Josh Bowling]

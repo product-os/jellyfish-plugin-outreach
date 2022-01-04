@@ -1,4 +1,17 @@
 - commits:
+    - subject: Add more logs to Outreach mirror
+      hash: 1a47a74854ff0b50a3ffcc17ef7a4da094694c39
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 1.0.373
+  date: 2022-01-04T05:01:56.125Z
+- commits:
     - subject: Remove dev peer dependencies
       hash: 4baead536c7686d8465540be30fd141d39e04b35
       body: ''
