@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update mirror logs
+      hash: 1a8af76ffde3961d61ca8f45d7887d57b5d2bfa9
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 1.0.375
+  date: 2022-01-04T06:20:58.140Z
+- commits:
     - subject: Update action-library import
       hash: 6a547c0eed3def2596efa4bab44cd844d7fe7327
       body: ''

@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 1.0.375 - 2022-01-04
+
+* Update mirror logs [Josh Bowling]
+
 ## 1.0.374 - 2022-01-04
 
 * Update action-library import [Josh Bowling]
