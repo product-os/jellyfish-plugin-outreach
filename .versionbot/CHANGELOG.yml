@@ -1,4 +1,17 @@
 - commits:
+    - subject: Remove dev peer dependencies
+      hash: 4baead536c7686d8465540be30fd141d39e04b35
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 1.0.372
+  date: 2022-01-04T04:42:19.609Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-core to v11'
       hash: 971c0d4c41d1f0164ee79d519fbf687da5441cec
       body: |
