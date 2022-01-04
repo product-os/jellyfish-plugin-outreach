@@ -202,6 +202,7 @@ async function upsertProspect(
 	}
 
 	context.log.info('Mirroring Outreach', {
+		actor,
 		url: uri,
 		outreachUrl,
 		remote: card,
@@ -475,7 +476,7 @@ module.exports = class OutreachIntegration implements Integration {
 			null,
 			adminActorId,
 			this.options.errors.SyncNoActor,
-			`Not such actor: ${this.options.defaultUser}`,
+			`No such actor: ${this.options.defaultUser}`,
 		);
 
 		const url = `https://api.outreach.io/api/v2/sequences/${data.id}`;
