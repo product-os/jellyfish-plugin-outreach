@@ -1,4 +1,26 @@
 - commits:
+    - subject: Update action-library import
+      hash: 6a547c0eed3def2596efa4bab44cd844d7fe7327
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+    - subject: 'patch: Update dependency @balena/jellyfish-action-library to v16'
+      hash: ba65823c2c20c36e8088dc892709002b69a36002
+      body: |
+        Update @balena/jellyfish-action-library from 15.1.209 to 16.1.11
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.0.374
+  date: 2022-01-04T05:49:44.231Z
+- commits:
     - subject: Add more logs to Outreach mirror
       hash: 1a47a74854ff0b50a3ffcc17ef7a4da094694c39
       body: ''

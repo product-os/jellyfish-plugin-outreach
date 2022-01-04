@@ -4,6 +4,11 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 1.0.374 - 2022-01-04
+
+* Update action-library import [Josh Bowling]
+* patch: Update dependency @balena/jellyfish-action-library to v16 [Renovate Bot]
+
 ## 1.0.373 - 2022-01-04
 
 * Add more logs to Outreach mirror [Josh Bowling]
