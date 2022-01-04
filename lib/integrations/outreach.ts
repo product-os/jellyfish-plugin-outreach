@@ -203,6 +203,7 @@ async function upsertProspect(
 
 	context.log.info('Mirroring Outreach', {
 		url: uri,
+		outreachUrl,
 		remote: card,
 		method,
 		body,
@@ -224,6 +225,12 @@ async function upsertProspect(
 		});
 
 	if (!result) {
+		context.log.info('Received empty result for mirror request', {
+			prospect: card,
+			url: uri,
+			result,
+		});
+
 		return [];
 	}
 
@@ -238,7 +245,7 @@ async function upsertProspect(
 	) {
 		context.log.info('Omitting excluded prospect by email address', {
 			prospect: card,
-			url: outreachUrl,
+			url: uri,
 		});
 
 		return [];
@@ -259,7 +266,7 @@ async function upsertProspect(
 	) {
 		context.log.info('Retrying taken address', {
 			prospect: card,
-			url: outreachUrl,
+			url: uri,
 		});
 
 		assert.INTERNAL(null, retries > 0, errors.SyncExternalRequestError, () => {
@@ -272,7 +279,7 @@ async function upsertProspect(
 	if (outreachUrl) {
 		if (result.code === 404) {
 			context.log.warn('Remote prospect not found', {
-				url: outreachUrl,
+				url: uri,
 				prospect: card,
 			});
 
@@ -289,6 +296,12 @@ async function upsertProspect(
 			result.body.errors[0].detail ===
 				'A Contact with this email_hash already exists.'
 		) {
+			context.log.info('Update not needed for remote prospect', {
+				prospect: card,
+				url: uri,
+				result,
+			});
+
 			return [];
 		}
 
