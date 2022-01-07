@@ -1,7 +1,11 @@
 import { ActionLibrary } from '@balena/jellyfish-action-library';
 import { defaultEnvironment } from '@balena/jellyfish-environment';
 import { DefaultPlugin } from '@balena/jellyfish-plugin-default';
-import { syncIntegrationScenario } from '@balena/jellyfish-test-harness';
+import {
+	syncIntegrationScenario,
+	TestContext,
+} from '@balena/jellyfish-test-harness';
+import { strict as assert } from 'assert';
 import _ from 'lodash';
 import { OutreachPlugin } from '../../lib';
 import webhooks from './webhooks/outreach';
@@ -16,16 +20,17 @@ const OAUTH_DETAILS = {
 	scope: 'create',
 };
 
-async function patchUser(context: any): Promise<void> {
-	const userCard = await context.jellyfish.getCardBySlug(
-		context.context,
-		context.jellyfish.sessions.admin,
+async function patchUser(context: TestContext): Promise<void> {
+	const userCard = await context.kernel.getCardBySlug(
+		context.logContext,
+		context.kernel.sessions!.admin,
 		`user-${defaultEnvironment.integration.default.user}@latest`,
 	);
+	assert(userCard);
 
-	await context.jellyfish.patchCardBySlug(
-		context.context,
-		context.jellyfish.sessions.admin,
+	await context.kernel.patchCardBySlug(
+		context.logContext,
+		context.kernel.sessions!.admin,
 		`${userCard.slug}@${userCard.version}`,
 		[
 			{
@@ -39,9 +44,6 @@ async function patchUser(context: any): Promise<void> {
 				value: OAUTH_DETAILS,
 			},
 		],
-		{
-			type: 'user',
-		},
 	);
 }
 
