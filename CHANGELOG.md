@@ -4,6 +4,11 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 1.0.378 - 2022-01-07
+
+* Update TestContext usage [Josh Bowling]
+* patch: Update dependency @balena/jellyfish-test-harness to v9 [Renovate Bot]
+
 ## 1.0.377 - 2022-01-06
 
 * patch: Update dependency @balena/jellyfish-action-library to ^16.1.13 [Renovate Bot]

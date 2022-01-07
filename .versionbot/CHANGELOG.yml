@@ -1,4 +1,26 @@
 - commits:
+    - subject: Update TestContext usage
+      hash: c092bd5b4f13f40bff3a5efeddf644ab66b49158
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+    - subject: 'patch: Update dependency @balena/jellyfish-test-harness to v9'
+      hash: 7a73a46082407018d762d53a57e920467d9ca234
+      body: |
+        Update @balena/jellyfish-test-harness from 8.1.190 to 9.2.2
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.0.378
+  date: 2022-01-07T04:33:07.672Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^16.1.13'
       hash: f032bbb19857372235ea63a30a19cdd8d23506b6
       body: ''
