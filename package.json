@@ -46,10 +46,10 @@
   "author": "Balena.io. <hello@balena.io>",
   "license": "AGPL-3.0",
   "dependencies": {
-    "@balena/jellyfish-action-library": "^16.1.14",
+    "@balena/jellyfish-action-library": "^16.1.16",
     "@balena/jellyfish-assert": "^1.2.6",
     "@balena/jellyfish-environment": "^6.0.7",
-    "@balena/jellyfish-plugin-base": "^2.2.19",
+    "@balena/jellyfish-plugin-base": "^2.2.20",
     "is-uuid": "^1.0.2",
     "lodash": "^4.17.21"
   },
