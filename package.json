@@ -57,7 +57,7 @@
     "@balena/jellyfish-config": "^2.0.2",
     "@balena/jellyfish-core": "^11.1.6",
     "@balena/jellyfish-plugin-default": "^21.2.0",
-    "@balena/jellyfish-sync": "^6.2.0",
+    "@balena/jellyfish-sync": "6.2.22-joshbwlng-oauth-logs-20007067dfea2ce2ad510b2c56357646109d426e",
     "@balena/jellyfish-test-harness": "^9.2.2",
     "@balena/jellyfish-types": "^2.0.0",
     "@balena/lint": "^6.2.0",
