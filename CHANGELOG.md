@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 1.0.387 - 2022-01-11
+
+* Remove excess mirror logs [Josh Bowling]
+
 ## 1.0.386 - 2022-01-10
 
 * patch: Update dependency @balena/jellyfish-sync to ^6.3.0 [Renovate Bot]
