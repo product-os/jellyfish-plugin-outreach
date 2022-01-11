@@ -202,12 +202,8 @@ async function upsertProspect(
 	}
 
 	context.log.info('Mirroring Outreach', {
-		actor,
 		url: uri,
-		outreachUrl,
 		remote: card,
-		method,
-		body,
 	});
 
 	const result = await context
@@ -226,12 +222,6 @@ async function upsertProspect(
 		});
 
 	if (!result) {
-		context.log.info('Received empty result for mirror request', {
-			prospect: card,
-			url: uri,
-			result,
-		});
-
 		return [];
 	}
 
@@ -300,7 +290,6 @@ async function upsertProspect(
 			context.log.info('Update not needed for remote prospect', {
 				prospect: card,
 				url: uri,
-				result,
 			});
 
 			return [];
@@ -325,7 +314,6 @@ async function upsertProspect(
 		context.log.info('Updated prospect', {
 			contacts: card,
 			url: outreachUrl,
-			data: result.body,
 		});
 
 		if (!card.data.mirrors || !card.data.mirrors.includes(outreachUrl)) {
