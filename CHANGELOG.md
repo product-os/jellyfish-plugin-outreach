@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 1.0.388 - 2022-01-12
+
+* 🔄 Synced file(s) with product-os/secrets [joshbwlng]
+
 ## 1.0.387 - 2022-01-11
 
 * Remove excess mirror logs [Josh Bowling]
