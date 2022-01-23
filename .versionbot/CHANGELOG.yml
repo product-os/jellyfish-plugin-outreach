@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update internal-non-major'
+      hash: 060722b12c099be0f8078f1a141d62063a033f1c
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.0.405
+  date: 2022-01-23T13:16:17.639Z
+- commits:
     - subject: 'patch: Update dependency lint-staged to ^12.3.0'
       hash: e1fc0e0bdd8e49fa45bf018c6c8bf1718b47e374
       body: ''
