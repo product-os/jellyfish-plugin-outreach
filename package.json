@@ -48,7 +48,7 @@
   "dependencies": {
     "@balena/jellyfish-action-library": "^16.2.15",
     "@balena/jellyfish-assert": "^1.2.11",
-    "@balena/jellyfish-environment": "^6.0.12",
+    "@balena/jellyfish-environment": "^6.0.13",
     "@balena/jellyfish-plugin-base": "^2.2.25",
     "is-uuid": "^1.0.2",
     "lodash": "^4.17.21"
