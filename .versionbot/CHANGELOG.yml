@@ -1,7 +1,27 @@
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^16.2.18'
+    - subject: Update resinci/jellyfish-test Docker tag to v1.4.21
+      hash: ac83943a939ed8ed80b8dcb4eeeb1384cc9e4368
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+    - subject: Update balena/balena-redis Docker tag to v0.0.4
+      hash: ab4844d1bdf340b3d4414d19698fd1adf0f5132c
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.0.415
+  title: Update resinci/jellyfish-test Docker tag to v1.4.21
+  date: 2022-01-28T02:40:06.595Z
+- commits:
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^16.2.18"
       hash: 933e15b3dfc7938de514e20eed5d3ff3d277bd6e
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -10,9 +30,9 @@
   version: 1.0.414
   date: 2022-01-26T08:21:17.804Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^16.2.17'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^16.2.17"
       hash: 96c78a227685f435e3ee3b06304c411588286a44
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -21,9 +41,9 @@
   version: 1.0.413
   date: 2022-01-26T02:34:30.962Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^16.2.16'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^16.2.16"
       hash: 6befcae1c4ad463042e3f32b25f2c394cf51391a
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -32,9 +52,9 @@
   version: 1.0.412
   date: 2022-01-24T15:30:24.288Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-environment to ^6.0.13'
+    - subject: "patch: Update dependency @balena/jellyfish-environment to ^6.0.13"
       hash: 17c233ffb4bc3b5cb2464d9b23ebd56ea780431e
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -43,9 +63,9 @@
   version: 1.0.411
   date: 2022-01-24T13:34:39.173Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^16.2.15'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^16.2.15"
       hash: 772e818b0b3d98d7d2eddd3cd7ea295abf35dfac
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -54,9 +74,9 @@
   version: 1.0.410
   date: 2022-01-23T22:26:33.505Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^16.2.14'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^16.2.14"
       hash: 8bbc14230a8f9207ff201ab278b3da3963ba49af
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -65,9 +85,9 @@
   version: 1.0.409
   date: 2022-01-23T18:49:28.423Z
 - commits:
-    - subject: 'patch: Update internal-non-major'
+    - subject: "patch: Update internal-non-major"
       hash: 662835a1ec2ad043ccff4b3e8bd655e4bc3b3c6f
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -76,9 +96,9 @@
   version: 1.0.408
   date: 2022-01-23T18:35:30.215Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^16.2.12'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^16.2.12"
       hash: 8c28d96d0d28b2110e03aa73ab86ec7fe9193dc5
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -87,9 +107,9 @@
   version: 1.0.407
   date: 2022-01-23T16:21:01.763Z
 - commits:
-    - subject: 'patch: Update dependency lint-staged to ^12.3.1'
+    - subject: "patch: Update dependency lint-staged to ^12.3.1"
       hash: 5875310e08554cdbac87edf3c40085f77b09a071
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -98,9 +118,9 @@
   version: 1.0.406
   date: 2022-01-23T16:06:53.437Z
 - commits:
-    - subject: 'patch: Update internal-non-major'
+    - subject: "patch: Update internal-non-major"
       hash: 060722b12c099be0f8078f1a141d62063a033f1c
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -109,9 +129,9 @@
   version: 1.0.405
   date: 2022-01-23T13:16:17.639Z
 - commits:
-    - subject: 'patch: Update dependency lint-staged to ^12.3.0'
+    - subject: "patch: Update dependency lint-staged to ^12.3.0"
       hash: e1fc0e0bdd8e49fa45bf018c6c8bf1718b47e374
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -120,9 +140,9 @@
   version: 1.0.404
   date: 2022-01-23T11:31:55.900Z
 - commits:
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: a46ee705901f99daf9f4bec4b9f2d0f168ec2674
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -131,9 +151,9 @@
   version: 1.0.403
   date: 2022-01-22T09:26:15.135Z
 - commits:
-    - subject: 'patch: Update internal-non-major'
+    - subject: "patch: Update internal-non-major"
       hash: c66a13b448954b26cfeab11d0f35b48b8d4f3bc3
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -142,9 +162,9 @@
   version: 1.0.402
   date: 2022-01-22T09:14:25.364Z
 - commits:
-    - subject: 'patch: Update internal-non-major'
+    - subject: "patch: Update internal-non-major"
       hash: 09f163e659337a465658462e92317f30bd06c7e4
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -153,7 +173,7 @@
   version: 1.0.401
   date: 2022-01-19T12:10:13.479Z
 - commits:
-    - subject: 'patch: Update dependency typedoc to ^0.22.11'
+    - subject: "patch: Update dependency typedoc to ^0.22.11"
       hash: 8202b8a8090e2f879c56708f0ed46de18ffe90be
       body: |
         Update typedoc from 0.22.10 to 0.22.11
@@ -165,7 +185,7 @@
   version: 1.0.400
   date: 2022-01-19T06:49:20.115Z
 - commits:
-    - subject: 'patch: Update resinci/jellyfish-test Docker tag to v1.4.20'
+    - subject: "patch: Update resinci/jellyfish-test Docker tag to v1.4.20"
       hash: 7cfb74fe6855b4f94b476e1075efde6ea60c3913
       body: |
         Update resinci/jellyfish-test from v1.4.18 to v1.4.20
@@ -177,9 +197,9 @@
   version: 1.0.399
   date: 2022-01-18T11:58:16.074Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^16.2.5'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^16.2.5"
       hash: 1b45e3ace4434416d494a538f9e0400fdfc65a89
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -188,9 +208,9 @@
   version: 1.0.398
   date: 2022-01-17T18:00:34.683Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.2.25'
+    - subject: "patch: Update dependency @balena/jellyfish-plugin-base to ^2.2.25"
       hash: 843e6416958573c5990c11982d1860ed4c180889
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -199,9 +219,9 @@
   version: 1.0.397
   date: 2022-01-17T15:02:43.974Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^16.2.4'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^16.2.4"
       hash: de50bb9e79437ae62115b2fabda7830d055f4ef5
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -210,9 +230,9 @@
   version: 1.0.396
   date: 2022-01-17T05:09:02.491Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^16.2.3'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^16.2.3"
       hash: 4fa92d01a7b09ac093e71ea1b2224003d8ecc83e
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -221,9 +241,9 @@
   version: 1.0.395
   date: 2022-01-16T16:55:57.535Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^16.2.1'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^16.2.1"
       hash: 037d856ee3184a624803b12eba1494ccfab1217d
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -232,9 +252,9 @@
   version: 1.0.394
   date: 2022-01-16T14:21:24.835Z
 - commits:
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: 2411f6b287b29b7374f000dbff8f1085ba9167d8
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -243,7 +263,7 @@
   version: 1.0.393
   date: 2022-01-15T03:48:02.004Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^16.2.0'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^16.2.0"
       hash: b11f927ae6572d9ea32d7bdb0d00e6755914979f
       body: |
         Update @balena/jellyfish-action-library from 16.1.22 to 16.2.0
@@ -255,9 +275,9 @@
   version: 1.0.392
   date: 2022-01-15T03:35:55.691Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.2.24'
+    - subject: "patch: Update dependency @balena/jellyfish-plugin-base to ^2.2.24"
       hash: ad1606e98198e61680024d683c8da78345af8be7
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -266,9 +286,9 @@
   version: 1.0.391
   date: 2022-01-15T03:22:32.648Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: e681a6ad8213827cd45d01a86cc667151c1519e5
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -277,9 +297,9 @@
   version: 1.0.390
   date: 2022-01-15T01:49:52.336Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^16.1.22'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^16.1.22"
       hash: 2cdcfb6d8d6a21d358ad58abe2757b145f0e4e9b
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -288,9 +308,9 @@
   version: 1.0.389
   date: 2022-01-12T02:02:16.384Z
 - commits:
-    - subject: "\U0001F504 Synced file(s) with product-os/secrets"
+    - subject: 🔄 Synced file(s) with product-os/secrets
       hash: 0b3b6aef7a7953f9db6cb3a1ee0b0d0b0daab055
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -301,7 +321,7 @@
 - commits:
     - subject: Remove excess mirror logs
       hash: ee217bea5107ba6b5a9a491eac56f2162325d090
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -312,7 +332,7 @@
   version: 1.0.387
   date: 2022-01-11T01:30:53.400Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-sync to ^6.3.0'
+    - subject: "patch: Update dependency @balena/jellyfish-sync to ^6.3.0"
       hash: bb5b2c814b0f7f356c4fc139069c010c32100b9a
       body: |
         Update @balena/jellyfish-sync from 6.2.0 to 6.3.0
@@ -324,9 +344,9 @@
   version: 1.0.386
   date: 2022-01-10T08:59:29.900Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^16.1.21'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^16.1.21"
       hash: 8d31b0d47a6baf6eedbd2709503e643d4ed67356
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -335,9 +355,9 @@
   version: 1.0.385
   date: 2022-01-08T16:52:45.849Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 457215db0e68c3f41fcdc8e7aaccb132a72469dc
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -346,9 +366,9 @@
   version: 1.0.384
   date: 2022-01-08T14:26:33.755Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^16.1.17'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^16.1.17"
       hash: 590a74b7ed5a76a86ada0fbe8d05fddedcc486ca
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -357,9 +377,9 @@
   version: 1.0.383
   date: 2022-01-08T10:29:20.355Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: beb88163ea577ad0a8278db758557c2af62caff3
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -368,9 +388,9 @@
   version: 1.0.382
   date: 2022-01-08T04:56:41.484Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^16.1.14'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^16.1.14"
       hash: f88046f931f2cde8f399f058adc006f1331363fc
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -379,9 +399,9 @@
   version: 1.0.381
   date: 2022-01-08T01:18:11.911Z
 - commits:
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: 06cf1478be4664cbb7055e32865a469039e96995
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -390,9 +410,9 @@
   version: 1.0.380
   date: 2022-01-08T01:06:30.950Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-assert to ^1.2.6'
+    - subject: "patch: Update dependency @balena/jellyfish-assert to ^1.2.6"
       hash: e071660d9f2457d63a96172d2d73bb8512b9c3cf
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -403,7 +423,7 @@
 - commits:
     - subject: Update TestContext usage
       hash: c092bd5b4f13f40bff3a5efeddf644ab66b49158
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -411,7 +431,7 @@
         signed-off-by: Josh Bowling <josh@balena.io>
       author: Josh Bowling
       nested: []
-    - subject: 'patch: Update dependency @balena/jellyfish-test-harness to v9'
+    - subject: "patch: Update dependency @balena/jellyfish-test-harness to v9"
       hash: 7a73a46082407018d762d53a57e920467d9ca234
       body: |
         Update @balena/jellyfish-test-harness from 8.1.190 to 9.2.2
@@ -423,9 +443,9 @@
   version: 1.0.378
   date: 2022-01-07T04:33:07.672Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^16.1.13'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^16.1.13"
       hash: f032bbb19857372235ea63a30a19cdd8d23506b6
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -434,9 +454,9 @@
   version: 1.0.377
   date: 2022-01-06T13:51:25.492Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^16.1.12'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^16.1.12"
       hash: 370b7aeab3951f034391ef4b3f8a2cbc0cd742e7
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -447,7 +467,7 @@
 - commits:
     - subject: Update mirror logs
       hash: 1a8af76ffde3961d61ca8f45d7887d57b5d2bfa9
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -460,7 +480,7 @@
 - commits:
     - subject: Update action-library import
       hash: 6a547c0eed3def2596efa4bab44cd844d7fe7327
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -468,7 +488,7 @@
         signed-off-by: Josh Bowling <josh@balena.io>
       author: Josh Bowling
       nested: []
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to v16'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to v16"
       hash: ba65823c2c20c36e8088dc892709002b69a36002
       body: |
         Update @balena/jellyfish-action-library from 15.1.209 to 16.1.11
@@ -482,7 +502,7 @@
 - commits:
     - subject: Add more logs to Outreach mirror
       hash: 1a47a74854ff0b50a3ffcc17ef7a4da094694c39
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -495,7 +515,7 @@
 - commits:
     - subject: Remove dev peer dependencies
       hash: 4baead536c7686d8465540be30fd141d39e04b35
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -506,7 +526,7 @@
   version: 1.0.372
   date: 2022-01-04T04:42:19.609Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-core to v11'
+    - subject: "patch: Update dependency @balena/jellyfish-core to v11"
       hash: 971c0d4c41d1f0164ee79d519fbf687da5441cec
       body: |
         Update @balena/jellyfish-core from 8.2.0 to 11.1.6
@@ -518,9 +538,9 @@
   version: 1.0.371
   date: 2022-01-04T04:14:29.957Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 2a65e39714e42b474a2fd112ae2e135a0fe7da73
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -531,7 +551,7 @@
 - commits:
     - subject: Add more details to mirror log
       hash: f3e35a34af154524b469e31defffaec5fd691ce5
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -542,17 +562,17 @@
   version: 1.0.369
   date: 2022-01-03T01:24:37.751Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 5e602f17b9bd46921aea2a053daf2f529838c7c5
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
       author: Renovate Bot
       nested: []
-    - subject: 'patch: Update dependency lint-staged to ^12.1.5'
+    - subject: "patch: Update dependency lint-staged to ^12.1.5"
       hash: 7cbf6eea10640c520d612dd237f869357312e3d6
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -561,9 +581,9 @@
   version: 1.0.368
   date: 2022-01-03T00:05:36.247Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: e938ded484a311f2d20ea37e860bc8e64edb91ad
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -572,9 +592,9 @@
   version: 1.0.367
   date: 2022-01-01T05:47:57.984Z
 - commits:
-    - subject: 'patch: Update dependency @types/jest to ^27.4.0'
+    - subject: "patch: Update dependency @types/jest to ^27.4.0"
       hash: 35a839e75372f120b354490b4087e8e9f3825986
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -583,9 +603,9 @@
   version: 1.0.366
   date: 2022-01-01T00:38:43.552Z
 - commits:
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: 30be681da4b089b4c0e0e1bcf578b1428fc999f5
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -594,9 +614,9 @@
   version: 1.0.365
   date: 2021-12-25T01:48:15.400Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 8ab51d7d1970d80586ca00518515e69f90befbae
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -605,9 +625,9 @@
   version: 1.0.364
   date: 2021-12-25T01:32:54.499Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.2.8'
+    - subject: "patch: Update dependency @balena/jellyfish-plugin-base to ^2.2.8"
       hash: fb0feac5a413dd32f8f76e16622b3931f669c069
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -616,7 +636,7 @@
   version: 1.0.363
   date: 2021-12-24T04:31:37.976Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to v2'
+    - subject: "patch: Update dependency @balena/jellyfish-types to v2"
       hash: 7ff5962e307d717c18ec46565722d754415f29da
       body: |
         Update @balena/jellyfish-types from 1.2.39 to 2.0.0
@@ -628,9 +648,9 @@
   version: 1.0.362
   date: 2021-12-23T19:14:08.685Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.209'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.209"
       hash: ebc2491cac719e6424e8a8e034f30893cd342e36
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -639,7 +659,7 @@
   version: 1.0.361
   date: 2021-12-23T19:02:37.409Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-sync to ^6.2.0'
+    - subject: "patch: Update dependency @balena/jellyfish-sync to ^6.2.0"
       hash: 0ae00fd4276efadab2ee84ab9a046be352bdf61c
       body: |
         Update @balena/jellyfish-sync from 6.1.130 to 6.2.0
@@ -651,7 +671,7 @@
   version: 1.0.360
   date: 2021-12-22T22:50:19.576Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-plugin-default to ^21.2.0'
+    - subject: "patch: Update dependency @balena/jellyfish-plugin-default to ^21.2.0"
       hash: bcb9bb99a2eadc875efdda3561fbc972939ef70f
       body: |
         Update @balena/jellyfish-plugin-default from 21.1.147 to 21.2.0
@@ -665,7 +685,7 @@
 - commits:
     - subject: Remove old secrets
       hash: 986cffde09c0b184ab9b470ad3404b3c9f01a6f9
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -678,7 +698,7 @@
 - commits:
     - subject: Add root tags to trigger filter
       hash: be79a6f19babaa70dc0a59c2f71d69ef93a6e537
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -689,9 +709,9 @@
   version: 1.0.357
   date: 2021-12-21T03:04:50.455Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 1f9624981173a08f3336b9b6e7a7ef75d1eec379
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -700,9 +720,9 @@
   version: 1.0.356
   date: 2021-12-19T07:57:36.444Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.206'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.206"
       hash: 551343ccc24c3611a7e23e0f7d147a80fbd61926
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -711,9 +731,9 @@
   version: 1.0.355
   date: 2021-12-19T02:56:20.121Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 3d62104ba99a9ad9056ffb99a6f0bca555164bd1
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -722,9 +742,9 @@
   version: 1.0.354
   date: 2021-12-18T14:28:24.055Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: d2bfe2262733cfa756b6757b3ab0fdd27a6010f3
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -733,9 +753,9 @@
   version: 1.0.353
   date: 2021-12-18T12:17:44.153Z
 - commits:
-    - subject: 'patch: Update dependency lint-staged to ^12.1.3'
+    - subject: "patch: Update dependency lint-staged to ^12.1.3"
       hash: 509858d5f0b7d7336d98a7087cd527e1931cf45a
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -744,9 +764,9 @@
   version: 1.0.352
   date: 2021-12-18T10:43:50.444Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.202'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.202"
       hash: d81009f0ed497ec0fd6dacfc4d0352108ab326c5
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -755,9 +775,9 @@
   version: 1.0.351
   date: 2021-12-18T10:33:50.470Z
 - commits:
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: f0a61e2ae383a963aef5a6d3cab1fa93b61f2f3e
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -766,9 +786,9 @@
   version: 1.0.350
   date: 2021-12-18T08:13:24.005Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: a297ca5c516df0e01d2ecbd5c76acca8bb108d1c
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -777,7 +797,7 @@
   version: 1.0.349
   date: 2021-12-18T08:03:09.565Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-core to ^8.2.0'
+    - subject: "patch: Update dependency @balena/jellyfish-core to ^8.2.0"
       hash: 92799cdfb71b2cf2f549bfdbd285dc48eea63898
       body: |
         Update @balena/jellyfish-core from 8.1.50 to 8.2.0
@@ -789,9 +809,9 @@
   version: 1.0.348
   date: 2021-12-17T10:05:31.033Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.198'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.198"
       hash: ac8a53ddaca4066582a709a0f3ffbe0ed1de3910
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -800,9 +820,9 @@
   version: 1.0.347
   date: 2021-12-16T23:43:39.087Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 7bf7aa25f7a8ddc88ccc736536ed0bbfe2aeed5e
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -811,7 +831,7 @@
   version: 1.0.346
   date: 2021-12-16T21:29:32.455Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-assert to ^1.2.0'
+    - subject: "patch: Update dependency @balena/jellyfish-assert to ^1.2.0"
       hash: 747a4000457053769fb187460dcef26610140804
       body: |
         Update @balena/jellyfish-assert from 1.1.103 to 1.2.0
@@ -823,9 +843,9 @@
   version: 1.0.345
   date: 2021-12-16T18:33:04.060Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.196'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.196"
       hash: fa00a76714510b2b6c3dfbd0089193cdb47cc767
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -834,9 +854,9 @@
   version: 1.0.344
   date: 2021-12-15T10:01:53.784Z
 - commits:
-    - subject: "\U0001F504 Synced file(s) with product-os/secrets"
+    - subject: 🔄 Synced file(s) with product-os/secrets
       hash: b3ef07a0c9b695413e2f815efdfce3310e10300f
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -845,7 +865,7 @@
   version: 1.0.343
   date: 2021-12-15T02:03:04.904Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.2.1'
+    - subject: "patch: Update dependency @balena/jellyfish-plugin-base to ^2.2.1"
       hash: 7934c406136c78e44775c14d5c0a0216e2e85c56
       body: |
         Update @balena/jellyfish-plugin-base from 2.1.324 to 2.2.1
@@ -857,9 +877,9 @@
   version: 1.0.342
   date: 2021-12-14T18:09:49.456Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.195'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.195"
       hash: 414d0435ac57de0f562c9a9ff4e34a980edec598
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -868,9 +888,9 @@
   version: 1.0.341
   date: 2021-12-14T17:57:29.423Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.194'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.194"
       hash: 954fd889037f1c17b7ad73eae90378f969159c85
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -879,9 +899,9 @@
   version: 1.0.340
   date: 2021-12-14T11:42:27.356Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: b6a30899eaab5931aff279b6d85b67a86365970c
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -890,9 +910,9 @@
   version: 1.0.339
   date: 2021-12-14T09:21:56.655Z
 - commits:
-    - subject: 'Drop depcheck, bump typescript'
+    - subject: Drop depcheck, bump typescript
       hash: 92e7a4219d785a67f50b6ecf900fc55de52dd55b
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -903,9 +923,9 @@
   version: 1.0.338
   date: 2021-12-14T03:14:38.767Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.192'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.192"
       hash: eb398edeb92cf57fd820ac35d0ee4a9be9857a72
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -914,9 +934,9 @@
   version: 1.0.337
   date: 2021-12-13T06:26:55.846Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 50bb7e897530dc0c6a6c39b2b704ddda57e3adca
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -925,9 +945,9 @@
   version: 1.0.336
   date: 2021-12-11T11:22:35.635Z
 - commits:
-    - subject: 'patch: Update resinci/jellyfish-test Docker tag to v1.4.16'
+    - subject: "patch: Update resinci/jellyfish-test Docker tag to v1.4.16"
       hash: c6fa24b8e668eae565777f66f65554bc0b74854c
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -936,9 +956,9 @@
   version: 1.0.335
   date: 2021-12-11T11:08:17.650Z
 - commits:
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: 40422bdc6f897a8a3e66312e6ba1ecdb043df131
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -949,7 +969,7 @@
 - commits:
     - subject: Bump internal dependencies
       hash: 0f3002e732ed1ebe9642d4264118362e8610d048
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -960,7 +980,7 @@
   version: 1.0.333
   date: 2021-12-11T05:18:32.290Z
 - commits:
-    - subject: 'patch: Update dependency typescript to ^4.5.3'
+    - subject: "patch: Update dependency typescript to ^4.5.3"
       hash: eedb1f3e51e3f595fd47e62397d5be9349dcbcff
       body: |
         Update typescript from 4.5.2 to 4.5.3
@@ -972,9 +992,9 @@
   version: 1.0.332
   date: 2021-12-09T22:20:39.567Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.186'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.186"
       hash: 60fd3a950eb4230e750801d2f5e70c223fe6a3af
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -983,9 +1003,9 @@
   version: 1.0.331
   date: 2021-12-09T08:39:41.456Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.185'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.185"
       hash: 74698b0b60d35341887f74f20f820f5e9cb121ed
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -996,7 +1016,7 @@
 - commits:
     - subject: Remove Bluebird
       hash: 86f240cb2f6518fd5eaa87af77cd532d6f72205f
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1007,9 +1027,9 @@
   version: 1.0.329
   date: 2021-12-08T15:00:10.184Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: f06a53230469c3e62c4312c66215d6f12cfca4e6
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1020,7 +1040,7 @@
 - commits:
     - subject: Update upstream repos
       hash: 2dbf7c44782e087a18852a82fda7f4373abdde83
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1031,9 +1051,9 @@
   version: 1.0.327
   date: 2021-12-07T05:11:44.456Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 669548bac4a8ec39ae69cfd25c74c5e16920d108
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1042,9 +1062,9 @@
   version: 1.0.326
   date: 2021-12-06T00:50:58.247Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: ff14f19a5cb8f9427aaee83fc1c7b3b5270d610d
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1053,9 +1073,9 @@
   version: 1.0.325
   date: 2021-12-05T17:52:02.272Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 6b9a525bbf303dce179c05b4269d5035f7a80b9f
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1064,9 +1084,9 @@
   version: 1.0.324
   date: 2021-12-05T11:47:04.807Z
 - commits:
-    - subject: 'patch: Update dependency ts-jest to ^27.1.0'
+    - subject: "patch: Update dependency ts-jest to ^27.1.0"
       hash: 3df87fcc4f1fb9c4207326dfeb00e5e87a5c2578
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1075,9 +1095,9 @@
   version: 1.0.323
   date: 2021-12-05T09:51:03.088Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.177'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.177"
       hash: 34ae9feaed0e0f436a1c9a6cdef8cf480a3e834d
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1086,9 +1106,9 @@
   version: 1.0.322
   date: 2021-12-05T01:04:16.446Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.314'
+    - subject: "patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.314"
       hash: 762dfa1d72c053eb229b2763df64fb813e044a29
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1097,9 +1117,9 @@
   version: 1.0.321
   date: 2021-12-04T22:49:49.926Z
 - commits:
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: 9233e7e99390712d11c1d8657c2d86872d7d7336
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1108,9 +1128,9 @@
   version: 1.0.320
   date: 2021-12-04T20:59:16.126Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 90e17cccd5380f28e78ed5c805e93aba6ecd425c
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1119,9 +1139,9 @@
   version: 1.0.319
   date: 2021-12-04T20:49:40.465Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 963b78d82cd1e37d102c11183ac52635c023ff32
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1130,9 +1150,9 @@
   version: 1.0.318
   date: 2021-12-04T18:05:14.318Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.171'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.171"
       hash: 265091122dcfa5614638e75049816ae705277bcc
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1143,7 +1163,7 @@
 - commits:
     - subject: Update readme
       hash: 1aaa46a4374fa0b1da4ac04bc7b50711d524f6de
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1156,7 +1176,7 @@
 - commits:
     - subject: Update readme
       hash: 068634f82c4eb454cfef3d60c35bd4d1d4664608
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1167,9 +1187,9 @@
   version: 1.0.315
   date: 2021-12-02T00:56:50.255Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.168'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.168"
       hash: 6df90cb3f10999964777545022f812fc227169ca
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1178,9 +1198,9 @@
   version: 1.0.314
   date: 2021-12-02T00:16:14.158Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.167'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.167"
       hash: 6c8e989cb9fb66f460d64956b7c641b935a00b7a
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1189,9 +1209,9 @@
   version: 1.0.313
   date: 2021-12-01T15:15:52.043Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 69ecb5496bcc01edd1808e5c099c8ea2b0054a98
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1200,9 +1220,9 @@
   version: 1.0.312
   date: 2021-12-01T12:37:17.965Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.165'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.165"
       hash: 8d48d0bf9d1ffb80ae496cd8bfe5612095f515f1
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1213,7 +1233,7 @@
 - commits:
     - subject: Remove old secrets from gitignore
       hash: 8765156e1d2650e9f5af829b6c02f2415b41d7db
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1221,9 +1241,9 @@
         signed-off-by: Josh Bowling <josh@balena.io>
       author: Josh Bowling
       nested: []
-    - subject: "\U0001F504 Synced file(s) with product-os/secrets"
+    - subject: 🔄 Synced file(s) with product-os/secrets
       hash: 9f42a33471868651a00221e267c7c9f23bc38fbd
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1234,7 +1254,7 @@
 - commits:
     - subject: Bump jellyfish-environment to v5.2.0
       hash: aaec449b68537bcb2b9ce7074456ed9b3d9c086d
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1245,9 +1265,9 @@
   version: 1.0.309
   date: 2021-12-01T04:29:19.325Z
 - commits:
-    - subject: "\U0001F504 Synced file(s) with product-os/secrets"
+    - subject: 🔄 Synced file(s) with product-os/secrets
       hash: def2f89b421ac2dc2466987e55d108ca01b43e9c
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1256,9 +1276,9 @@
   version: 1.0.308
   date: 2021-12-01T00:30:58.447Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.163'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.163"
       hash: 47054f9c47408d4964f15befef85db02489754ec
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1267,9 +1287,9 @@
   version: 1.0.307
   date: 2021-11-29T16:53:19.846Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 2ac35db0a21cabf30217663c01dd25e16bfa96e2
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1280,7 +1300,7 @@
 - commits:
     - subject: Remove old sync comments
       hash: b96ee4c0666a6ababff3ecbdc5b8830acf8ff621
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1291,15 +1311,15 @@
   version: 1.0.305
   date: 2021-11-28T07:50:50.020Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: c7233904bedce6a17efc94f0a40c002b00d35eef
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
       author: Renovate Bot
       nested: []
-    - subject: 'patch: Update dependency @balena/jellyfish-config to v2'
+    - subject: "patch: Update dependency @balena/jellyfish-config to v2"
       hash: 7b6bd8e7bbaf0006b24204d5a9c34d92f9c8934f
       body: |
         Update @balena/jellyfish-config from 1.5.4 to 2.0.1
@@ -1311,9 +1331,9 @@
   version: 1.0.304
   date: 2021-11-27T16:47:15.106Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.159'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.159"
       hash: 83790c0eddd375fb62ce36120bebcd14be0afa43
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1322,9 +1342,9 @@
   version: 1.0.303
   date: 2021-11-27T11:34:05.321Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: c019f8add3aaff38f09b89d2b89e4da73c8c1257
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1333,9 +1353,9 @@
   version: 1.0.302
   date: 2021-11-27T09:28:10.627Z
 - commits:
-    - subject: 'patch: Update external-non-major Docker tags'
+    - subject: "patch: Update external-non-major Docker tags"
       hash: 04c8aeaa461610c57df89b6ab9bc38ceb2fa9cee
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1344,9 +1364,9 @@
   version: 1.0.301
   date: 2021-11-27T03:57:44.757Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 4e55402890d07d15577347f3c62388c61d43d5ec
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1355,9 +1375,9 @@
   version: 1.0.300
   date: 2021-11-27T03:44:55.692Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.156'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.156"
       hash: 3e39b6a2316ced8bdfcf5f4ac343acfdf29ac664
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1366,9 +1386,9 @@
   version: 1.0.299
   date: 2021-11-26T21:39:47.192Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.304'
+    - subject: "patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.304"
       hash: 5ba263b7db1d24467999c6c1c32d83b2b39ee9f2
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1377,9 +1397,9 @@
   version: 1.0.298
   date: 2021-11-26T18:17:14.484Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 8c2896c9bddadf5b87c35277322ab30b6ec7008d
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1388,7 +1408,7 @@
   version: 1.0.297
   date: 2021-11-26T18:04:23.062Z
 - commits:
-    - subject: 'patch: Update dependency @balena/lint to ^6.2.0'
+    - subject: "patch: Update dependency @balena/lint to ^6.2.0"
       hash: 603f4f2ecda446b56cfb02bf6345a31cb5827c60
       body: |
         Update @balena/lint from 6.1.1 to 6.2.0
@@ -1400,9 +1420,9 @@
   version: 1.0.296
   date: 2021-11-26T17:46:44.373Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: c4379227793d01e58b53b52e06d0e34eb89a9da2
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1413,7 +1433,7 @@
 - commits:
     - subject: Use product-os/renovate-config
       hash: 73040fdb74e2075bb8131260d08d75e622ed6b73
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1424,7 +1444,7 @@
   version: 1.0.294
   date: 2021-11-26T05:28:14.001Z
 - commits:
-    - subject: 'patch: Update dependency typescript to ^4.5.2'
+    - subject: "patch: Update dependency typescript to ^4.5.2"
       hash: f05133728ba89dbfb63cec70cb5a880a389a6e81
       body: |
         Update typescript from 4.4.4 to 4.5.2
@@ -1436,9 +1456,9 @@
   version: 1.0.293
   date: 2021-11-25T17:50:08.261Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.148'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.148"
       hash: 39d1b9ed5abc962b58202689b250303ed5010567
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1447,9 +1467,9 @@
   version: 1.0.292
   date: 2021-11-25T17:40:40.556Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.147'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.147"
       hash: 9a7b9a948d848d0b518a633ad213ab49e669e0b1
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1458,9 +1478,9 @@
   version: 1.0.291
   date: 2021-11-25T11:20:53.531Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: d6bcb1abbda3f29c835e52878688383808c05d07
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1469,9 +1489,9 @@
   version: 1.0.290
   date: 2021-11-25T09:55:06.268Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: d9b48063e42c385eafe787f03d38f81d021a45df
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1482,7 +1502,7 @@
 - commits:
     - subject: Remove jellycheck
       hash: 3f80983157049e5d7aa53afffe8d5cfc852675d2
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1493,9 +1513,9 @@
   version: 1.0.288
   date: 2021-11-25T03:13:36.124Z
 - commits:
-    - subject: "\U0001F504 Synced file(s) with product-os/jellyfish-config"
+    - subject: 🔄 Synced file(s) with product-os/jellyfish-config
       hash: e41c59f75e8679d7d8704039166d67489fdcfe19
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1504,9 +1524,9 @@
   version: 1.0.287
   date: 2021-11-25T01:47:27.462Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.144'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.144"
       hash: 511553771a246d8ee9f3286107f402c25919fdd4
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1515,9 +1535,9 @@
   version: 1.0.286
   date: 2021-11-24T17:29:12.207Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: cb3aa706923e28e6432ad6003693fe56021d9e1c
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1526,9 +1546,9 @@
   version: 1.0.285
   date: 2021-11-24T14:49:04.764Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-environment to ^5.1.19'
+    - subject: "patch: Update dependency @balena/jellyfish-environment to ^5.1.19"
       hash: b56d6da5f858919f550e529ab1530182f4b30a8f
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1537,9 +1557,9 @@
   version: 1.0.284
   date: 2021-11-24T10:32:47.330Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: afe461bfe4caa867fb802b9612d23d3d871cd0a7
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1548,9 +1568,9 @@
   version: 1.0.283
   date: 2021-11-24T08:54:34.820Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 28c2f77395c068c8501d1e75d1c4112d5b27db9b
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1559,9 +1579,9 @@
   version: 1.0.282
   date: 2021-11-24T04:59:38.254Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-environment to ^5.1.17'
+    - subject: "patch: Update dependency @balena/jellyfish-environment to ^5.1.17"
       hash: 8cbb87be416a7495ac09b9f1e5f7c93052e38e04
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1570,9 +1590,9 @@
   version: 1.0.281
   date: 2021-11-24T02:56:18.069Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: fbc6edadfd2fd9107e69f3b4893a65c80fd8abb5
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1581,9 +1601,9 @@
   version: 1.0.280
   date: 2021-11-24T02:44:19.018Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 52d6bb6b138d4e8222aa43db5d030409c26f2296
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1592,9 +1612,9 @@
   version: 1.0.279
   date: 2021-11-23T08:16:39.310Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 07c7bd1c04788c274648467587a4b82fd2e741ea
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1605,7 +1625,7 @@
 - commits:
     - subject: Bump lint-staged to v12.1.2
       hash: c2f687acc6d25053016446457dae8835868ffe7b
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1616,9 +1636,9 @@
   version: 1.0.277
   date: 2021-11-23T01:52:49.598Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.136'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.136"
       hash: e4c68a8fc79ca0a1eefed0bb85340fb4a326b020
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1627,9 +1647,9 @@
   version: 1.0.276
   date: 2021-11-22T18:50:14.317Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 006ab49ec33cadbbd519b09dfc923291269a0105
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1638,9 +1658,9 @@
   version: 1.0.275
   date: 2021-11-22T15:42:34.874Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: cc83c89d90208c52c261a5619c0c4e0fabf4bfd9
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1651,7 +1671,7 @@
 - commits:
     - subject: Bump external deps
       hash: ced2cb4a33ef9fbd41ec3d5a4bbb7f5db36937bf
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1662,9 +1682,9 @@
   version: 1.0.273
   date: 2021-11-22T04:32:26.480Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.289'
+    - subject: "patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.289"
       hash: a8db321b9340e787d81ed665ef764f669e79cdf6
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1673,9 +1693,9 @@
   version: 1.0.272
   date: 2021-11-22T01:42:29.370Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.288'
+    - subject: "patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.288"
       hash: 2b996cc312b86717730b39673b72f9cf89b36fdd
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1684,17 +1704,17 @@
   version: 1.0.271
   date: 2021-11-22T01:31:57.840Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 7e119c7a8218bb1f472ee5bc72e5abe48f9f2875
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
       author: Renovate Bot
       nested: []
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: b6fd272db71f81b67b71f0a87ea33888b61e2f7d
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1703,9 +1723,9 @@
   version: 1.0.270
   date: 2021-11-22T01:20:36.910Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.131'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.131"
       hash: bde59c7e309aa0c019593b9d4b07e841cd1b3500
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1716,7 +1736,7 @@
 - commits:
     - subject: Remove license headers
       hash: c0cdfac65efeb3c0c19934e93c847b3be8890d1b
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1727,9 +1747,9 @@
   version: 1.0.268
   date: 2021-11-21T11:00:38.098Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.287'
+    - subject: "patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.287"
       hash: a0531be5b93aa3142cf1847f445c580da70b9740
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1738,31 +1758,31 @@
   version: 1.0.267
   date: 2021-11-21T09:23:29.527Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.128'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.128"
       hash: 53efd065420cb58e5109780c1cddaeb1b142f86d
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
       author: Renovate Bot
       nested: []
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.127'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.127"
       hash: 8a045a51b0cd70a7f405f732b7590171198ec8e6
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
       author: Renovate Bot
       nested: []
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 6461f701d9516013fd61cf4b99adb3c22be5494d
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
       author: Renovate Bot
       nested: []
-    - subject: 'patch: Update dependency @balena/jellycheck to v1'
+    - subject: "patch: Update dependency @balena/jellycheck to v1"
       hash: 0d73443c4e9a8e35d33188277893df4524967f67
       body: |
         Update @balena/jellycheck from 0.1.8 to 1.0.0
@@ -1774,7 +1794,7 @@
   version: 1.0.266
   date: 2021-11-20T17:24:24.749Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-core to ^8.1.0'
+    - subject: "patch: Update dependency @balena/jellyfish-core to ^8.1.0"
       hash: 688a0b8929fafe3336611123a3a7a35ffb22dbc6
       body: |
         Update @balena/jellyfish-core from 8.0.0 to 8.1.0
@@ -1783,9 +1803,9 @@
         change-type: patch
       author: Renovate Bot
       nested: []
-    - subject: 'patch: Update dependency @balena/jellyfish-environment to ^5.1.10'
+    - subject: "patch: Update dependency @balena/jellyfish-environment to ^5.1.10"
       hash: bcc89da3951660f31019959a737f8d4c583c976f
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1794,9 +1814,9 @@
   version: 1.0.265
   date: 2021-11-19T19:55:27.943Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.125'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.125"
       hash: e05d601830142ae666cd383adf41b088b15abd3c
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1805,9 +1825,9 @@
   version: 1.0.264
   date: 2021-11-18T22:23:14.043Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.124'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.124"
       hash: c95d05ca7b3738bebfa87035d527af905e7bd1d6
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1816,9 +1836,9 @@
   version: 1.0.263
   date: 2021-11-18T02:11:43.883Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.121'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.121"
       hash: dbd1169307e755b8bb0f647c810a6ea9cceaa610
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1827,9 +1847,9 @@
   version: 1.0.262
   date: 2021-11-17T10:31:23.858Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.120'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.120"
       hash: bef901cc481841f6f75b4696fb35b3075df521ee
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1840,7 +1860,7 @@
 - commits:
     - subject: Update secrets in compose test config
       hash: 8c2a9705148dfde15ecad043b211c1748afd0d32
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1850,7 +1870,7 @@
       nested: []
     - subject: Update ignored secrets
       hash: 000fcaeb41f0f104b74a813a977430a8adcbb8a4
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1860,7 +1880,7 @@
       nested: []
     - subject: Remove old secrets
       hash: d7520d77380ead5fa005571668006cfc357b6e6f
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1870,7 +1890,7 @@
       nested: []
     - subject: Clean up test compose config
       hash: a59103f3af174c702e5e6fd517ab5bd3e1f67d77
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1878,9 +1898,9 @@
         signed-off-by: Josh Bowling <josh@balena.io>
       author: Josh Bowling
       nested: []
-    - subject: "\U0001F504 Synced file(s) with product-os/secrets"
+    - subject: 🔄 Synced file(s) with product-os/secrets
       hash: b82f041c009a84b31b002ca4c43656930d07cd7b
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1889,9 +1909,9 @@
   version: 1.0.260
   date: 2021-11-17T06:47:17.733Z
 - commits:
-    - subject: 'Remove secret from test:compose script'
+    - subject: Remove secret from test:compose script
       hash: 422d76143e2d951109ce8c1884ae155c0adf9a8b
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1902,9 +1922,9 @@
   version: 1.0.259
   date: 2021-11-16T23:16:17.944Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 2b18b9e1c9b1a84dde3c21d91ddd2ffddb4979fe
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1915,7 +1935,7 @@
 - commits:
     - subject: Set license
       hash: c379987e5cdc0ca8d02230882230da1f1d01a497
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1926,9 +1946,9 @@
   version: 1.0.257
   date: 2021-11-16T22:58:17.710Z
 - commits:
-    - subject: 'patch: Update dependency lint-staged to v12'
+    - subject: "patch: Update dependency lint-staged to v12"
       hash: 5a02cfe282b10c444a9360911abd30c6ff86221d
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1937,9 +1957,9 @@
   version: 1.0.256
   date: 2021-11-15T12:21:20.283Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 1dcedb411236d35de545a6595aeeb8a556653f93
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1950,7 +1970,7 @@
 - commits:
     - subject: Update secrets
       hash: 4bbfe99f4ed1165a91bc91e3301667a7ee3e9de7
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1958,9 +1978,9 @@
         signed-off-by: Josh Bowling <josh@balena.io>
       author: Josh Bowling
       nested: []
-    - subject: "\U0001F504 Synced file(s) with product-os/secrets"
+    - subject: 🔄 Synced file(s) with product-os/secrets
       hash: 792267bd5ca2e4678f438cbc57f42f45c1a75882
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1969,9 +1989,9 @@
   version: 1.0.254
   date: 2021-11-13T07:44:25.577Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 7b55999085c543f7e586d9b85fa99839472612e2
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1980,9 +2000,9 @@
   version: 1.0.253
   date: 2021-11-13T06:13:54.239Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.269'
+    - subject: "patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.269"
       hash: fa7109ca5e6038dab614834e81508374ada32d80
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1991,9 +2011,9 @@
   version: 1.0.252
   date: 2021-11-13T03:46:26.897Z
 - commits:
-    - subject: 'patch: Update dependency nock to ^13.2.1'
+    - subject: "patch: Update dependency nock to ^13.2.1"
       hash: 785269e023fa764d1b4d5b7eee5be1806edc738a
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2002,9 +2022,9 @@
   version: 1.0.251
   date: 2021-11-13T01:07:38.694Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.268'
+    - subject: "patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.268"
       hash: b856dbb5e2e5bb0b7f3ba0d6f75575028838ebb7
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2013,9 +2033,9 @@
   version: 1.0.250
   date: 2021-11-12T10:05:20.305Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 40e26acb1400df44beb1d6b0ec077d444772c4ea
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2024,9 +2044,9 @@
   version: 1.0.249
   date: 2021-11-12T03:50:47.155Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-assert to ^1.1.70'
+    - subject: "patch: Update dependency @balena/jellyfish-assert to ^1.1.70"
       hash: ed0ef7bfb9365aebc4610766d9980fc5968f3718
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2035,7 +2055,7 @@
   version: 1.0.248
   date: 2021-11-10T23:27:06.025Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-environment to ^5.1.0'
+    - subject: "patch: Update dependency @balena/jellyfish-environment to ^5.1.0"
       hash: 022e569b23138afd5909a3388e050da4f672fd31
       body: |
         Update @balena/jellyfish-environment from 5.0.14 to 5.1.0
@@ -2047,9 +2067,9 @@
   version: 1.0.247
   date: 2021-11-10T11:06:21.871Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 23b101960da5626c7d285cf5bf9dd74cac99d44a
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2058,9 +2078,9 @@
   version: 1.0.246
   date: 2021-11-10T10:55:30.237Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.117'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.117"
       hash: a8deb5ca3f3f09ca83d9a50f6db066a3fb85e6d0
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2069,9 +2089,9 @@
   version: 1.0.245
   date: 2021-11-10T02:41:38.313Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.266'
+    - subject: "patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.266"
       hash: 654ae2d666aa59f6bb16893d2a347770b389d6be
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2080,9 +2100,9 @@
   version: 1.0.244
   date: 2021-11-10T00:18:05.025Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-environment to ^5.0.14'
+    - subject: "patch: Update dependency @balena/jellyfish-environment to ^5.0.14"
       hash: 8cc41a2cf31757f81c9540a64de12448b928011b
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2091,9 +2111,9 @@
   version: 1.0.243
   date: 2021-11-09T00:19:28.102Z
 - commits:
-    - subject: 'patch: Update resinci/jellyfish-test Docker tag to v1.4.12'
+    - subject: "patch: Update resinci/jellyfish-test Docker tag to v1.4.12"
       hash: 86cb0b4b383952f64579f4b12d9ca9aaf28e2d97
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2102,9 +2122,9 @@
   version: 1.0.242
   date: 2021-11-07T04:48:32.354Z
 - commits:
-    - subject: 'patch: Update resinci/jellyfish-test Docker tag to v1.4.11'
+    - subject: "patch: Update resinci/jellyfish-test Docker tag to v1.4.11"
       hash: c46ba58664b6ae72f5389982680731af5fbbb778
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2113,9 +2133,9 @@
   version: 1.0.241
   date: 2021-11-07T02:35:25.685Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 9a504bf622b17e8aad111a6296859cb5f079288d
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2124,9 +2144,9 @@
   version: 1.0.240
   date: 2021-11-07T02:18:14.333Z
 - commits:
-    - subject: 'patch: Update dependency typedoc to ^0.22.8'
+    - subject: "patch: Update dependency typedoc to ^0.22.8"
       hash: 93b03bee8e677a6d7c872a95fc49959c2248f03e
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2135,9 +2155,9 @@
   version: 1.0.239
   date: 2021-11-07T02:06:47.935Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.114'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.114"
       hash: a5a4a53b0371d50128098930fc901cbd137b0724
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2146,9 +2166,9 @@
   version: 1.0.238
   date: 2021-11-07T00:29:50.029Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.113'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.113"
       hash: 12e12db84f4ea174d54ee21c25ff5b32236b2837
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2157,9 +2177,9 @@
   version: 1.0.237
   date: 2021-11-06T10:26:32.469Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.262'
+    - subject: "patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.262"
       hash: 6be1ba11bce322abb58ca009b635e347d9db8fde
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2168,9 +2188,9 @@
   version: 1.0.236
   date: 2021-11-06T04:12:19.741Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.261'
+    - subject: "patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.261"
       hash: ee672ccf34efed4b84ef071225a7da937efd4f97
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2179,9 +2199,9 @@
   version: 1.0.235
   date: 2021-11-06T01:43:42.153Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: a6f323226c93c698a047c9347b211eae7da4bc94
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2190,7 +2210,7 @@
   version: 1.0.234
   date: 2021-11-05T23:23:21.262Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-core to v8'
+    - subject: "patch: Update dependency @balena/jellyfish-core to v8"
       hash: 160b7b9953606a6d8476f5f919124b48bc8f6e26
       body: |
         Update @balena/jellyfish-core from 7.0.2 to 8.0.0
@@ -2202,9 +2222,9 @@
   version: 1.0.233
   date: 2021-11-05T08:54:59.713Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.112'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.112"
       hash: b634171272de5c8f062be3c58689f35461cc5577
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2213,9 +2233,9 @@
   version: 1.0.232
   date: 2021-10-30T14:17:11.052Z
 - commits:
-    - subject: "\U0001F504 Synced file(s) with product-os/secrets"
+    - subject: 🔄 Synced file(s) with product-os/secrets
       hash: 155b718fa8ecd1bca8255a0b9dedf5fd6b384020
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2224,9 +2244,9 @@
   version: 1.0.231
   date: 2021-10-30T13:59:37.801Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.109'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.109"
       hash: c51822d40a902a7729e3f30be64ecd927e84b5fe
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2235,9 +2255,9 @@
   version: 1.0.230
   date: 2021-10-30T09:45:36.926Z
 - commits:
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: 87f0f5393003c878b4d103fa5620798b6e8529dd
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2246,9 +2266,9 @@
   version: 1.0.229
   date: 2021-10-30T05:53:08.037Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 18c0e31f79f3172f57eb03825a51533002ac591d
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2257,9 +2277,9 @@
   version: 1.0.228
   date: 2021-10-30T05:39:31.050Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.257'
+    - subject: "patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.257"
       hash: 0aa8d30e84299b73c0224f85369ff627acd9450e
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2268,9 +2288,9 @@
   version: 1.0.227
   date: 2021-10-28T15:32:57.424Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 08415c1f1cfdc8ea30e59ad9f5286d8b1ce34f16
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2279,9 +2299,9 @@
   version: 1.0.226
   date: 2021-10-28T13:14:57.797Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: c9e33f5c4d494bc545ecf63b3d3b874c54a2d7a7
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2290,9 +2310,9 @@
   version: 1.0.225
   date: 2021-10-28T10:47:57.827Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 5150467c144d0c84c907d3e1b16c9bd6da1463a1
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2301,9 +2321,9 @@
   version: 1.0.224
   date: 2021-10-28T06:06:16.896Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.106'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.106"
       hash: c027009bce826846bd95a448ae0f710214d8424e
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2312,9 +2332,9 @@
   version: 1.0.223
   date: 2021-10-28T03:36:07.952Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 2bfa0706563dae879bd9e2ce8580f900f56d741d
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2323,9 +2343,9 @@
   version: 1.0.222
   date: 2021-10-28T03:23:26.915Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellycheck to ^0.1.4'
+    - subject: "patch: Update dependency @balena/jellycheck to ^0.1.4"
       hash: 2b319e024e4215a6e055c1dc6b3617f634653d6f
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2334,9 +2354,9 @@
   version: 1.0.221
   date: 2021-10-28T01:27:28.399Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.104'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.104"
       hash: 87fdbde75aaf191d6ce3b48105483b62f655c83f
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2345,9 +2365,9 @@
   version: 1.0.220
   date: 2021-10-24T00:24:57.391Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.253'
+    - subject: "patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.253"
       hash: 0e1a78b6640dd3b33c40adcebb67b149185f5a0d
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2356,9 +2376,9 @@
   version: 1.0.219
   date: 2021-10-23T22:11:08.614Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: facfa17d6e672609e3cf116a3b48609706394ca6
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2367,9 +2387,9 @@
   version: 1.0.218
   date: 2021-10-23T21:58:46.969Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.102'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.102"
       hash: 8649c8cc2512b80a42a9869a444f376ea0770099
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2378,9 +2398,9 @@
   version: 1.0.217
   date: 2021-10-23T21:38:56.992Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-environment to ^5.0.8'
+    - subject: "patch: Update dependency @balena/jellyfish-environment to ^5.0.8"
       hash: b3863546b441a6acf349d5f08f398efbb7317f96
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2389,9 +2409,9 @@
   version: 1.0.216
   date: 2021-10-23T19:08:38.726Z
 - commits:
-    - subject: 'patch: Update dependency lint-staged to ^11.2.4'
+    - subject: "patch: Update dependency lint-staged to ^11.2.4"
       hash: 497f477d2d1b29faa38bc2a9b80cc34be2a0f08a
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2400,9 +2420,9 @@
   version: 1.0.215
   date: 2021-10-23T18:52:00.429Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.101'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.101"
       hash: fe62812310e5965515821a7e55db40c1ef8085bc
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2411,9 +2431,9 @@
   version: 1.0.214
   date: 2021-10-23T11:26:27.005Z
 - commits:
-    - subject: "\U0001F504 Synced file(s) with product-os/jellyfish-config"
+    - subject: 🔄 Synced file(s) with product-os/jellyfish-config
       hash: aa2055fccffb8152c343fa146ab95ee5b917a46c
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2422,9 +2442,9 @@
   version: 1.0.213
   date: 2021-10-23T11:13:12.018Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 39285b4267b310fb887f2ab4cb33c37668df5804
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2433,9 +2453,9 @@
   version: 1.0.212
   date: 2021-10-23T09:56:37.684Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.250'
+    - subject: "patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.250"
       hash: 5ff33b8186ade6e6d27657d45d5e06f97f48f67d
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2444,9 +2464,9 @@
   version: 1.0.211
   date: 2021-10-23T05:19:26.841Z
 - commits:
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: f4f8eaa5062e1c8af7c9c474b808db0ea92d2234
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2455,9 +2475,9 @@
   version: 1.0.210
   date: 2021-10-23T03:34:37.574Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: ccc5640799f041015c3956b7a99bd63996b163b9
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2466,9 +2486,9 @@
   version: 1.0.209
   date: 2021-10-23T03:22:28.101Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.248'
+    - subject: "patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.248"
       hash: 10f5ba14286f2e1d130884cac04f52610aceddad
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2477,9 +2497,9 @@
   version: 1.0.208
   date: 2021-10-23T01:37:47.961Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.96'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.96"
       hash: 86da3296ef5b511d65d0b365c876f71054e95710
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2488,7 +2508,7 @@
   version: 1.0.207
   date: 2021-10-22T23:33:28.655Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-core to v7'
+    - subject: "patch: Update dependency @balena/jellyfish-core to v7"
       hash: 82a266da5e9eda9b20aa0c4fc7dba01d01252208
       body: |
         Update @balena/jellyfish-core from 6.2.11 to 7.0.2
@@ -2500,9 +2520,9 @@
   version: 1.0.206
   date: 2021-10-20T09:42:36.496Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.247'
+    - subject: "patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.247"
       hash: fafd2b644278e50b11d3772d709a4b711fa1f260
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2511,9 +2531,9 @@
   version: 1.0.205
   date: 2021-10-20T09:29:07.818Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: b905fb691058a3a533c0d55b245bbeb1c4130c13
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2522,9 +2542,9 @@
   version: 1.0.204
   date: 2021-10-18T23:21:28.645Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 7a05d39c5e56f087bda9567cb9ddf5a12ba4ab6f
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2533,7 +2553,7 @@
   version: 1.0.203
   date: 2021-10-18T05:14:45.622Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-core to ^6.2.11'
+    - subject: "patch: Update dependency @balena/jellyfish-core to ^6.2.11"
       hash: da7a2f1e35a386c1059c42a46a5f3f3a6fc8c159
       body: |
         Update @balena/jellyfish-core from 6.1.1 to 6.2.11
@@ -2545,7 +2565,7 @@
   version: 1.0.202
   date: 2021-10-18T05:03:38.026Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-config to ^1.5.4'
+    - subject: "patch: Update dependency @balena/jellyfish-config to ^1.5.4"
       hash: c4b32b824ce29aaaa17696a8f19e563eb5a44917
       body: |
         Update @balena/jellyfish-config from 1.4.8 to 1.5.4
@@ -2557,9 +2577,9 @@
   version: 1.0.201
   date: 2021-10-18T04:50:07.307Z
 - commits:
-    - subject: "\U0001F504 Synced file(s) with product-os/secrets"
+    - subject: 🔄 Synced file(s) with product-os/secrets
       hash: 32c7da0978a726dea5aad6b893385725da6371d9
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2570,7 +2590,7 @@
 - commits:
     - subject: Bring back test.env
       hash: 04683a03adf3203f291ae3168e39c0fde97258e2
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2578,9 +2598,9 @@
         signed-off-by: Josh Bowling <josh@balena.io>
       author: Josh Bowling
       nested: []
-    - subject: 'Update test:compose to match image name'
+    - subject: Update test:compose to match image name
       hash: e7a72404834ff70247ee91e99e03df2c618238fd
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2588,9 +2608,9 @@
         signed-off-by: Josh Bowling <josh@balena.io>
       author: Josh Bowling
       nested: []
-    - subject: "\U0001F504 Synced file(s) with product-os/jellyfish-config"
+    - subject: 🔄 Synced file(s) with product-os/jellyfish-config
       hash: b91e36962b9041fe9a86a8ab8fbba3b349a2f19c
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2601,7 +2621,7 @@
 - commits:
     - subject: Ignore decrypted mailgun and meet secrets
       hash: 545f4d4ac10d1394ec6ae09616345cc04efbd945
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2609,9 +2629,9 @@
         signed-off-by: Josh Bowling <josh@balena.io>
       author: Josh Bowling
       nested: []
-    - subject: "\U0001F504 Synced file(s) with product-os/secrets"
+    - subject: 🔄 Synced file(s) with product-os/secrets
       hash: ef8176b5b4b2ce66e7d40f4483278ca2089087dd
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2620,9 +2640,9 @@
   version: 1.0.198
   date: 2021-09-26T06:49:21.074Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.75'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.75"
       hash: ab5c61615fde20e3c4c5867cbfc5de95f766fcc9
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2631,9 +2651,9 @@
   version: 1.0.197
   date: 2021-09-26T03:56:05.090Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.74'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.74"
       hash: c3e3223908d3af4761bf0e2bbf66e14231d4254f
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2642,9 +2662,9 @@
   version: 1.0.196
   date: 2021-09-25T18:54:49.715Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.73'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.73"
       hash: 39a563c8b11a3f7b601c8b2abac6f95c0ed7464f
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2653,9 +2673,9 @@
   version: 1.0.195
   date: 2021-09-25T14:45:59.590Z
 - commits:
-    - subject: 'patch: Update dependency jest to ^27.2.2'
+    - subject: "patch: Update dependency jest to ^27.2.2"
       hash: 644ce6b82618bf15c7f9c60575ac8d27bc44ff22
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2664,7 +2684,7 @@
   version: 1.0.194
   date: 2021-09-25T14:35:16.979Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-test-harness to v8'
+    - subject: "patch: Update dependency @balena/jellyfish-test-harness to v8"
       hash: c89f95e0db3f19e06155afec7dae0388350c9051
       body: |
         Update @balena/jellyfish-test-harness from 7.4.1 to 8.1.4
@@ -2676,9 +2696,9 @@
   version: 1.0.193
   date: 2021-09-25T10:29:53.415Z
 - commits:
-    - subject: 'patch: Update dependency @types/lodash to ^4.14.174'
+    - subject: "patch: Update dependency @types/lodash to ^4.14.174"
       hash: 1b82df8d1a82df7c8b3e5303b4319d547515f740
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2687,9 +2707,9 @@
   version: 1.0.192
   date: 2021-09-25T10:16:05.398Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.70'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.70"
       hash: 3410a3682da9b8a5e54bdcfd5233cb98326c4d33
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2698,9 +2718,9 @@
   version: 1.0.191
   date: 2021-09-25T10:01:35.688Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.67'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.67"
       hash: 84aded333069ab1431b742b81c58753cde3cf3a1
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2709,9 +2729,9 @@
   version: 1.0.190
   date: 2021-09-25T01:44:51.780Z
 - commits:
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: d00992101188ba0f8bf6473952edc3daf1fc59e7
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2720,9 +2740,9 @@
   version: 1.0.189
   date: 2021-09-25T00:08:29.881Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.66'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.66"
       hash: 52db7634700d81047d5b9b0aa2529a71e0eb624b
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2731,9 +2751,9 @@
   version: 1.0.188
   date: 2021-09-24T10:27:50.932Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.243'
+    - subject: "patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.243"
       hash: 7604f345c2387ac20c50348825a1d1803b2ce5bd
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2742,9 +2762,9 @@
   version: 1.0.187
   date: 2021-09-22T08:28:21.854Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.64'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.64"
       hash: 6d81649fa1a6dfa3e2054b52f70f4bca3c93d65c
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2753,9 +2773,9 @@
   version: 1.0.186
   date: 2021-09-21T08:10:00.599Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 24e72b8567596372d7f9f1325844742ce9ad2a88
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2764,7 +2784,7 @@
   version: 1.0.185
   date: 2021-09-20T13:47:37.141Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^1.2.0'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^1.2.0"
       hash: 62b0fa6282a1e30bd76ec1cde3bddfa24f6bb058
       body: |
         Update @balena/jellyfish-types from 1.1.0 to 1.2.0
@@ -2776,9 +2796,9 @@
   version: 1.0.184
   date: 2021-09-20T11:12:41.796Z
 - commits:
-    - subject: 'patch: Update dependency typedoc to ^0.22.4'
+    - subject: "patch: Update dependency typedoc to ^0.22.4"
       hash: a19309d16b30745ddb378269d4308dff872e9700
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2787,9 +2807,9 @@
   version: 1.0.183
   date: 2021-09-18T20:42:09.396Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: b7749815f7b8650a5639c09640d5471fd808a393
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2798,9 +2818,9 @@
   version: 1.0.182
   date: 2021-09-18T05:08:31.910Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.56'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.56"
       hash: 70527d897a83ee6da9d84d4ea90df516a0fe569b
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2809,9 +2829,9 @@
   version: 1.0.181
   date: 2021-09-18T03:27:29.198Z
 - commits:
-    - subject: 'patch: Update dependency @types/lodash to ^4.14.173'
+    - subject: "patch: Update dependency @types/lodash to ^4.14.173"
       hash: 143aef6050c53bf4839daeafeb02d2c5c8f4bb54
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2820,7 +2840,7 @@
   version: 1.0.180
   date: 2021-09-18T01:24:29.693Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-test-harness to ^7.4.1'
+    - subject: "patch: Update dependency @balena/jellyfish-test-harness to ^7.4.1"
       hash: 9ec809bc5eb9797ee104aa31fb7193e30a01d817
       body: |
         Update @balena/jellyfish-test-harness from 7.3.1 to 7.4.1
@@ -2832,9 +2852,9 @@
   version: 1.0.179
   date: 2021-09-16T12:08:46.269Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.55'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.55"
       hash: f86648d83b609a862bcd9a377dd426507d65760d
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2843,9 +2863,9 @@
   version: 1.0.178
   date: 2021-09-16T02:55:10.279Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.52'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.52"
       hash: 2763057447fd972e37bb0ff06efd80123b7788af
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2854,9 +2874,9 @@
   version: 1.0.177
   date: 2021-09-16T01:31:03.439Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.51'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.51"
       hash: 22167b7945295117704a5fb32577d33b7f9cceb5
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2865,7 +2885,7 @@
   version: 1.0.176
   date: 2021-09-16T01:16:21.556Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-plugin-default to ^21.1.0'
+    - subject: "patch: Update dependency @balena/jellyfish-plugin-default to ^21.1.0"
       hash: b6f5264ac67671c714379341398411c481c917e2
       body: |
         Update @balena/jellyfish-plugin-default from 21.0.3 to 21.1.0
@@ -2877,7 +2897,7 @@
   version: 1.0.175
   date: 2021-09-15T14:48:49.649Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-test-harness to ^7.3.1'
+    - subject: "patch: Update dependency @balena/jellyfish-test-harness to ^7.3.1"
       hash: dd3882e6e0c3137e3b50d142f32c31399841c753
       body: |
         Update @balena/jellyfish-test-harness from 7.2.1 to 7.3.1
@@ -2889,9 +2909,9 @@
   version: 1.0.174
   date: 2021-09-15T09:33:29.924Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.50'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.50"
       hash: edc53365acebbd67f11c0a33f45fb14b141eef78
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2900,9 +2920,9 @@
   version: 1.0.173
   date: 2021-09-15T09:16:00.391Z
 - commits:
-    - subject: "\U0001F504 Synced file(s) with product-os/secrets"
+    - subject: 🔄 Synced file(s) with product-os/secrets
       hash: 3e645db7bd5625e47a35400a6df03ea51edbae02
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2911,7 +2931,7 @@
   version: 1.0.172
   date: 2021-09-15T05:44:10.161Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-core to ^6.1.1'
+    - subject: "patch: Update dependency @balena/jellyfish-core to ^6.1.1"
       hash: e2cbf581d27f00eac46bf13d52d2eedebaee70ca
       body: |
         Update @balena/jellyfish-core from 6.0.0 to 6.1.1
@@ -2923,7 +2943,7 @@
   version: 1.0.171
   date: 2021-09-14T09:42:59.820Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-test-harness to ^7.2.1'
+    - subject: "patch: Update dependency @balena/jellyfish-test-harness to ^7.2.1"
       hash: 5ee11405e6a347e85e8fe760b43bdb3b325d1bb0
       body: |
         Update @balena/jellyfish-test-harness from 7.1.3 to 7.2.1
@@ -2937,7 +2957,7 @@
 - commits:
     - subject: Add typedoc to depcheck ignore list
       hash: 7ddf9eb363a6b3630c4e0e2552e439eec2908d32
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2945,9 +2965,9 @@
         signed-off-by: Josh Bowling <josh@balena.io>
       author: Josh Bowling
       nested: []
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: 6862e24b9257fb9f952704532ac1a2445b61e2f7
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2956,7 +2976,7 @@
   version: 1.0.169
   date: 2021-09-14T04:00:51.738Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-core to v6'
+    - subject: "patch: Update dependency @balena/jellyfish-core to v6"
       hash: 42b36447f476ca1eb81f1e9400fdc7b753049048
       body: |
         Update @balena/jellyfish-core from 5.8.1 to 6.0.0
@@ -2968,7 +2988,7 @@
   version: 1.0.168
   date: 2021-09-14T03:27:50.187Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-test-harness to v7'
+    - subject: "patch: Update dependency @balena/jellyfish-test-harness to v7"
       hash: c951baba1b25b16a8ffaea09e3c83d34949fc29f
       body: |
         Update @balena/jellyfish-test-harness from 6.3.0 to 7.1.3
@@ -2980,7 +3000,7 @@
   version: 1.0.167
   date: 2021-09-13T19:55:06.771Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-core to ^5.8.1'
+    - subject: "patch: Update dependency @balena/jellyfish-core to ^5.8.1"
       hash: 96f8b3293cacfcfad73e566350fa4b64ee0dd56e
       body: |
         Update @balena/jellyfish-core from 5.7.0 to 5.8.1
@@ -2992,9 +3012,9 @@
   version: 1.0.166
   date: 2021-09-13T19:42:09.922Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.239'
+    - subject: "patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.239"
       hash: 56af3b61f7695eedc2e6e6cdad9595b4433f546a
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3003,9 +3023,9 @@
   version: 1.0.165
   date: 2021-09-12T05:27:37.903Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.238'
+    - subject: "patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.238"
       hash: b9b0b61817ef9b248d194bb2a0108d3af3491d47
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3029,9 +3049,9 @@
   version: 1.0.163
   date: 2021-09-10T11:46:40.896Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.237'
+    - subject: "patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.237"
       hash: 410472b03617068242b72e8e6d1dc48fe7d90f7a
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3040,7 +3060,7 @@
   version: 1.0.162
   date: 2021-09-10T08:13:39.418Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-plugin-default to v21'
+    - subject: "patch: Update dependency @balena/jellyfish-plugin-default to v21"
       hash: 6c2c381d67aeca2a04019dd78b131630346cfde3
       body: |
         Update @balena/jellyfish-plugin-default from 20.1.0 to 21.0.3
@@ -3052,7 +3072,7 @@
   version: 1.0.161
   date: 2021-09-09T04:30:40.028Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-test-harness to ^6.3.0'
+    - subject: "patch: Update dependency @balena/jellyfish-test-harness to ^6.3.0"
       hash: 6b71855e6092f6ecf3ef4fa0b7108bd54a44a20d
       body: |
         Update @balena/jellyfish-test-harness from 6.2.0 to 6.3.0
@@ -3064,7 +3084,7 @@
   version: 1.0.160
   date: 2021-09-08T08:51:09.740Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-plugin-default to ^20.1.0'
+    - subject: "patch: Update dependency @balena/jellyfish-plugin-default to ^20.1.0"
       hash: e48d4078bf74575b253149c37dfc41dae52f2948
       body: |
         Update @balena/jellyfish-plugin-default from 20.0.5 to 20.1.0
@@ -3076,9 +3096,9 @@
   version: 1.0.159
   date: 2021-09-07T15:15:49.942Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.49'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.49"
       hash: 3e7768b3826908517d5dfd064c04e9b1c2add0af
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3087,7 +3107,7 @@
   version: 1.0.158
   date: 2021-09-06T17:56:07.775Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-core to ^5.7.0'
+    - subject: "patch: Update dependency @balena/jellyfish-core to ^5.7.0"
       hash: 8b62485701ec385914e521e2006daf826b1fb896
       body: |
         Update @balena/jellyfish-core from 5.6.3 to 5.7.0
@@ -3099,9 +3119,9 @@
   version: 1.0.157
   date: 2021-09-06T16:12:05.432Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.48'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.48"
       hash: 027b1a676fa3d34cca7822bef34d995bc437e4f9
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3110,9 +3130,9 @@
   version: 1.0.156
   date: 2021-09-06T15:59:20.931Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.47'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.47"
       hash: 8d4fd1761ef31b29be029fa16122beaa4ce8b22f
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3121,7 +3141,7 @@
   version: 1.0.155
   date: 2021-09-06T08:26:59.850Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-test-harness to ^6.2.0'
+    - subject: "patch: Update dependency @balena/jellyfish-test-harness to ^6.2.0"
       hash: ac70b1570253e1b864447e8104375d139b3d8d7a
       body: |
         Update @balena/jellyfish-test-harness from 6.1.0 to 6.2.0
@@ -3133,7 +3153,7 @@
   version: 1.0.154
   date: 2021-09-06T02:49:49.539Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-core to ^5.6.3'
+    - subject: "patch: Update dependency @balena/jellyfish-core to ^5.6.3"
       hash: c0d6ee0aeab1e622ac55731dcc358a4f13385538
       body: |
         Update @balena/jellyfish-core from 5.5.1 to 5.6.3
@@ -3145,9 +3165,9 @@
   version: 1.0.153
   date: 2021-09-05T10:59:30.259Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.46'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.46"
       hash: 3f5cf8f96df446fe2dba6d610e05da0619fe434c
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3156,7 +3176,7 @@
   version: 1.0.152
   date: 2021-09-05T10:46:30.800Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^1.1.0'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^1.1.0"
       hash: 586015adb278f0c2f13a2f2b1539505e30fb0f9e
       body: |
         Update @balena/jellyfish-types from 1.0.1 to 1.1.0
@@ -3168,9 +3188,9 @@
   version: 1.0.151
   date: 2021-09-05T09:25:00.101Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.44'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.44"
       hash: c3d0457c2297cef4287226420a424154bb54caa3
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3179,7 +3199,7 @@
   version: 1.0.150
   date: 2021-09-05T07:15:36.222Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to v1'
+    - subject: "patch: Update dependency @balena/jellyfish-types to v1"
       hash: e033dd74c62badef584a6eb3f404815e4424a681
       body: |
         Update @balena/jellyfish-types from 0.9.9 to 1.0.1
@@ -3191,9 +3211,9 @@
   version: 1.0.149
   date: 2021-09-04T11:59:00.163Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.42'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.42"
       hash: 007e8191f136516180e7626a8ff2bb6bd818bc02
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3202,9 +3222,9 @@
   version: 1.0.148
   date: 2021-09-04T11:47:39.925Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.41'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.41"
       hash: 0d6fd76014aab66aa4e534fe5d23bf415a3a5dfa
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3213,9 +3233,9 @@
   version: 1.0.147
   date: 2021-09-04T01:33:00.098Z
 - commits:
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: 7d5679bfdedd382ae52df77aad8958dad003dcf7
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3224,7 +3244,7 @@
   version: 1.0.146
   date: 2021-09-04T01:17:20.006Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-core to ^5.5.1'
+    - subject: "patch: Update dependency @balena/jellyfish-core to ^5.5.1"
       hash: 7bea51df65173ff436865f9fc36b1314fd8caf05
       body: |
         Update @balena/jellyfish-core from 5.2.0 to 5.5.1
@@ -3236,9 +3256,9 @@
   version: 1.0.145
   date: 2021-09-04T01:02:39.901Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 73c4fce541fd9581e7e92159da4cb390acf5a8e6
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3247,7 +3267,7 @@
   version: 1.0.144
   date: 2021-09-04T00:46:32.980Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-core to ^5.2.0'
+    - subject: "patch: Update dependency @balena/jellyfish-core to ^5.2.0"
       hash: 0f615ae63d59d56857f4d87fcca7de67d97ce9d8
       body: |
         Update @balena/jellyfish-core from 5.1.20 to 5.2.0
@@ -3259,9 +3279,9 @@
   version: 1.0.143
   date: 2021-08-31T07:30:27.300Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 04fb0e6ba71e7ea9d472882fb4a094ae76fa583c
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3272,7 +3292,7 @@
 - commits:
     - subject: Ignore decrypted Discourse secrets
       hash: b710725e3ca567275c0d6b48cdf3daba9a220af2
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3280,9 +3300,9 @@
         signed-off-by: Josh Bowling <josh@balena.io>
       author: Josh Bowling
       nested: []
-    - subject: "\U0001F504 Synced file(s) with product-os/secrets"
+    - subject: 🔄 Synced file(s) with product-os/secrets
       hash: 1700765244c45ccd0685133c90c34fa45a45f096
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3293,7 +3313,7 @@
 - commits:
     - subject: Ignore decrypted Front and Intercom secrets
       hash: ad1bc711d880e9da5847b6486e4277cc758b32ba
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3301,9 +3321,9 @@
         signed-off-by: Josh Bowling <josh@balena.io>
       author: Josh Bowling
       nested: []
-    - subject: "\U0001F504 Synced file(s) with product-os/secrets"
+    - subject: 🔄 Synced file(s) with product-os/secrets
       hash: d6b6e2ef506d4463591fa5bb2e1c4e5eae92c4e2
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3314,7 +3334,7 @@
 - commits:
     - subject: Add github secrets to gitignore
       hash: 60a46a439bf2a8bdfc790b6afd987fdc89208e31
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3322,9 +3342,9 @@
         signed-off-by: Josh Bowling <josh@balena.io>
       author: Josh Bowling
       nested: []
-    - subject: "\U0001F504 Synced file(s) with product-os/secrets"
+    - subject: 🔄 Synced file(s) with product-os/secrets
       hash: e1cd7acabc0c440f02fd27629d14970e57708d7d
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3335,7 +3355,7 @@
 - commits:
     - subject: Add flowdock secrets to gitignore
       hash: 23650296b3670d2fe9d2a1523109061a9bb09214
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3343,9 +3363,9 @@
         signed-off-by: Josh Bowling <josh@balena.io>
       author: Josh Bowling
       nested: []
-    - subject: "\U0001F504 Synced file(s) with product-os/secrets"
+    - subject: 🔄 Synced file(s) with product-os/secrets
       hash: 2ba286a24bb6c7c639ad602d4cd67fe7edde6f1d
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3356,7 +3376,7 @@
 - commits:
     - subject: Update files to use secrets
       hash: 52daf569e251aec6512c2ce535cb3692d5e2804c
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3364,9 +3384,9 @@
         signed-off-by: Josh Bowling <josh@balena.io>
       author: Josh Bowling
       nested: []
-    - subject: "\U0001F504 Synced file(s) with product-os/secrets"
+    - subject: 🔄 Synced file(s) with product-os/secrets
       hash: c047666f69e29f63ee4fd18e9b05cca343eb42ff
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3377,7 +3397,7 @@
 - commits:
     - subject: Bump internal dev dependencies
       hash: f98845a3e2b6ae5cac6286028f5d5a47ac8c38f4
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3388,9 +3408,9 @@
   version: 1.0.136
   date: 2021-08-23T06:19:19.508Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.20'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.20"
       hash: 2f5e5c57093206b23c3a398f600b1df8b4ef18cb
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3399,9 +3419,9 @@
   version: 1.0.135
   date: 2021-08-21T09:32:19.712Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.19'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.19"
       hash: 9abd91293374e7a8e469c736929ee98e43c264a4
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3410,7 +3430,7 @@
   version: 1.0.134
   date: 2021-08-21T05:39:19.570Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-plugin-default to v20'
+    - subject: "patch: Update dependency @balena/jellyfish-plugin-default to v20"
       hash: 7be7a3989e861c5c22d647702897d5d54386b504
       body: |
         Update @balena/jellyfish-plugin-default from 19.9.0 to 20.0.2
@@ -3422,9 +3442,9 @@
   version: 1.0.133
   date: 2021-08-21T03:31:19.769Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 2f544f8b0ce5a83268861eb54e4498a745d3fb4e
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3433,9 +3453,9 @@
   version: 1.0.132
   date: 2021-08-21T03:19:41.551Z
 - commits:
-    - subject: 'patch: Update dependency @types/jest to v27'
+    - subject: "patch: Update dependency @types/jest to v27"
       hash: aec60cfa429faf1226cdc4a46bb81fdaaa012745
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3444,9 +3464,9 @@
   version: 1.0.131
   date: 2021-08-21T03:00:19.692Z
 - commits:
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: 007f5933e6e3a8a9f9e62a76b63d28f7fddebe86
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3455,7 +3475,7 @@
   version: 1.0.130
   date: 2021-08-21T01:50:55.177Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-plugin-default to ^19.9.0'
+    - subject: "patch: Update dependency @balena/jellyfish-plugin-default to ^19.9.0"
       hash: 7cdff12779610d2c84c18b3eb7c10f73ccc9be74
       body: |
         Update @balena/jellyfish-plugin-default from 19.7.15 to 19.9.0
@@ -3467,9 +3487,9 @@
   version: 1.0.129
   date: 2021-08-20T16:42:36.520Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.14'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.14"
       hash: 313a737e9164cd1e8e0281c3191d368004511ae2
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3478,9 +3498,9 @@
   version: 1.0.128
   date: 2021-08-20T16:30:45.635Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.1.12'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.1.12"
       hash: b45b60c311726b16a50629c1dfc96190c690fc9c
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3489,7 +3509,7 @@
   version: 1.0.127
   date: 2021-08-20T13:08:19.860Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-plugin-default to ^19.7.15'
+    - subject: "patch: Update dependency @balena/jellyfish-plugin-default to ^19.7.15"
       hash: 57040e70dbc0c2970c49ca7a9721eca3c6449c2d
       body: |
         Update @balena/jellyfish-plugin-default from 19.0.0 to 19.7.15
@@ -3501,7 +3521,7 @@
   version: 1.0.126
   date: 2021-08-20T12:56:14.484Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-sync to ^6.1.3'
+    - subject: "patch: Update dependency @balena/jellyfish-sync to ^6.1.3"
       hash: 9ba1d6a131623099bfe7b2f0903219b1f6a15f81
       body: |
         Update @balena/jellyfish-sync from 6.0.256 to 6.1.3
@@ -3513,7 +3533,7 @@
   version: 1.0.125
   date: 2021-08-20T11:36:31.801Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-core to ^5.1.20'
+    - subject: "patch: Update dependency @balena/jellyfish-core to ^5.1.20"
       hash: 8076e888eec2378d5697888bb098c38c3780893f
       body: |
         Update @balena/jellyfish-core from 5.0.1 to 5.1.20
@@ -3525,7 +3545,7 @@
   version: 1.0.124
   date: 2021-08-20T11:22:52.811Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-config to ^1.4.8'
+    - subject: "patch: Update dependency @balena/jellyfish-config to ^1.4.8"
       hash: c8419dbe0c045fd6328e5257ec63ee0502a79c94
       body: |
         Update @balena/jellyfish-config from 1.3.3 to 1.4.8
@@ -3537,9 +3557,9 @@
   version: 1.0.123
   date: 2021-08-20T11:09:23.036Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.226'
+    - subject: "patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.226"
       hash: 303c5b2ac4511363b81362cc7151c460d6f717b0
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3548,9 +3568,9 @@
   version: 1.0.122
   date: 2021-08-20T10:55:58.753Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.225'
+    - subject: "patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.225"
       hash: 647a0dccb8d71e55ab4601a74b15db51216d41e9
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3561,7 +3581,7 @@
 - commits:
     - subject: Only disable internal patch bumps
       hash: 9f78893996fde79feb2c035960bb8b62aa850094
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3574,7 +3594,7 @@
 - commits:
     - subject: Bump jellyfish-action-library
       hash: 0b27b0c288cd3b5dae4097905023942d6e8ff147
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3582,7 +3602,7 @@
         signed-off-by: Josh Bowling <josh@balena.io>
       author: Josh Bowling
       nested: []
-    - subject: 'patch: Update dependency @balena/jellyfish-environment to v5'
+    - subject: "patch: Update dependency @balena/jellyfish-environment to v5"
       hash: 5826b441c264d2a6b03c8e53b85fc0fab884b365
       body: |
         Update @balena/jellyfish-environment from 4.3.19 to 5.0.1
@@ -3594,9 +3614,9 @@
   version: 1.0.119
   date: 2021-08-20T06:17:20.149Z
 - commits:
-    - subject: 'Add compose up command, more test docs'
+    - subject: Add compose up command, more test docs
       hash: 47371f8130b9cc4f6d65ddffd627b8f4aa9ee4b6
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3607,9 +3627,9 @@
   version: 1.0.118
   date: 2021-08-06T01:38:36.228Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.0.62'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.0.62"
       hash: 2f5f567214c1ad1ec997a52cb7818226ba5a86bd
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3618,9 +3638,9 @@
   version: 1.0.117
   date: 2021-08-06T00:38:48.171Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.0.61'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.0.61"
       hash: 325575a417f1bfbf0fc999063967d57e8a2d5d55
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3629,9 +3649,9 @@
   version: 1.0.116
   date: 2021-08-05T05:20:30.688Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.0.60'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.0.60"
       hash: e4f8e44930fe94ac3126f02787135cd9dfbf8fa4
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3642,7 +3662,7 @@
 - commits:
     - subject: Use balena convention for npm script names
       hash: d2b1c598c1acffc9f646a45797543a64ea2806f8
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3653,9 +3673,9 @@
   version: 1.0.114
   date: 2021-08-05T02:13:26.079Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: e446779dc23b6887186dde2a55920ea9ed903ac2
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3664,9 +3684,9 @@
   version: 1.0.113
   date: 2021-08-05T01:10:06.489Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.0.57'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.0.57"
       hash: 4f7a5f2803ce46c5fa20c9b185dfae753951e1f6
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3675,9 +3695,9 @@
   version: 1.0.112
   date: 2021-08-02T02:57:00.163Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: f7c87334c327ffa4172d57a0d2988dcaf0b52d24
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3686,9 +3706,9 @@
   version: 1.0.111
   date: 2021-07-31T19:02:24.905Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.0.55'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.0.55"
       hash: 0124cf9696082489f9fa578ae62d787813a3fe1d
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3697,9 +3717,9 @@
   version: 1.0.110
   date: 2021-07-31T17:36:25.753Z
 - commits:
-    - subject: 'patch: Update dependency typedoc to ^0.21.5'
+    - subject: "patch: Update dependency typedoc to ^0.21.5"
       hash: ad80dece1091a696be9a09c811ea1244af44926c
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3708,9 +3728,9 @@
   version: 1.0.109
   date: 2021-07-31T17:25:40.376Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.0.54'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.0.54"
       hash: 17fa735ad8cb241e5c64d8cbf4ec5bc4071e19e6
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3719,9 +3739,9 @@
   version: 1.0.108
   date: 2021-07-31T05:15:06.046Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 4283c48ec3383e6482df5995431ea4d6a2cb190d
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3730,9 +3750,9 @@
   version: 1.0.107
   date: 2021-07-31T03:29:06.407Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.209'
+    - subject: "patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.209"
       hash: 1fe46211daba6698eadc03a10a017f06ec2ff4f9
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3741,9 +3761,9 @@
   version: 1.0.106
   date: 2021-07-31T02:11:59.824Z
 - commits:
-    - subject: 'patch: Update resinci/jellyfish-test Docker tag to v1.4.7'
+    - subject: "patch: Update resinci/jellyfish-test Docker tag to v1.4.7"
       hash: ce3b648649b1d305397caba192ffbd556deb353f
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3752,9 +3772,9 @@
   version: 1.0.105
   date: 2021-07-31T00:14:42.997Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 9bcee0462ce570e496ba087f7e9d6ece49440a07
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3763,9 +3783,9 @@
   version: 1.0.104
   date: 2021-07-30T03:57:11.004Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellycheck to ^0.1.2'
+    - subject: "patch: Update dependency @balena/jellycheck to ^0.1.2"
       hash: fbfe28fa591f7f0a3c306541d743a4dce0245434
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3774,9 +3794,9 @@
   version: 1.0.103
   date: 2021-07-30T02:21:24.181Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: acff77d8be84630dcd4c97754492933a963c0d79
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3785,9 +3805,9 @@
   version: 1.0.102
   date: 2021-07-29T02:57:43.332Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.0.49'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.0.49"
       hash: b066eb2e5c26a362c0b294bcaf5a505884d7e6c1
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3796,9 +3816,9 @@
   version: 1.0.101
   date: 2021-07-26T23:02:30.237Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.0.48'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.0.48"
       hash: 1ed5ea5eae4e2f071b4262611e1bf80328bb54cb
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3807,9 +3827,9 @@
   version: 1.0.100
   date: 2021-07-26T12:39:39.097Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.0.47'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.0.47"
       hash: f5df790d21d69f2b8b1543ec0d7d6170f0832c6b
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3818,9 +3838,9 @@
   version: 1.0.99
   date: 2021-07-24T22:28:56.266Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.0.46'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.0.46"
       hash: b49eb5529ac161fc095903f27d82f1c16d3b9ba9
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3829,9 +3849,9 @@
   version: 1.0.98
   date: 2021-07-24T15:05:35.420Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: f1be590f2b21fe86c4f4f5c3476b28c9784e0a5b
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3840,9 +3860,9 @@
   version: 1.0.97
   date: 2021-07-24T13:10:37.553Z
 - commits:
-    - subject: 'patch: Update dependency lint-staged to ^11.1.1'
+    - subject: "patch: Update dependency lint-staged to ^11.1.1"
       hash: 57258f74524e0bf1ae2daa4220dd1e8367b6bc09
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3851,9 +3871,9 @@
   version: 1.0.96
   date: 2021-07-24T11:44:21.138Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.0.44'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.0.44"
       hash: 7676f307372036002a3e8ac3b0959a03176f678a
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3862,9 +3882,9 @@
   version: 1.0.95
   date: 2021-07-24T09:40:49.976Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 9a42919e695e85ea5d890190644a895b0d33b428
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3873,9 +3893,9 @@
   version: 1.0.94
   date: 2021-07-24T02:00:42.782Z
 - commits:
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: ca1ed27bc21c023e508f32452db5159473e46fa7
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3884,9 +3904,9 @@
   version: 1.0.93
   date: 2021-07-24T00:08:35.486Z
 - commits:
-    - subject: "\U0001F504 Synced file(s) with product-os/jellyfish-config"
+    - subject: 🔄 Synced file(s) with product-os/jellyfish-config
       hash: 4d12c615ae68048e08c7a4b00c5e8b9fb45e7f44
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3895,9 +3915,9 @@
   version: 1.0.92
   date: 2021-07-23T04:09:49.727Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.0.42'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.0.42"
       hash: fe2419e174856421db8a2ba7e66eae4065440e11
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3906,9 +3926,9 @@
   version: 1.0.91
   date: 2021-07-22T11:07:11.126Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.204'
+    - subject: "patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.204"
       hash: 3e91a6954f6fc8f358fe629cde3915ccc2fd6fc1
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3917,9 +3937,9 @@
   version: 1.0.90
   date: 2021-07-21T09:12:40.004Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: b8f34ce5e73c5c7bfdb3a68fbdbbb3967a050d44
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3928,9 +3948,9 @@
   version: 1.0.89
   date: 2021-07-17T07:02:49.742Z
 - commits:
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: 54cc8ea5f51b47fc8c549f11f91572567cb6f517
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3939,9 +3959,9 @@
   version: 1.0.88
   date: 2021-07-17T02:31:35.567Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 066127463517b3e0d0773e74cb2ae312c001b7c1
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3950,9 +3970,9 @@
   version: 1.0.87
   date: 2021-07-17T01:16:50.800Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-environment to ^4.3.17'
+    - subject: "patch: Update dependency @balena/jellyfish-environment to ^4.3.17"
       hash: 3b5e76a23b42fa2c98c587ab4c5f08559ccd6d18
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3961,9 +3981,9 @@
   version: 1.0.86
   date: 2021-07-16T23:27:40.434Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.0.35'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.0.35"
       hash: 1662cdf481a0c0139dd194a50fae8d73811b4151
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3974,7 +3994,7 @@
 - commits:
     - subject: Bump jellyfish-plugin-default to v19.0.0
       hash: 41ef3eb913d96f4f0164d5ee01a8b1a36129f15d
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3985,9 +4005,9 @@
   version: 1.0.84
   date: 2021-07-16T00:38:33.643Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: c98ea28007202352d6c310a79597fe64af073315
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3996,9 +4016,9 @@
   version: 1.0.83
   date: 2021-07-14T09:21:47.920Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.0.30'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.0.30"
       hash: 9d87a8381e129c399c5cf32853c90af68e4e8734
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4007,9 +4027,9 @@
   version: 1.0.82
   date: 2021-07-13T00:53:19.873Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.194'
+    - subject: "patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.194"
       hash: 7bcf6f417c1c7272eb7ca0d634715e7888790a4b
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4018,9 +4038,9 @@
   version: 1.0.81
   date: 2021-07-11T08:02:42.418Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.0.29'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.0.29"
       hash: eb4b4f563cddbfd2fb92670c73fcf464075c0282
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4029,9 +4049,9 @@
   version: 1.0.80
   date: 2021-07-11T06:59:30.463Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.0.28'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.0.28"
       hash: d0a81cac809f2d4ba6edce41d5381c91eadc8591
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4040,9 +4060,9 @@
   version: 1.0.79
   date: 2021-07-11T06:49:11.720Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.0.27'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.0.27"
       hash: 097ac748507d9240f3326800a27667b7230ad73d
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4051,9 +4071,9 @@
   version: 1.0.78
   date: 2021-07-11T03:41:36.437Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.193'
+    - subject: "patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.193"
       hash: 7ce110de1214fb642f6d2e59e97d93a913afe972
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4062,9 +4082,9 @@
   version: 1.0.77
   date: 2021-07-11T02:26:19.667Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 25bf80a000d56b386b6b5566981f39f67774029d
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4073,9 +4093,9 @@
   version: 1.0.76
   date: 2021-07-11T00:32:30.343Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: f4b47e4fb9ff97085668aef6adefc4bab85377b2
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4084,9 +4104,9 @@
   version: 1.0.75
   date: 2021-07-10T22:33:42.167Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-environment to ^4.3.14'
+    - subject: "patch: Update dependency @balena/jellyfish-environment to ^4.3.14"
       hash: 90cbc70427b436fa9b65e76b2d8f23dc890466b0
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4095,9 +4115,9 @@
   version: 1.0.74
   date: 2021-07-10T21:26:22.134Z
 - commits:
-    - subject: 'patch: Update dependency typedoc to ^0.21.3'
+    - subject: "patch: Update dependency typedoc to ^0.21.3"
       hash: 7f5f435aaaad32ee6032ce8f82610a9f9d353e5f
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4106,9 +4126,9 @@
   version: 1.0.73
   date: 2021-07-10T21:14:57.703Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.191'
+    - subject: "patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.191"
       hash: 570632dea6dcec48eaf49e48e321415066d6f0d0
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4117,9 +4137,9 @@
   version: 1.0.72
   date: 2021-07-10T21:02:38.458Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: f9f524b843f1c1501820d7c15f3f78d5268243a4
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4128,9 +4148,9 @@
   version: 1.0.71
   date: 2021-07-10T09:27:20.263Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.0.20'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.0.20"
       hash: 6b64cd9635b35ccf9e3c6128dabb3cc170b85cda
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4139,9 +4159,9 @@
   version: 1.0.70
   date: 2021-07-10T03:34:21.275Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.188'
+    - subject: "patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.188"
       hash: aa506a4848fada617157426f29132de9e239c7ce
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4150,9 +4170,9 @@
   version: 1.0.69
   date: 2021-07-10T02:17:40.776Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 08f5c905f2d6c345518a069da1ecaa075b25d651
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4161,9 +4181,9 @@
   version: 1.0.68
   date: 2021-07-10T01:35:29.372Z
 - commits:
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: 50b7fad3100f108f77dd59a9c704d0be590acdbd
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4172,7 +4192,7 @@
   version: 1.0.67
   date: 2021-07-10T00:22:31.803Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-plugin-default to v18'
+    - subject: "patch: Update dependency @balena/jellyfish-plugin-default to v18"
       hash: e03e8c21b9a0dbd0d49cc03ca0edc4a019872fa3
       body: |
         Update @balena/jellyfish-plugin-default from 17.0.0 to 18.0.1
@@ -4184,9 +4204,9 @@
   version: 1.0.66
   date: 2021-07-09T04:34:50.942Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 27eff3a974b4c2f7e2a6bd95d6817eec269a1976
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4195,9 +4215,9 @@
   version: 1.0.65
   date: 2021-07-09T02:30:12.306Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-environment to ^4.3.12'
+    - subject: "patch: Update dependency @balena/jellyfish-environment to ^4.3.12"
       hash: 1b3d8ab40b886b54e2780e6dc169ccf8e1961448
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4206,9 +4226,9 @@
   version: 1.0.64
   date: 2021-07-09T01:44:40.419Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.0.13'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.0.13"
       hash: 4e7caf743cf0bb0e46aa59a18d1f0cfe773671f5
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4217,9 +4237,9 @@
   version: 1.0.63
   date: 2021-07-08T00:02:26.609Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.0.12'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.0.12"
       hash: 28d871f982ea3ace8922fff4bad946fa2cda82b3
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4228,9 +4248,9 @@
   version: 1.0.62
   date: 2021-07-07T04:01:26.957Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 37aa1004841d1273f2ec47107bf5a3331a91e1ed
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4239,9 +4259,9 @@
   version: 1.0.61
   date: 2021-07-07T02:36:20.148Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: b5b005ecf389510179d90571ee0c34c274c60c7c
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4250,7 +4270,7 @@
   version: 1.0.60
   date: 2021-07-07T00:49:04.741Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-test-harness to v6'
+    - subject: "patch: Update dependency @balena/jellyfish-test-harness to v6"
       hash: e3934a5b5af4e401d308bb01a633b2a8da89b545
       body: |
         Update @balena/jellyfish-test-harness from 5.0.3 to 6.0.1
@@ -4262,9 +4282,9 @@
   version: 1.0.59
   date: 2021-07-07T00:35:00.386Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.0.8'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.0.8"
       hash: 8dba62b3b37edd896767e75293e1772604f563f5
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4273,9 +4293,9 @@
   version: 1.0.58
   date: 2021-07-06T02:38:05.933Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.0.7'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.0.7"
       hash: c133a66c11028fe95e09b70b294d3b69232d88a1
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4284,9 +4304,9 @@
   version: 1.0.57
   date: 2021-07-05T17:16:49.762Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.0.6'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.0.6"
       hash: e5fe21807959733c90a65977986972acab05aacd
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4295,9 +4315,9 @@
   version: 1.0.56
   date: 2021-07-05T15:42:39.958Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.0.5'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.0.5"
       hash: 46517f9e1e69c20b1bdd8bba16fe89d088749d8c
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4306,9 +4326,9 @@
   version: 1.0.55
   date: 2021-07-05T14:23:35.703Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^15.0.4'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^15.0.4"
       hash: 2faad4426488a925a122130f13cf3133fcd7a46e
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4317,9 +4337,9 @@
   version: 1.0.54
   date: 2021-07-05T11:01:30.391Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 237e9fbe335461ee2ebe30eed2d873489eed92f8
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4328,9 +4348,9 @@
   version: 1.0.53
   date: 2021-07-05T04:28:41.300Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 99cc8584e69a63ab1e681cb7abd599c8f4700c5c
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4339,7 +4359,7 @@
   version: 1.0.52
   date: 2021-07-05T02:37:01.933Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to v15'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to v15"
       hash: 7338394ff21a53fca22268fda0c297a6eaa9951d
       body: |
         Update @balena/jellyfish-action-library from 14.1.10 to 15.0.1
@@ -4351,7 +4371,7 @@
   version: 1.0.51
   date: 2021-07-05T01:03:00.747Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-plugin-default to v17'
+    - subject: "patch: Update dependency @balena/jellyfish-plugin-default to v17"
       hash: ac3255685f8517c74171a3ec844ec434e0455b0a
       body: |
         Update @balena/jellyfish-plugin-default from 16.0.0 to 17.0.0
@@ -4363,9 +4383,9 @@
   version: 1.0.50
   date: 2021-07-05T00:35:09.824Z
 - commits:
-    - subject: 'patch: Update dependency nock to ^13.1.1'
+    - subject: "patch: Update dependency nock to ^13.1.1"
       hash: cb435ca632121a5ea3eaa42c3f05fad1473afd4f
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4374,9 +4394,9 @@
   version: 1.0.49
   date: 2021-07-04T19:57:10.019Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^14.1.10'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^14.1.10"
       hash: b8d5f0071a1f7f7df5f9040fdd97a3cae22d5020
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4385,9 +4405,9 @@
   version: 1.0.48
   date: 2021-07-04T19:47:18.511Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^14.1.9'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^14.1.9"
       hash: e754445f5d1da68c830edec8127266fc7971d8b4
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4396,9 +4416,9 @@
   version: 1.0.47
   date: 2021-07-04T19:37:49.926Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^14.1.8'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^14.1.8"
       hash: 6aaed37a43ea445f99befd1d2f962a47770b91cf
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4407,9 +4427,9 @@
   version: 1.0.46
   date: 2021-07-04T15:03:26.496Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^14.1.7'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^14.1.7"
       hash: 46ea53d83c324b6e0cebe1866514173857c0756c
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4418,9 +4438,9 @@
   version: 1.0.45
   date: 2021-07-04T04:52:23.783Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^14.1.6'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^14.1.6"
       hash: 94e4700bc23aef933bd02aeeccafeefb37a5d79c
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4429,9 +4449,9 @@
   version: 1.0.44
   date: 2021-07-04T01:58:09.719Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^14.1.4'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^14.1.4"
       hash: fee161fedac2355e0508203135990d57a4159080
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4440,9 +4460,9 @@
   version: 1.0.43
   date: 2021-07-04T00:09:40.072Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^14.1.3'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^14.1.3"
       hash: 727a420d72d350a96567d4fc50fe8f27e2a1bbc1
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4451,9 +4471,9 @@
   version: 1.0.42
   date: 2021-07-03T23:57:40.136Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 3fad9f7d8c47b8edf9745b28c5e27d67ba8f8794
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4462,9 +4482,9 @@
   version: 1.0.41
   date: 2021-07-03T03:54:39.106Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: b91f312122db7c9a75e770e41e63795b2a39b2ec
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4473,9 +4493,9 @@
   version: 1.0.40
   date: 2021-07-03T01:23:55.694Z
 - commits:
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: 1fb9b1f7acb64275caee65d7a696d37630067c52
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4484,9 +4504,9 @@
   version: 1.0.39
   date: 2021-07-03T00:03:40.574Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-environment to ^4.3.6'
+    - subject: "patch: Update dependency @balena/jellyfish-environment to ^4.3.6"
       hash: 250ac68273df4b2bca9de3859552b47430a53f36
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4495,7 +4515,7 @@
   version: 1.0.38
   date: 2021-07-02T22:58:59.432Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-core to v5'
+    - subject: "patch: Update dependency @balena/jellyfish-core to v5"
       hash: f454526a07831fe12a1fe841b78ca3d14ca899b3
       body: |
         Update @balena/jellyfish-core from 4.0.0 to 5.0.1
@@ -4507,9 +4527,9 @@
   version: 1.0.37
   date: 2021-07-02T22:49:21.089Z
 - commits:
-    - subject: "\U0001F504 Synced file(s) with product-os/jellyfish-config"
+    - subject: 🔄 Synced file(s) with product-os/jellyfish-config
       hash: 13c76ab3835dbf363366e805ce7b36da18e2f9e6
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4518,9 +4538,9 @@
   version: 1.0.36
   date: 2021-07-02T22:33:09.986Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.180'
+    - subject: "patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.180"
       hash: 10469cb684fec2802a2ab345e6137dc83b678f27
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4529,9 +4549,9 @@
   version: 1.0.35
   date: 2021-07-02T09:39:51.622Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 545bec7fe188e4aba45df2055909712ae1cb789c
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4540,9 +4560,9 @@
   version: 1.0.34
   date: 2021-07-02T07:40:40.164Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^14.1.2'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^14.1.2"
       hash: 88b600050e38cc44416fcd21fd608cc205aa49fc
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4553,7 +4573,7 @@
 - commits:
     - subject: Replace ci-task-runner with go-task
       hash: bccd94d1b9810f47445ce3ec0c22815563cc126b
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4564,9 +4584,9 @@
   version: 1.0.32
   date: 2021-07-02T02:54:36.858Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^14.1.1'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^14.1.1"
       hash: 390b1b8494d4d3e814258ddae06f9774a335e7d5
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4575,7 +4595,7 @@
   version: 1.0.31
   date: 2021-06-30T23:44:56.856Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-plugin-default to v16'
+    - subject: "patch: Update dependency @balena/jellyfish-plugin-default to v16"
       hash: dc501be162cb83f1cef2f6dd38e83670c5ca72a3
       body: |
         Update @balena/jellyfish-plugin-default from 15.0.7 to 16.0.0
@@ -4587,7 +4607,7 @@
   version: 1.0.30
   date: 2021-06-30T10:42:50.393Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^14.1.0'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^14.1.0"
       hash: 17f062fa07220bd098b5cbc5b9f0fbddc915c40c
       body: |
         Update @balena/jellyfish-action-library from 14.0.27 to 14.1.0
@@ -4599,9 +4619,9 @@
   version: 1.0.29
   date: 2021-06-30T10:33:00.200Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 3c4633faab0b75a57a9ad79d32205e6a7698559a
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4610,9 +4630,9 @@
   version: 1.0.28
   date: 2021-06-30T06:04:40.394Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^14.0.24'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^14.0.24"
       hash: e8d8e8cd41685fd06616187d106add03aa0ab780
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4621,9 +4641,9 @@
   version: 1.0.27
   date: 2021-06-30T02:34:10.031Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: b1e4492a92abbb783de9431e4e81cf3d2092c51c
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4632,9 +4652,9 @@
   version: 1.0.26
   date: 2021-06-30T02:23:05.931Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 4ad179d767175483892aab7aca88a710eda9e257
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4643,7 +4663,7 @@
   version: 1.0.25
   date: 2021-06-30T01:41:38.376Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-test-harness to v5'
+    - subject: "patch: Update dependency @balena/jellyfish-test-harness to v5"
       hash: 53ed304d8ea7af8770289f936710d8c49cfb5937
       body: |
         Update @balena/jellyfish-test-harness from 4.0.1 to 5.0.3
@@ -4655,9 +4675,9 @@
   version: 1.0.24
   date: 2021-06-30T00:13:34.590Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 965e0b7b5b6e7e72af953614b22c9b594bfa0fad
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4666,9 +4686,9 @@
   version: 1.0.23
   date: 2021-06-30T00:03:30.783Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: bb4e8387310a113dcaec7b61021fd75bb33a7020
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4677,9 +4697,9 @@
   version: 1.0.22
   date: 2021-06-29T11:03:08.174Z
 - commits:
-    - subject: 'patch: Update dependency @balena/ci-task-runner to ^0.3.3'
+    - subject: "patch: Update dependency @balena/ci-task-runner to ^0.3.3"
       hash: d81d4a81f2f0ecb1f3d8b0ce2f57cfbc113f483b
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4688,9 +4708,9 @@
   version: 1.0.21
   date: 2021-06-29T08:45:38.210Z
 - commits:
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: be86ede563b0809b876145eaf34ae76ac846314f
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4699,9 +4719,9 @@
   version: 1.0.20
   date: 2021-06-29T08:35:20.205Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^14.0.15'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^14.0.15"
       hash: a2e232d1c9f5012543ce158f1e15a5f498944e4f
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4710,9 +4730,9 @@
   version: 1.0.19
   date: 2021-06-26T04:06:20.153Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^14.0.14'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^14.0.14"
       hash: e5daab13ca5f06a92e1cbad8dcc53d68062f7404
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4723,7 +4743,7 @@
 - commits:
     - subject: Bump dev deps
       hash: 6893bb8ac5419c5e47e1203eb3ec36ac9a4b3304
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4734,9 +4754,9 @@
   version: 1.0.17
   date: 2021-06-26T02:18:55.258Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 5b61936a4bd529127c12aaa060e29eab67abfbc5
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4745,9 +4765,9 @@
   version: 1.0.16
   date: 2021-06-26T01:27:02.735Z
 - commits:
-    - subject: 'patch: Update external-major'
+    - subject: "patch: Update external-major"
       hash: a0b9283967d4ccdbda76b05f7304f8d21c482a01
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4756,9 +4776,9 @@
   version: 1.0.15
   date: 2021-06-26T01:15:36.742Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 5ce0762bca15323f4693317832e960e32c03788c
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4767,9 +4787,9 @@
   version: 1.0.14
   date: 2021-06-25T23:38:36.556Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: e2c6929021d73e5f20de631cee56522345116bdf
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4778,9 +4798,9 @@
   version: 1.0.13
   date: 2021-06-25T02:43:41.158Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^14.0.11'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^14.0.11"
       hash: c62bfd97c5637f2c7e45722ad01dcde4d32de371
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4789,9 +4809,9 @@
   version: 1.0.12
   date: 2021-06-24T23:53:11.954Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^14.0.9'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^14.0.9"
       hash: 52456eef86c8b8bb19ba05240627195b1fc022b2
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4800,9 +4820,9 @@
   version: 1.0.11
   date: 2021-06-24T15:43:50.164Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.164'
+    - subject: "patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.164"
       hash: b3c6d2e5625f8ba7b44f04c1147bfefb6afaee55
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4811,7 +4831,7 @@
   version: 1.0.10
   date: 2021-06-24T14:38:21.480Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-environment to ^4.3.0'
+    - subject: "patch: Update dependency @balena/jellyfish-environment to ^4.3.0"
       hash: d1410154399efe4563766fd155dfc19fd46242ec
       body: |
         Update @balena/jellyfish-environment from 4.2.8 to 4.3.0
@@ -4823,9 +4843,9 @@
   version: 1.0.9
   date: 2021-06-24T14:27:39.703Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-action-library to ^14.0.8'
+    - subject: "patch: Update dependency @balena/jellyfish-action-library to ^14.0.8"
       hash: 4e870676d3197ffeedb5dbb8abf92b27a169e73e
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4836,7 +4856,7 @@
 - commits:
     - subject: Bump jellyfish-core dev dependency
       hash: 3a81553ddcc453f96f1b80640d26e9513ae8c319
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4846,7 +4866,7 @@
       nested: []
     - subject: Fix expected test results
       hash: cd39e5ee828f5be7792a89ccc2584f278ac2650f
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4859,7 +4879,7 @@
 - commits:
     - subject: Update Renovate config
       hash: 7cf93db553638b8c9784117ce37b89d09f3221af
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4872,7 +4892,7 @@
 - commits:
     - subject: Add JF peer dependencies
       hash: bf343d900f332bc84005455986681fc3ad359168
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4882,7 +4902,7 @@
       nested: []
     - subject: Update test-harness call
       hash: 0104be2d09793fe2c36cc32cc9a408f5fc8bd918
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4893,9 +4913,9 @@
   version: 1.0.5
   date: 2021-06-24T02:42:31.083Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.163'
+    - subject: "patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.163"
       hash: d4259ea0f57f1d4492bd400aca9cfebf5c30d298
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4904,7 +4924,7 @@
   version: 1.0.4
   date: 2021-06-24T01:27:20.728Z
 - commits:
-    - subject: 'patch: Update dependency @balena/ci-task-runner to ^0.3.1'
+    - subject: "patch: Update dependency @balena/ci-task-runner to ^0.3.1"
       hash: 8d48d4548ad79769fb9584155c477985de58b7c1
       body: |
         Update @balena/ci-task-runner from 0.2.165 to 0.3.1
@@ -4916,9 +4936,9 @@
   version: 1.0.3
   date: 2021-06-24T00:53:20.857Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 943a350666457f20da454ec6e6fa4c57a343fc8a
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4929,7 +4949,7 @@
 - commits:
     - subject: Enable Renovate
       hash: f800231e718edbf6dfe959acce7a86a2a5e0d524
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4940,9 +4960,9 @@
   version: 1.0.1
   date: 2021-06-24T00:29:57.099Z
 - commits:
-    - subject: 'Add code, convert to TypeScript'
+    - subject: Add code, convert to TypeScript
       hash: c3b5449199674ffaf7f6cc3265ea18d83e16f3b6
-      body: ''
+      body: ""
       footer:
         Change-type: major
         change-type: major

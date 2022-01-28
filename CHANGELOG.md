@@ -4,6 +4,11 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 1.0.415 - 2022-01-28
+
+* Update resinci/jellyfish-test Docker tag to v1.4.21 [Renovate Bot]
+* Update balena/balena-redis Docker tag to v0.0.4 [Renovate Bot]
+
 ## 1.0.414 - 2022-01-26
 
 * patch: Update dependency @balena/jellyfish-action-library to ^16.2.18 [Renovate Bot]
