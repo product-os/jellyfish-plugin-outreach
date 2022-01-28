@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 1.0.416 - 2022-01-28
+
+* 🔄 Synced file(s) with product-os/secrets [joshbwlng]
+
 ## 1.0.415 - 2022-01-28
 
 * Update resinci/jellyfish-test Docker tag to v1.4.21 [Renovate Bot]
