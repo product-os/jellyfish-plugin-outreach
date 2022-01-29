@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 1.0.417 - 2022-01-29
+
+* Update dependencies (external non-major bumps) [Renovate Bot]
+
 ## 1.0.416 - 2022-01-28
 
 * 🔄 Synced file(s) with product-os/secrets [joshbwlng]

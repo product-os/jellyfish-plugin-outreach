@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update dependencies (external non-major bumps)
+      hash: 330c24bdf02f674ad29330ec98bc114b50fb6fbf
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.0.417
+  title: Update dependencies (external non-major bumps)
+  date: 2022-01-29T00:50:58.935Z
+- commits:
     - subject: 🔄 Synced file(s) with product-os/secrets
       hash: 92fd4fdb0e7ef776ac3853c4d2b62c308e5748cb
       body: ""
