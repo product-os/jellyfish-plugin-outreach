@@ -56,7 +56,7 @@
   "devDependencies": {
     "@balena/jellyfish-config": "^2.0.2",
     "@balena/jellyfish-core": "^11.1.6",
-    "@balena/jellyfish-plugin-default": "^21.2.0",
+    "@balena/jellyfish-plugin-default": "^22.0.6",
     "@balena/jellyfish-sync": "^6.3.0",
     "@balena/jellyfish-test-harness": "^9.2.2",
     "@balena/jellyfish-types": "^2.0.0",
