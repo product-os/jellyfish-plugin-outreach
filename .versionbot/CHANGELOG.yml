@@ -1,4 +1,19 @@
 - commits:
+    - subject: Use worker
+      hash: 6f881ddd9890b986b2dfdaabca01537bd58756e4
+      body: |
+        Switch from plugin-base and test-harness to worker
+      footer:
+        Change-type: major
+        change-type: major
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 2.0.0
+  title: Use worker
+  date: 2022-02-01T05:29:12.077Z
+- commits:
     - subject: Update resinci/jellyfish-test Docker tag to v1.4.22
       hash: 6b262482cc7c820910ea7b09654b2879bbf227b0
       body: ""

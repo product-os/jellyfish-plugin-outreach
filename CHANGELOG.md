@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 2.0.0 - 2022-02-01
+
+* Use worker [Josh Bowling]
+
 ## 1.0.420 - 2022-01-31
 
 * Update resinci/jellyfish-test Docker tag to v1.4.22 [Renovate Bot]
