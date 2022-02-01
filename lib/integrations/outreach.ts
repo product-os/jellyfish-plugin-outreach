@@ -1,7 +1,13 @@
 import * as assert from '@balena/jellyfish-assert';
-import { Integration } from '@balena/jellyfish-plugin-base';
-import _ from 'lodash';
+import type { Contract } from '@balena/jellyfish-types/build/core';
+import {
+	Integration,
+	IntegrationDefinition,
+	SequenceItem,
+	syncErrors,
+} from '@balena/jellyfish-worker';
 import crypto from 'crypto';
+import _ from 'lodash';
 import { v4 as isUUID } from 'is-uuid';
 
 const MAX_NAME_LENGTH = 50;
@@ -85,7 +91,6 @@ const getProspectAttributes = (contact: any) => {
 async function getProspectByEmail(
 	context: any,
 	actor: string,
-	errors: any,
 	baseUrl: string,
 	emails: any,
 ): Promise<any> {
@@ -122,7 +127,7 @@ async function getProspectByEmail(
 		assert.INTERNAL(
 			null,
 			searchResult.code === 200 || searchResult.code === 404,
-			errors.SyncExternalRequestError,
+			syncErrors.SyncExternalRequestError,
 			`Cannot find prospect by email ${emails}: ${searchResult.code}`,
 		);
 
@@ -161,7 +166,6 @@ async function upsertProspect(
 	const prospect = await getProspectByEmail(
 		context,
 		actor,
-		errors,
 		baseUrl,
 		contactEmail,
 	);
@@ -260,9 +264,14 @@ async function upsertProspect(
 			url: uri,
 		});
 
-		assert.INTERNAL(null, retries > 0, errors.SyncExternalRequestError, () => {
-			return `Prospect validation error: ${JSON.stringify(body, null, 2)}`;
-		});
+		assert.INTERNAL(
+			null,
+			retries > 0,
+			syncErrors.SyncExternalRequestError,
+			() => {
+				return `Prospect validation error: ${JSON.stringify(body, null, 2)}`;
+			},
+		);
 
 		return upsertProspect(context, actor, errors, baseUrl, card, retries - 1);
 	}
@@ -298,7 +307,7 @@ async function upsertProspect(
 		assert.INTERNAL(
 			null,
 			result.code === 200,
-			errors.SyncExternalRequestError,
+			syncErrors.SyncExternalRequestError,
 			() => {
 				return [
 					`Could not update prospect: Got ${result.code} ${JSON.stringify(
@@ -348,7 +357,7 @@ async function upsertProspect(
 	assert.INTERNAL(
 		null,
 		result.code === 201,
-		errors.SyncExternalRequestError,
+		syncErrors.SyncExternalRequestError,
 		() => {
 			return [
 				`Could not create prospect: Got ${result.code} ${JSON.stringify(
@@ -395,27 +404,29 @@ function getSequenceCard(url: string, attributes: any, options: any): any {
 	};
 }
 
-module.exports = class OutreachIntegration implements Integration {
+export class OutreachIntegration implements Integration {
 	public slug = SLUG;
-	public context: any;
-	public options: any;
 	public baseUrl: string;
 
+	// TS-TODO: Use proper types
+	public context: any;
+	public options: any;
+
+	// TS-TODO: Use proper types
 	constructor(options: any) {
 		this.options = options;
 		this.context = this.options.context;
 		this.baseUrl = 'https://api.outreach.io';
 	}
 
-	async initialize() {
+	public async destroy() {
 		return Promise.resolve();
 	}
 
-	async destroy() {
-		return Promise.resolve();
-	}
-
-	async mirror(card: any, options: any): Promise<any> {
+	public async mirror(
+		card: Contract,
+		options: { actor: string },
+	): Promise<SequenceItem[]> {
 		const baseType = card.type.split('@')[0];
 		if (baseType !== 'contact') {
 			return [];
@@ -425,22 +436,27 @@ module.exports = class OutreachIntegration implements Integration {
 			return [];
 		}
 
-		return upsertProspect(
+		const upsertResult = await upsertProspect(
 			this.context,
 			options.actor,
 			this.options.errors,
 			this.baseUrl,
 			card,
 		);
+
+		return upsertResult;
 	}
 
-	async translate(event: any): Promise<any> {
+	// TS-TODO: May want to use EventContract with typed data.payload
+	// so we can stop casting as any multiple times within this function
+	public async translate(event: Contract): Promise<SequenceItem[]> {
 		if (!this.options.token.appId || !this.options.token.appSecret) {
 			return [];
 		}
 
-		const data = event.data.payload.data;
-		const orgId = event.data.headers['outreach-org-id'];
+		// TS-TODO: Stop casting as any
+		const data = (event.data.payload as any).data;
+		const orgId = (event.data.headers as any)['outreach-org-id'];
 
 		// Lets only translate sequences for now
 		if (data.type !== 'sequence') {
@@ -452,7 +468,8 @@ module.exports = class OutreachIntegration implements Integration {
 			return [];
 		}
 
-		const eventType = event.data.payload.meta.eventName;
+		// TS-TODO: Stop casting as any
+		const eventType = (event.data.payload as any).meta.eventName;
 
 		// The Balena API doesn't emit actors in events, so most
 		// of them will be done by the admin user.
@@ -463,7 +480,7 @@ module.exports = class OutreachIntegration implements Integration {
 		assert.INTERNAL(
 			null,
 			adminActorId,
-			this.options.errors.SyncNoActor,
+			syncErrors.SyncNoActor,
 			`No such actor: ${this.options.defaultUser}`,
 		);
 
@@ -499,7 +516,7 @@ module.exports = class OutreachIntegration implements Integration {
 			assert.INTERNAL(
 				null,
 				remoteSequence.code === 200,
-				this.options.errors.SyncExternalRequestError,
+				syncErrors.SyncExternalRequestError,
 				() => {
 					return `Could not get sequence from ${url}: ${JSON.stringify(
 						remoteSequence,
@@ -520,10 +537,11 @@ module.exports = class OutreachIntegration implements Integration {
 			data.attributes.shareType === 'shared' ||
 			_.isNil(data.attributes.shareType);
 
+		// TS-TODO: Stop casting as any
 		const sequenceCard = getSequenceCard(url, data.attributes, {
 			id: data.id,
 			active: eventType !== 'sequence.destroyed' && isPublic,
-			translateDate: new Date(event.data.payload.meta.deliveredAt),
+			translateDate: new Date((event.data.payload as any).meta.deliveredAt),
 			orgId,
 		});
 
@@ -536,11 +554,12 @@ module.exports = class OutreachIntegration implements Integration {
 			}
 		}
 
+		// TS-TODO: Stop casting as any
 		const updateTimestamp =
 			data.attributes.updatedAt &&
 			data.attributes.updatedAt !== data.attributes.createdAt
 				? data.attributes.updatedAt
-				: event.data.payload.meta.deliveredAt;
+				: (event.data.payload as any).meta.deliveredAt;
 
 		const date =
 			eventType === 'sequence.created'
@@ -555,76 +574,60 @@ module.exports = class OutreachIntegration implements Integration {
 			},
 		];
 	}
-};
+}
 
-module.exports.slug = SLUG;
+export const outreachIntegrationDefinition: IntegrationDefinition = {
+	initialize: async (options) => new OutreachIntegration(options),
+	isEventValid: (token, rawEvent, headers) => {
+		const signature = headers['outreach-webhook-signature'];
+		if (!signature) {
+			return false;
+		}
 
-module.exports.OAUTH_BASE_URL = 'https://api.outreach.io';
-module.exports.OAUTH_SCOPES = [
-	'prospects.all',
-	'sequences.all',
-	'sequenceStates.all',
-	'sequenceSteps.all',
-	'sequenceTemplates.all',
-	'mailboxes.all',
-	'webhooks.all',
-];
+		if (!token || !token.signature) {
+			return false;
+		}
 
-module.exports.isEventValid = (token: any, rawEvent: any, headers: any) => {
-	const signature = headers['outreach-webhook-signature'];
-	if (!signature) {
-		return false;
-	}
+		const hash = crypto
+			.createHmac('sha256', token.signature)
+			.update(rawEvent)
+			.digest('hex');
 
-	if (!token || !token.signature) {
-		return false;
-	}
+		return hash === signature;
+	},
+	whoami: async () => {
+		_.constant(null);
+	},
+	OAUTH_BASE_URL: 'https://api.outreach.io',
+	OAUTH_SCOPES: [
+		'prospects.all',
+		'sequences.all',
+		'sequenceStates.all',
+		'sequenceSteps.all',
+		'sequenceTemplates.all',
+		'mailboxes.all',
+		'webhooks.all',
+	],
+	match: async (context, _externalUser, options) => {
+		assert.INTERNAL(
+			context,
+			options.slug,
+			syncErrors.SyncInvalidArg,
+			'Slug is a required argument',
+		);
 
-	const hash = crypto
-		.createHmac('sha256', token.signature)
-		.update(rawEvent)
-		.digest('hex');
+		const user = await context.getElementBySlug(options.slug);
 
-	return hash === signature;
-};
+		assert.INTERNAL(
+			context,
+			user,
+			syncErrors.SyncNoMatchingUser,
+			`Could not find user matching outreach user by slug "${options.slug}"`,
+		);
 
-/*
- * There's no way to get user info by credentials from outreach.
- */
-module.exports.whoami = _.constant(null);
-
-/*
- * Since there's no way to get external user,
- * falling back to using the slug.
- */
-module.exports.match = async (
-	context: any,
-	_externalUser: any,
-	options: any,
-) => {
-	assert.INTERNAL(
-		context,
-		options.slug,
-		options.errors.SyncInvalidArg,
-		'Slug is a required argument',
-	);
-
-	const user = await context.getElementBySlug(options.slug);
-
-	assert.INTERNAL(
-		context,
-		user,
-		options.errors.SyncNoMatchingUser,
-		`Could not find user matching outreach user by slug "${options.slug}"`,
-	);
-
-	return user;
-};
-
-module.exports.getExternalUserSyncEventData = async (
-	_context: any,
-	_externalUser: any,
-	_options: any,
-) => {
-	throw new Error('Not implemented');
+		return user;
+	},
+	getExternalUserSyncEventData: async () => {
+		throw new Error('Not implemented');
+	},
 };
