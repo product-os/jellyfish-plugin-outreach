@@ -1,30 +1,27 @@
-import { JellyfishPluginBase } from '@balena/jellyfish-plugin-base';
+import type { PluginDefinition } from '@balena/jellyfish-worker';
 import { actions } from './actions';
-import { cards } from './cards';
-import integrations from './integrations';
+import { contracts } from './contracts';
+import { integrations } from './integrations';
+
+// tslint:disable-next-line: no-var-requires
+const { version } = require('../package.json');
 
 /**
  * The Outreach Jellyfish plugin.
  */
-export class OutreachPlugin extends JellyfishPluginBase {
-	constructor() {
-		super({
-			slug: 'jellyfish-plugin-outreach',
-			name: 'Outreach Plugin',
-			version: '1.0.0',
-			actions,
-			cards,
-			integrations,
-			requires: [
-				{
-					slug: 'action-library',
-					version: '>=14.x',
-				},
-				{
-					slug: 'jellyfish-plugin-default',
-					version: '>=19.x',
-				},
-			],
-		});
-	}
-}
+export const outreachPlugin = (): PluginDefinition => {
+	return {
+		slug: 'plugin-outreach',
+		name: 'Outreach Plugin',
+		version,
+		actions,
+		contracts,
+		integrationMap: integrations,
+		requires: [
+			{
+				slug: 'plugin-default',
+				version: '>=23.x',
+			},
+		],
+	};
+};

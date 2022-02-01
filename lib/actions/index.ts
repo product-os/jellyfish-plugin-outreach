@@ -1,7 +1,6 @@
-import type { ActionFile } from '@balena/jellyfish-plugin-base';
-import type { ContractData } from '@balena/jellyfish-types/build/core';
+import type { ActionDefinition } from '@balena/jellyfish-worker';
 import { actionIntegrationOutreachMirrorEvent } from './action-integration-outreach-mirror-event';
 
-export const actions: Array<ActionFile<ContractData>> = [
+export const actions: ActionDefinition[] = [
 	actionIntegrationOutreachMirrorEvent,
 ];

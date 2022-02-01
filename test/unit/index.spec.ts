@@ -1,47 +1,38 @@
-import { cardMixins } from '@balena/jellyfish-core';
+import { defaultPlugin } from '@balena/jellyfish-plugin-default';
 import {
 	getAccessToken,
 	getAuthorizeUrl,
-	OAuthUnsuccessfulResponse,
-} from '@balena/jellyfish-sync/build/oauth';
+} from '@balena/jellyfish-worker/build/sync/oauth';
+import { PluginManager } from '@balena/jellyfish-worker';
+import { strict as assert } from 'assert';
 import _ from 'lodash';
 import nock from 'nock';
 import querystring from 'querystring';
-import { OutreachPlugin } from '../../lib';
+import { outreachPlugin } from '../../lib';
+import { outreachIntegrationDefinition } from '../../lib/integrations/outreach';
 
-// tslint:disable-next-line: no-var-requires
-const OutreachIntegration = require('../../lib/integrations/outreach');
+const pluginManager = new PluginManager([defaultPlugin(), outreachPlugin()]);
 
-const context = {
-	id: 'jellyfish-plugin-outreach-test',
-};
-
-const plugin = new OutreachPlugin();
-
-test('Expected cards are loaded', () => {
-	const cards = plugin.getCards(context, cardMixins);
-
-	// Sanity check
+test('Expected contracts are loaded', () => {
+	const contracts = pluginManager.getCards();
 	expect(
-		cards['triggered-action-integration-outreach-mirror-event'].name,
+		contracts['triggered-action-integration-outreach-mirror-event'].name,
 	).toEqual('Triggered action for Outreach mirrors');
-	expect(cards['oauth-client-outreach'].name).toEqual('Outreach oauth client');
-	expect(cards['oauth-provider-outreach'].name).toEqual(
+	expect(contracts['oauth-client-outreach'].name).toEqual(
+		'Outreach oauth client',
+	);
+	expect(contracts['oauth-provider-outreach'].name).toEqual(
 		'Outreach oauth provider',
 	);
 });
 
 test('Expected integrations are loaded', () => {
-	const integrations = plugin.getSyncIntegrations(context);
-
-	// Sanity check
-	expect(integrations.outreach.slug).toEqual('outreach');
+	const integrations = pluginManager.getSyncIntegrations();
+	expect(Object.keys(integrations).includes('outreach')).toBeTruthy();
 });
 
 test('Expected actions are loaded', () => {
-	const actions = plugin.getActions(context);
-
-	// Sanity check
+	const actions = pluginManager.getActions();
 	expect(
 		Object.keys(actions).includes('action-integration-outreach-mirror-event'),
 	);
@@ -49,9 +40,11 @@ test('Expected actions are loaded', () => {
 
 // TS-TODO: Use sync.getAssociateUrl() once we can create a Sync instance in TS
 test('getAuthorizeUrl() should be able to generate an Outreach URL', () => {
+	assert(outreachIntegrationDefinition.OAUTH_BASE_URL);
+	assert(outreachIntegrationDefinition.OAUTH_SCOPES);
 	const result = getAuthorizeUrl(
-		OutreachIntegration.OAUTH_BASE_URL,
-		OutreachIntegration.OAUTH_SCOPES,
+		outreachIntegrationDefinition.OAUTH_BASE_URL,
+		outreachIntegrationDefinition.OAUTH_SCOPES,
 		'user-jellyfish',
 		{
 			appId: 'dJyXQHeh8PLKUr4gdsoUYQ8vFvqJ1D20lnFMxBLg',
@@ -63,7 +56,7 @@ test('getAuthorizeUrl() should be able to generate an Outreach URL', () => {
 		'response_type=code',
 		'client_id=dJyXQHeh8PLKUr4gdsoUYQ8vFvqJ1D20lnFMxBLg',
 		'redirect_uri=https%3A%2F%2Fjel.ly.fish%2Foauth%2Foutreach',
-		`scope=${OutreachIntegration.OAUTH_SCOPES.join('+')}`,
+		`scope=${outreachIntegrationDefinition.OAUTH_SCOPES.join('+')}`,
 		'state=user-jellyfish',
 	].join('&');
 
@@ -110,17 +103,17 @@ test('getAccessToken() should throw given a code mismatch', async () => {
 			]);
 		});
 
-	expect.hasAssertions();
-
-	try {
-		await getAccessToken(OutreachIntegration.OAUTH_BASE_URL, 'invalidcode', {
-			appId: 'dJyXQHeh8PLKUr4gdsoUYQ8vFvqJ1D20lnFMxBLg',
-			appSecret: 'NlfY38rTt5xxa+Ehi2kV/2rA85C98iDdMF7xD9xr',
-			redirectUri: 'https://jel.ly.fish/oauth/outreach',
-		});
-	} catch (error) {
-		expect(error instanceof OAuthUnsuccessfulResponse).toBe(true);
-	}
+	await expect(
+		getAccessToken(
+			outreachIntegrationDefinition.OAUTH_BASE_URL,
+			'invalidcode',
+			{
+				appId: 'dJyXQHeh8PLKUr4gdsoUYQ8vFvqJ1D20lnFMxBLg',
+				appSecret: 'NlfY38rTt5xxa+Ehi2kV/2rA85C98iDdMF7xD9xr',
+				redirectUri: 'https://jel.ly.fish/oauth/outreach',
+			},
+		),
+	).rejects.toThrowError();
 
 	nock.cleanAll();
 });
