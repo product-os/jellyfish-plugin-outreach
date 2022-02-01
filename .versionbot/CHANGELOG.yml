@@ -1,4 +1,18 @@
 - commits:
+    - subject: Fix isEventValid arguments
+      hash: db527de8116003d319fdd1e550959d35f971c911
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 2.0.1
+  title: Fix isEventValid arguments
+  date: 2022-02-01T06:51:07.289Z
+- commits:
     - subject: Use worker
       hash: 6f881ddd9890b986b2dfdaabca01537bd58756e4
       body: |

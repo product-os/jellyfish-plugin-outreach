@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 2.0.1 - 2022-02-01
+
+* Fix isEventValid arguments [Josh Bowling]
+
 ## 2.0.0 - 2022-02-01
 
 * Use worker [Josh Bowling]
