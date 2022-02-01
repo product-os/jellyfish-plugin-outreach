@@ -578,7 +578,7 @@ export class OutreachIntegration implements Integration {
 
 export const outreachIntegrationDefinition: IntegrationDefinition = {
 	initialize: async (options) => new OutreachIntegration(options),
-	isEventValid: (token, rawEvent, headers) => {
+	isEventValid: (_logContext, token, rawEvent, headers) => {
 		const signature = headers['outreach-webhook-signature'];
 		if (!signature) {
 			return false;
