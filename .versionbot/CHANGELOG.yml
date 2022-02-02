@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update @balena/jellyfish-worker from 18.1.0 to 18.2.0
+      hash: 3ebc1873467468b547f7f7b185455b70162800f5
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.0.2
+  title: Update @balena/jellyfish-worker from 18.1.0 to 18.2.0
+  date: 2022-02-02T04:27:34.219Z
+- commits:
     - subject: Fix isEventValid arguments
       hash: db527de8116003d319fdd1e550959d35f971c911
       body: ""
