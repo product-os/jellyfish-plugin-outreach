@@ -2,12 +2,12 @@ import { defaultEnvironment } from '@balena/jellyfish-environment';
 import type { ContractDefinition } from '@balena/jellyfish-types/build/core';
 
 const scopes = [
+	'mailboxes.all',
 	'prospects.all',
 	'sequences.all',
 	'sequenceStates.all',
 	'sequenceSteps.all',
 	'sequenceTemplates.all',
-	'mailboxes.all',
 	'webhooks.all',
 ];
 
