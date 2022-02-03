@@ -3,8 +3,8 @@ import { productOsPlugin } from '@balena/jellyfish-plugin-product-os';
 import { testUtils as workerTestUtils } from '@balena/jellyfish-worker';
 import _ from 'lodash';
 import path from 'path';
-import { OAUTH_DETAILS, patchUser } from './helpers';
 import { outreachPlugin } from '../../lib';
+import { OAUTH_DETAILS, patchUser } from './helpers';
 import webhooks from './webhooks';
 
 // const TOKEN = defaultEnvironment.integration.outreach;

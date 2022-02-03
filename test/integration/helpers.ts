@@ -1,6 +1,6 @@
+import { strict as assert } from 'assert';
 import { defaultEnvironment } from '@balena/jellyfish-environment';
 import { testUtils as workerTestUtils } from '@balena/jellyfish-worker';
-import { strict as assert } from 'assert';
 
 export const OAUTH_DETAILS = {
 	access_token: 'MTQ0NjJkZmQ5OTM2NDE1ZTZjNGZmZjI3',

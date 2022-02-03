@@ -1,10 +1,6 @@
-import { defaultPlugin } from '@balena/jellyfish-plugin-default';
-import {
-	getAccessToken,
-	getAuthorizeUrl,
-} from '@balena/jellyfish-worker/build/sync/oauth';
-import { PluginManager } from '@balena/jellyfish-worker';
 import { strict as assert } from 'assert';
+import { defaultPlugin } from '@balena/jellyfish-plugin-default';
+import { oauth, PluginManager } from '@balena/jellyfish-worker';
 import _ from 'lodash';
 import nock from 'nock';
 import querystring from 'querystring';
@@ -39,10 +35,10 @@ test('Expected actions are loaded', () => {
 });
 
 // TS-TODO: Use sync.getAssociateUrl() once we can create a Sync instance in TS
-test('getAuthorizeUrl() should be able to generate an Outreach URL', () => {
+test('oauth.getAuthorizeUrl() should be able to generate an Outreach URL', () => {
 	assert(outreachIntegrationDefinition.OAUTH_BASE_URL);
 	assert(outreachIntegrationDefinition.OAUTH_SCOPES);
-	const result = getAuthorizeUrl(
+	const result = oauth.getAuthorizeUrl(
 		outreachIntegrationDefinition.OAUTH_BASE_URL,
 		outreachIntegrationDefinition.OAUTH_SCOPES,
 		'user-jellyfish',
@@ -64,7 +60,7 @@ test('getAuthorizeUrl() should be able to generate an Outreach URL', () => {
 });
 
 // TS-TODO: Use sync.authorize() once we can create a Sync instance in TS
-test('getAccessToken() should throw given a code mismatch', async () => {
+test('oauth.getAccessToken() should throw given a code mismatch', async () => {
 	nock.cleanAll();
 	nock.disableNetConnect();
 
@@ -104,7 +100,7 @@ test('getAccessToken() should throw given a code mismatch', async () => {
 		});
 
 	await expect(
-		getAccessToken(
+		oauth.getAccessToken(
 			outreachIntegrationDefinition.OAUTH_BASE_URL,
 			'invalidcode',
 			{

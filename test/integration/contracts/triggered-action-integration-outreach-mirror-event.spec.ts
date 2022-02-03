@@ -1,13 +1,13 @@
+import { strict as assert } from 'assert';
 import { defaultPlugin } from '@balena/jellyfish-plugin-default';
 import { productOsPlugin } from '@balena/jellyfish-plugin-product-os';
 import { testUtils as workerTestUtils } from '@balena/jellyfish-worker';
-import { strict as assert } from 'assert';
 import _ from 'lodash';
 import nock from 'nock';
 import { v4 as uuidv4 } from 'uuid';
-import { patchUser } from '../helpers';
 import { outreachPlugin } from '../../../lib';
 import { outreachIntegrationDefinition } from '../../../lib/integrations/outreach';
+import { patchUser } from '../helpers';
 
 let ctx: workerTestUtils.TestContext;
 const prospectId = uuidv4().split('-')[0];
