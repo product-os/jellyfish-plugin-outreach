@@ -1,4 +1,18 @@
 - commits:
+    - subject: Minor fixes
+      hash: 6fa0e9c08c87834fd9ec8bb08adeb302bfc40464
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Carol Schulze <carol@ereski.org>
+        signed-off-by: Carol Schulze <carol@ereski.org>
+      author: Carol Schulze
+      nested: []
+  version: 2.0.6
+  title: Minor fixes
+  date: 2022-02-03T12:42:58.609Z
+- commits:
     - subject: Update @balena/jellyfish-core from 14.1.5 to 14.2.0
       hash: f9c6f2b162cd8e113540871f570adec995997cbf
       body: ""

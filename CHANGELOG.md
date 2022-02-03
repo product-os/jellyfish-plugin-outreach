@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 2.0.6 - 2022-02-03
+
+* Minor fixes [Carol Schulze]
+
 ## 2.0.5 - 2022-02-03
 
 * Update @balena/jellyfish-core from 14.1.5 to 14.2.0 [Renovate Bot]
