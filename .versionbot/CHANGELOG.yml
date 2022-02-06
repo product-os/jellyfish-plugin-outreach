@@ -1,4 +1,18 @@
 - commits:
+    - subject: Optimize postgres for tests
+      hash: 68df6a03291424014f9ef3a26e2bafcd374fcc57
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 2.0.10
+  title: "'Optimize postgres for tests'"
+  date: 2022-02-06T12:15:14.656Z
+- commits:
     - subject: Update @balena/jellyfish-worker from 18.4.8 to 18.5.2
       hash: 5cb1640b51d1e548cf2dc2c79dac8591c67dba39
       body: ""
