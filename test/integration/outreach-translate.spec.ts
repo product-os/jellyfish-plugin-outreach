@@ -7,7 +7,6 @@ import { outreachPlugin } from '../../lib';
 import { OAUTH_DETAILS, patchUser } from './helpers';
 import webhooks from './webhooks';
 
-// const TOKEN = defaultEnvironment.integration.outreach;
 let ctx: workerTestUtils.TestContext;
 
 beforeAll(async () => {
@@ -23,10 +22,11 @@ afterEach(async () => {
 });
 
 afterAll(() => {
+	workerTestUtils.translateAfterAll();
 	return workerTestUtils.destroyContext(ctx);
 });
 
-describe('translate logic works as expected', () => {
+describe('translate', () => {
 	for (const testCaseName of Object.keys(webhooks)) {
 		const testCase = webhooks[testCaseName];
 		const expected = {
