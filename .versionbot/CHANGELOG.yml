@@ -1,4 +1,24 @@
 - commits:
+    - subject: Update resinci/jellyfish-test Docker tag to v1.4.24
+      hash: bc53e4acc413944b16136b1e6f632bbe2188886d
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+    - subject: Update @balena/jellyfish-worker from 18.5.2 to 18.6.0
+      hash: ae50eb1d6a42e81a2241e5c5b0a6b7acfc0e4709
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.0.11
+  title: "'Update resinci/jellyfish-test Docker tag to v1.4.24'"
+  date: 2022-02-09T20:56:50.495Z
+- commits:
     - subject: Optimize postgres for tests
       hash: 68df6a03291424014f9ef3a26e2bafcd374fcc57
       body: ""
