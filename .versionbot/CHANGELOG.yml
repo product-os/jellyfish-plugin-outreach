@@ -1,4 +1,18 @@
 - commits:
+    - subject: Update to the latest version of SyncContext.request
+      hash: d4c676184886feaf13d08d8f550d9c4824894839
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+        signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+      author: Lucian Buzzo
+      nested: []
+  version: 2.0.13
+  title: "'Update to the latest version of SyncContext.request'"
+  date: 2022-02-11T17:44:21.534Z
+- commits:
     - subject: Update @balena/jellyfish-core from 14.2.0 to 14.3.1
       hash: cc2b55f9682d8dd9e77bb259d9a62e278d66c556
       body: ""

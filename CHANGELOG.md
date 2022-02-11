@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 2.0.13 - 2022-02-11
+
+* Update to the latest version of SyncContext.request [Lucian Buzzo]
+
 ## 2.0.12 - 2022-02-10
 
 * Update @balena/jellyfish-core from 14.2.0 to 14.3.1 [Renovate Bot]
