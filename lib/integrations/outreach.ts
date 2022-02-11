@@ -3,6 +3,7 @@ import type { Contract } from '@balena/jellyfish-types/build/core';
 import {
 	Integration,
 	IntegrationDefinition,
+	IntegrationInitializationOptions,
 	SequenceItem,
 	syncErrors,
 } from '@balena/jellyfish-worker';
@@ -54,6 +55,8 @@ const USER_PROSPECT_MAPPING = [
 	},
 ];
 
+type Options = IntegrationInitializationOptions;
+
 // TODO: Create an account for each company we know about
 // if it doesn't already exist, and associate the prospect
 // with the right company resource.
@@ -89,7 +92,7 @@ const getProspectAttributes = (contact: any) => {
 };
 
 async function getProspectByEmail(
-	context: any,
+	context: Options['context'],
 	actor: string,
 	baseUrl: string,
 	emails: any,
@@ -107,8 +110,10 @@ async function getProspectByEmail(
 			.request(actor, {
 				method: 'GET',
 				json: true,
-				uri: `${baseUrl}/api/v2/prospects`,
-				qs: {
+				uri: '/api/v2/prospects',
+				baseUrl,
+				useQuerystring: true,
+				data: {
 					'filter[emails]': email,
 				},
 			})
@@ -155,9 +160,8 @@ async function getByIdOrSlug(context: any, idOrSlug: string): Promise<any> {
 }
 
 async function upsertProspect(
-	context: any,
+	context: Options['context'],
 	actor: string,
-	errors: any,
 	baseUrl: string,
 	card: any,
 	retries = 5,
@@ -214,8 +218,9 @@ async function upsertProspect(
 		.request(actor, {
 			method,
 			json: true,
-			uri,
-			body,
+			uri: '',
+			baseUrl: uri,
+			data: body,
 		})
 		.catch((error: any) => {
 			if (error.expected && error.name === 'SyncOAuthNoUserError') {
@@ -273,7 +278,7 @@ async function upsertProspect(
 			},
 		);
 
-		return upsertProspect(context, actor, errors, baseUrl, card, retries - 1);
+		return upsertProspect(context, actor, baseUrl, card, retries - 1);
 	}
 
 	if (outreachUrl) {
@@ -409,11 +414,11 @@ export class OutreachIntegration implements Integration {
 	public baseUrl: string;
 
 	// TS-TODO: Use proper types
-	public context: any;
-	public options: any;
+	public context: Options['context'];
+	public options: Options;
 
 	// TS-TODO: Use proper types
-	constructor(options: any) {
+	constructor(options: Options) {
 		this.options = options;
 		this.context = this.options.context;
 		this.baseUrl = 'https://api.outreach.io';
@@ -439,7 +444,6 @@ export class OutreachIntegration implements Integration {
 		const upsertResult = await upsertProspect(
 			this.context,
 			options.actor,
-			this.options.errors,
 			this.baseUrl,
 			card,
 		);
@@ -499,7 +503,8 @@ export class OutreachIntegration implements Integration {
 				.request(adminActorId, {
 					method: 'GET',
 					json: true,
-					uri: url,
+					uri: '',
+					baseUrl: url,
 				})
 				.catch((error) => {
 					if (error.expected && error.name === 'SyncOAuthNoUserError') {
@@ -547,7 +552,7 @@ export class OutreachIntegration implements Integration {
 
 		if (eventCard && eventCard.data.translateDate) {
 			if (
-				new Date(eventCard.data.translateDate) >=
+				new Date(eventCard.data.translateDate as string) >=
 				new Date(sequenceCard.data.translateDate)
 			) {
 				return [];
