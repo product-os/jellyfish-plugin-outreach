@@ -4,6 +4,11 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 2.0.14 - 2022-02-13
+
+* Update external-non-major [Renovate Bot]
+* Update resinci/jellyfish-test Docker tag to v1.4.25 [Renovate Bot]
+
 ## 2.0.13 - 2022-02-11
 
 * Update to the latest version of SyncContext.request [Lucian Buzzo]

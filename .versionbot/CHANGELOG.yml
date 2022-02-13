@@ -1,4 +1,24 @@
 - commits:
+    - subject: Update external-non-major
+      hash: 78fe2a9c7bdf5d50073e4902dba9364b37735eb2
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+    - subject: Update resinci/jellyfish-test Docker tag to v1.4.25
+      hash: b3d7abe817a678d093c29b1c50fcb7a04e462885
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.0.14
+  title: "'Update external-non-major'"
+  date: 2022-02-13T19:05:52.909Z
+- commits:
     - subject: Update to the latest version of SyncContext.request
       hash: d4c676184886feaf13d08d8f550d9c4824894839
       body: ""
