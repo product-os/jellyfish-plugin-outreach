@@ -4,6 +4,12 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 2.0.19 - 2022-02-18
+
+* 🔄 Synced file(s) with product-os/secrets [joshbwlng]
+* Update @balena/jellyfish-core from 14.3.1 to 14.4.0 [Renovate Bot]
+* Update @balena/jellyfish-environment from 6.1.1 to 7.0.0 [Renovate Bot]
+
 ## 2.0.18 - 2022-02-15
 
 * Update resinci/jellyfish-test from v1.4.26 to v1.4.27 [Renovate Bot]
