@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 2.0.21 - 2022-02-20
+
+* Update typedoc from 0.22.11 to 0.22.12 [Renovate Bot]
+
 ## 2.0.20 - 2022-02-18
 
 * Update balena/open-balena-db from v5.0.2 to v5.0.3 [Renovate Bot]

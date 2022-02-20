@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update typedoc from 0.22.11 to 0.22.12
+      hash: f300c009825975905cc4f7b01b21c3fa7a695895
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.0.21
+  title: "'Update typedoc from 0.22.11 to 0.22.12'"
+  date: 2022-02-20T04:22:45.337Z
+- commits:
     - subject: Update balena/open-balena-db from v5.0.2 to v5.0.3
       hash: 36ab63b982ef38ced9e1f3cde90898f9a8d0fdb4
       body: ""
