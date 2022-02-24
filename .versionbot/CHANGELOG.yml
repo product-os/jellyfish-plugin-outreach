@@ -1,4 +1,34 @@
 - commits:
+    - subject: Transform serialize-error
+      hash: 3126c39b904cd1bd68b96f212cb0010e5d413792
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+    - subject: Update @balena/jellyfish-environment from 7.0.1 to 8.0.0
+      hash: df3e113ff7599ff4801d0face92e529ca859f90a
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+    - subject: Update @balena/jellyfish-core from 14.4.0 to 15.0.0
+      hash: d9ddb57b7265b7b63414bac2a2475ee4436e95bd
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.0.24
+  title: "'Update @balena/jellyfish-environment from 7.0.1 to 8.0.0'"
+  date: 2022-02-24T03:52:07.098Z
+- commits:
     - subject: Update @balena/jellyfish-worker from 18.6.31 to 18.8.1
       hash: 27ba17f24c16acb35e9c30096898e93bcc3a3f44
       body: ""
