@@ -1,4 +1,18 @@
 - commits:
+    - subject: "Renovate: Stop ignoring internal patches"
+      hash: 6cf8e91da3133b4babaa155d7c0dd3ad02faadb0
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 2.0.33
+  title: "'Renovate: Stop ignoring internal patches'"
+  date: 2022-03-01T10:19:59.667Z
+- commits:
     - subject: Remove jest esm transforms
       hash: abca9dc65a246b8fbfe33847d153e469ca92b886
       body: ""
