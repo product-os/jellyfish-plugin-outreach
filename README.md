@@ -7,13 +7,13 @@ Provides a sync integration for Outreach.
 Below is an example how to use this library:
 
 ```js
-import { cardMixins } from '@balena/jellyfish-core';
-import { OutreachPlugin } from '@balena/jellyfish-plugin-outreach';
+import { defaultPlugin } from '@balena/jellyfish-plugin-default';
+import { outreachPlugin } from '@balena/jellyfish-plugin-outreach';
+import { PluginManager } from '@balena/jellyfish-worker';
 
-const plugin = new OutreachPlugin();
-
-// Load cards from this plugin, can use custom mixins
-const cards = plugin.getCards(context, cardMixins);
+// Load cards from this plugin
+const pluginManager = new PluginManager([defaultPlugin(), outreachPlugin()]);
+const cards = pluginManager.getCards();
 console.dir(cards);
 ```
 
