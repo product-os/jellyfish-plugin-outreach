@@ -1,6 +1,6 @@
-import { strict as assert } from 'assert';
 import { defaultPlugin } from '@balena/jellyfish-plugin-default';
 import { oauth, PluginManager } from '@balena/jellyfish-worker';
+import { strict as assert } from 'assert';
 import _ from 'lodash';
 import nock from 'nock';
 import querystring from 'querystring';
