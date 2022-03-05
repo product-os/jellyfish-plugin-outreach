@@ -1,4 +1,18 @@
 - commits:
+    - subject: Update readme usage example
+      hash: 849f6bdc04ca801e45fc54ee423a26cd870355a8
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 2.0.38
+  title: "'Update readme usage example'"
+  date: 2022-03-05T02:37:56.301Z
+- commits:
     - subject: Update internal-patch
       hash: 82381464d35d715c96dce48daf7a296a4b806516
       body: ""
