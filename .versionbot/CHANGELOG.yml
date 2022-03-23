@@ -1,4 +1,18 @@
 - commits:
+    - subject: Update resinci/jellyfish-test from 1.4.27 to 3.0.3
+      hash: 2df08c6dd20aa02291898b1a8f1a052c05795f23
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 2.0.79
+  title: "'Update resinci/jellyfish-test from 1.4.27 to 3.0.3'"
+  date: 2022-03-23T23:13:57.277Z
+- commits:
     - subject: Update internal-patch
       hash: f620347a19707550d00f5f6a7ea1f4e179a0bbc1
       body: ""
