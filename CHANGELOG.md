@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 2.0.81 - 2022-03-25
+
+* Bump internal deps [Josh Bowling]
+
 ## 2.0.80 - 2022-03-25
 
 * Update @balena/jellyfish-plugin-default from 20.2.7 to 21.0.0 [Josh Bowling]
