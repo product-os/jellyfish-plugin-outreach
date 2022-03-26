@@ -47,8 +47,8 @@
   "license": "AGPL-3.0",
   "dependencies": {
     "@balena/jellyfish-assert": "^1.2.21",
-    "@balena/jellyfish-environment": "^9.1.6",
-    "@balena/jellyfish-worker": "^21.0.4",
+    "@balena/jellyfish-environment": "^9.1.7",
+    "@balena/jellyfish-worker": "^21.0.5",
     "is-uuid": "^1.0.2",
     "lodash": "^4.17.21"
   },
