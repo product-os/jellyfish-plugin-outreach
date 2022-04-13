@@ -1,4 +1,18 @@
 - commits:
+    - subject: Update secrets
+      hash: b9ff391d0a7e6f5d27b41a4d508833b529f5177b
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 2.0.114
+  title: "'Update secrets'"
+  date: 2022-04-13T05:53:39.662Z
+- commits:
     - subject: Update readme
       hash: b6a0637509336cfb7bf235b93254348d6e987bea
       body: ""
