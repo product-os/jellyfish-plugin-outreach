@@ -105,7 +105,6 @@ docs/
 package-lock.json
 
 # Decrypted secret files
-.balena/secrets/integration_typeform_signature_key
 .balena/secrets/integration_balena_api_private_key
 .balena/secrets/integration_balena_api_public_key_production
 .balena/secrets/integration_outreach_signature_key
@@ -118,8 +117,6 @@ package-lock.json
 .balena/secrets/integration_discourse_signature_key
 .balena/secrets/integration_discourse_token
 .balena/secrets/integration_discourse_username
-.balena/secrets/integration_google_meet_credentials
-.balena/secrets/mailgun_token
 .balena/secrets/registry_token_auth_cert_key
 .balena/secrets/registry_token_auth_cert_kid
 .balena/secrets/aws_access_key_id
