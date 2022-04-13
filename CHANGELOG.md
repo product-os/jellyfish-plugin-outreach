@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 2.0.113 - 2022-04-13
+
+* Update readme [Josh Bowling]
+
 ## 2.0.112 - 2022-04-13
 
 * Update secrets [Josh Bowling]
