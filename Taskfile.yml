@@ -1,9 +1,5 @@
 version: '3'
 
-env:
-  INTEGRATION_OUTREACH_SIGNATURE_KEY:
-    sh: cat /run/secrets/integration_outreach_signature_key
-
 tasks:
   test:
     cmds:
