@@ -11,10 +11,10 @@ import { defaultPlugin } from '@balena/jellyfish-plugin-default';
 import { outreachPlugin } from '@balena/jellyfish-plugin-outreach';
 import { PluginManager } from '@balena/jellyfish-worker';
 
-// Load cards from this plugin
+// Load contracts from this plugin
 const pluginManager = new PluginManager([defaultPlugin(), outreachPlugin()]);
-const cards = pluginManager.getCards();
-console.dir(cards);
+const contracts = pluginManager.getCards();
+console.dir(contracts);
 ```
 
 # Documentation
@@ -28,15 +28,12 @@ Visit the website for complete documentation: https://product-os.github.io/jelly
 Unit tests can be easily run with the command `npm test`.
 
 The integration tests require Postgres and Redis instances. The simplest way to run the tests locally is with `docker-compose`.
-
 ```
-git secret reveal -f
 npm run test:compose
 ```
 
 You can also run tests locally against Postgres and Redis instances running in `docker-compose`:
 ```
-git secret reveal -f
 npm run compose
 REDIS_HOST=localhost POSTGRES_HOST=localhost npm run test:integration
 ```
