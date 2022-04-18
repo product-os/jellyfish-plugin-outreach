@@ -14,6 +14,9 @@ beforeAll(async () => {
 		plugins: [productOsPlugin(), defaultPlugin(), outreachPlugin()],
 	});
 	await patchUser(ctx);
+
+	ctx.worker.contractsStream.removeAllListeners();
+	ctx.worker.contractsStream.close();
 	await workerTestUtils.translateBeforeAll(ctx);
 });
 
