@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 2.0.125 - 2022-04-19
+
+* Update resinci/jellyfish-test from v3.0.7 to v3.0.8 [Renovate Bot]
+
 ## 2.0.124 - 2022-04-19
 
 * Bump internal deps [Josh Bowling]
