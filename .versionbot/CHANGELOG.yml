@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update internal-patch
+      hash: 676dbac2388fdfab40efc4a26391580ad5b1753f
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.0.141
+  title: "'Update internal-patch'"
+  date: 2022-05-03T06:04:49.749Z
+- commits:
     - subject: Update resinci/jellyfish-test from v3.0.8 to v3.0.9
       hash: b53e74287bbbbdb82ed48a7fbdfc8e30d54e94d9
       body: ""
