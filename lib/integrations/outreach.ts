@@ -437,10 +437,6 @@ export class OutreachIntegration implements Integration {
 			return [];
 		}
 
-		if (!this.options.token.appId || !this.options.token.appSecret) {
-			return [];
-		}
-
 		const upsertResult = await upsertProspect(
 			this.context,
 			options.actor,
@@ -454,10 +450,6 @@ export class OutreachIntegration implements Integration {
 	// TS-TODO: May want to use EventContract with typed data.payload
 	// so we can stop casting as any multiple times within this function
 	public async translate(event: Contract): Promise<SequenceItem[]> {
-		if (!this.options.token.appId || !this.options.token.appSecret) {
-			return [];
-		}
-
 		// TS-TODO: Stop casting as any
 		const data = (event.data.payload as any).data;
 		const orgId = (event.data.headers as any)['outreach-org-id'];
@@ -583,7 +575,6 @@ export class OutreachIntegration implements Integration {
 
 export const outreachIntegrationDefinition: IntegrationDefinition = {
 	slug: SLUG,
-
 	initialize: async (options) => new OutreachIntegration(options),
 	isEventValid: (_logContext, token, rawEvent, headers) => {
 		const signature = headers['outreach-webhook-signature'];
@@ -605,16 +596,6 @@ export const outreachIntegrationDefinition: IntegrationDefinition = {
 	whoami: async () => {
 		_.constant(null);
 	},
-	OAUTH_BASE_URL: 'https://api.outreach.io',
-	OAUTH_SCOPES: [
-		'prospects.all',
-		'sequences.all',
-		'sequenceStates.all',
-		'sequenceSteps.all',
-		'sequenceTemplates.all',
-		'mailboxes.all',
-		'webhooks.all',
-	],
 	match: async (context, _externalUser, options) => {
 		assert.INTERNAL(
 			context,
