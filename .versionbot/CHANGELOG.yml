@@ -1,4 +1,18 @@
 - commits:
+    - subject: Include client details in provider contract
+      hash: 7e175b0f32dd26aa8302595f6c75ec8c0d69a3c6
+      body: >
+        Oauth client for external providers should not exist. Include client
+        information in oauth-provider contract.
+      footer:
+        Change-type: major
+        change-type: major
+      author: karaxuna
+      nested: []
+  version: 4.0.0
+  title: "'Include client details in provider contract'"
+  date: 2022-05-13T16:13:23.497Z
+- commits:
     - subject: Update internal-patch
       hash: 5ae24617740ca719b1a4b21e2abb88f050868355
       body: ""
