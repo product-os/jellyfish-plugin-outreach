@@ -6,7 +6,6 @@ import _ from 'lodash';
 import nock from 'nock';
 import { v4 as uuidv4 } from 'uuid';
 import { outreachPlugin } from '../../../lib';
-import { outreachIntegrationDefinition } from '../../../lib/integrations/outreach';
 import { patchUser } from '../helpers';
 
 let ctx: workerTestUtils.TestContext;
@@ -20,8 +19,8 @@ beforeAll(async () => {
 	await patchUser(ctx);
 
 	nock.disableNetConnect();
-	assert(outreachIntegrationDefinition.OAUTH_BASE_URL);
-	nock(outreachIntegrationDefinition.OAUTH_BASE_URL as string)
+	assert('https://api.outreach.io');
+	nock('https://api.outreach.io' as string)
 		.persist()
 		.post(apiPath)
 		.reply(() => {
@@ -30,7 +29,7 @@ beforeAll(async () => {
 				{
 					data: {
 						links: {
-							self: `${outreachIntegrationDefinition.OAUTH_BASE_URL}${apiPath}/${prospectId}`,
+							self: `https://api.outreach.io${apiPath}/${prospectId}`,
 						},
 					},
 				},
@@ -92,7 +91,7 @@ describe('triggered-action-integration-outreach-mirror-event', () => {
 
 		assert(updated.data.mirrors);
 		expect(updated.data.mirrors).toEqual([
-			`${outreachIntegrationDefinition.OAUTH_BASE_URL}${apiPath}/${prospectId}`,
+			`https://api.outreach.io${apiPath}/${prospectId}`,
 		]);
 	});
 });
