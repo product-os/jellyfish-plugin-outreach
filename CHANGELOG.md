@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 4.0.1 - 2022-05-14
+
+* Update internal-patch [Renovate Bot]
+
 ## 4.0.0 - 2022-05-13
 
 * Include client details in provider contract [karaxuna]

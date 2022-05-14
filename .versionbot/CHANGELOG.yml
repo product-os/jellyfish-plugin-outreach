@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update internal-patch
+      hash: 250cfd50d831da8d9740ca876d3d989b3a94f6aa
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 4.0.1
+  title: "'Update internal-patch'"
+  date: 2022-05-14T02:12:48.266Z
+- commits:
     - subject: Include client details in provider contract
       hash: 7e175b0f32dd26aa8302595f6c75ec8c0d69a3c6
       body: >
