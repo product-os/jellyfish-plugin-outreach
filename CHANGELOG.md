@@ -4,6 +4,11 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 4.1.0 - 2022-05-16
+
+* Update worker to v27 [karaxuna]
+* Update resinci/jellyfish-test from v3.0.10 to v3.0.11 [Renovate Bot]
+
 ## 4.0.3 - 2022-05-14
 
 * Update internal-patch [Renovate Bot]

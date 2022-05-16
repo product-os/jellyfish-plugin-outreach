@@ -1,4 +1,24 @@
 - commits:
+    - subject: Update worker to v27
+      hash: 4974915058fb4b6ed5e0b473605659f3931e24fd
+      body: ""
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: karaxuna
+      nested: []
+    - subject: Update resinci/jellyfish-test from v3.0.10 to v3.0.11
+      hash: 1e11adeeb7b2df22e20a5ba754b32847a4aa5507
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 4.1.0
+  title: "'Update worker to v27'"
+  date: 2022-05-16T16:39:43.682Z
+- commits:
     - subject: Update internal-patch
       hash: cae71ff56dcfe0c6ba1ca8495c005b0724f9ffa7
       body: ""
