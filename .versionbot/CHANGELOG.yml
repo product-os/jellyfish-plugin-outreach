@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update dependencies (internal patch bumps)
+      hash: d3d064de80f91636748d3b7c5a2c63177e3b2bef
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 4.1.1
+  title: "'Update dependencies (internal patch bumps)'"
+  date: 2022-05-16T17:59:46.135Z
+- commits:
     - subject: Update worker to v27
       hash: 4974915058fb4b6ed5e0b473605659f3931e24fd
       body: ""
