@@ -18,14 +18,14 @@ export const oauthProviderOutreach: ContractDefinition = {
 	name: 'Outreach oauth provider',
 	data: {
 		authorizeUrl: `https://api.outreach.io/oauth/authorize?${qs.stringify({
-			client_id: environment.integration['balena-api'].appId,
+			client_id: environment.integration.outreach.appId,
 			response_type: 'code',
 			redirect_uri: `${environment.oauth.redirectBaseUrl}/oauth/outreach`,
 			scope: scopes.join('+'),
 		})}`,
 		tokenUrl: 'https://api.outreach.io/oauth/token',
-		clientId: environment.integration['balena-api'].appId,
-		clientSecret: environment.integration['balena-api'].appSecret,
+		clientId: environment.integration.outreach.appId,
+		clientSecret: environment.integration.outreach.appSecret,
 		integration: 'outreach',
 	},
 };
