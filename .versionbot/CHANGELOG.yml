@@ -1,4 +1,16 @@
 - commits:
+    - subject: Fix oauth-provider-outreach parameters
+      hash: 986ebd213f94db6831ce45ab868c038a5e881622
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: karaxuna
+      nested: []
+  version: 4.1.6
+  title: "'Fix oauth-provider-outreach parameters'"
+  date: 2022-05-19T21:56:06.435Z
+- commits:
     - subject: Update internal-patch
       hash: b5b6b2a0c8f60060f3e3e274301e9005c7e8a89c
       body: ""

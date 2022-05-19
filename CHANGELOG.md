@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 4.1.6 - 2022-05-19
+
+* Fix oauth-provider-outreach parameters [karaxuna]
+
 ## 4.1.5 - 2022-05-18
 
 * Update internal-patch [Renovate Bot]
