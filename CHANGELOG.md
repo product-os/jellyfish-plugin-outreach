@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 4.1.7 - 2022-05-19
+
+* Update @balena/jellyfish-plugin-default from 27.0.10 to 27.3.0 [Renovate Bot]
+
 ## 4.1.6 - 2022-05-19
 
 * Fix oauth-provider-outreach parameters [karaxuna]

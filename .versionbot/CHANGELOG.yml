@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update @balena/jellyfish-plugin-default from 27.0.10 to 27.3.0
+      hash: abf055402a56df80aab7bd1902ce4bccb98408c1
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 4.1.7
+  title: "'Update @balena/jellyfish-plugin-default from 27.0.10 to 27.3.0'"
+  date: 2022-05-19T22:07:04.459Z
+- commits:
     - subject: Fix oauth-provider-outreach parameters
       hash: 986ebd213f94db6831ce45ab868c038a5e881622
       body: ""
