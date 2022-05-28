@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update @balena/jellyfish-worker from 27.0.3 to 27.1.1
+      hash: 1e38ee5a4cfac6bcc67eb693009d64ceb377e804
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 4.1.11
+  title: "'Update @balena/jellyfish-worker from 27.0.3 to 27.1.1'"
+  date: 2022-05-28T02:01:36.503Z
+- commits:
     - subject: Update external-non-major (external non-major bumps)
       hash: db03798f6715ec906a677f26d810367e2c93750d
       body: ""

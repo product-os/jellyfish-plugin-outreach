@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 4.1.11 - 2022-05-28
+
+* Update @balena/jellyfish-worker from 27.0.3 to 27.1.1 [Renovate Bot]
+
 ## 4.1.10 - 2022-05-28
 
 * Update external-non-major (external non-major bumps) [Renovate Bot]
