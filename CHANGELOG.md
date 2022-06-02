@@ -4,6 +4,13 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 4.1.13 - 2022-06-02
+
+* Update typescript from 4.6.4 to 4.7.2 [Renovate Bot]
+* Update typedoc from 0.22.16 to 0.22.17 [Renovate Bot]
+* Update @balena/jellyfish-plugin-default from 27.3.2 to 27.4.2 [Renovate Bot]
+* Update @balena/jellyfish-worker from 27.1.1 to 27.2.1 [Renovate Bot]
+
 ## 4.1.12 - 2022-05-30
 
 * Update typedoc from 0.22.15 to 0.22.16 [Renovate Bot]
