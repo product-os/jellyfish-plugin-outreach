@@ -1,4 +1,28 @@
 - commits:
+    - subject: "Tests: Replace worker stream references"
+      hash: db495ddbcae565aa7f994ee4279f97c17826c2c3
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+    - subject: Update dependencies
+      hash: 8f1cdbc4a9c77c63ba1261fc41bea9b92bebe51b
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 4.1.20
+  title: "'Update dependencies'"
+  date: 2022-06-11T10:34:52.282Z
+- commits:
     - subject: Update internal packages
       hash: 3d6230efd47393b997a6d434bb6b7c8af81eae9e
       body: ""

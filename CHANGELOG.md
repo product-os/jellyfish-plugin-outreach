@@ -4,6 +4,11 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 4.1.20 - 2022-06-11
+
+* Tests: Replace worker stream references [Josh Bowling]
+* Update dependencies [Josh Bowling]
+
 ## 4.1.19 - 2022-06-08
 
 * Update internal packages [Josh Bowling]
