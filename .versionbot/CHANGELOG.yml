@@ -1,4 +1,18 @@
 - commits:
+    - subject: Use official Postgres 14 image
+      hash: 73b884701cb8eb3423f236e7e12a47052a989e27
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: josh Bowling <josh@balena.io>
+        signed-off-by: josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 4.1.21
+  title: "'Use official Postgres 14 image'"
+  date: 2022-06-14T03:55:10.836Z
+- commits:
     - subject: "Tests: Replace worker stream references"
       hash: db495ddbcae565aa7f994ee4279f97c17826c2c3
       body: ""

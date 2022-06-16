@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 4.1.21 - 2022-06-14
+
+* Use official Postgres 14 image [Josh Bowling]
+
 ## 4.1.20 - 2022-06-11
 
 * Tests: Replace worker stream references [Josh Bowling]
