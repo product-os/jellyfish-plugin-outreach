@@ -48,14 +48,14 @@
   "dependencies": {
     "@balena/jellyfish-assert": "^1.2.34",
     "@balena/jellyfish-environment": "^12.0.8",
-    "@balena/jellyfish-worker": "^30.0.7",
+    "@balena/jellyfish-worker": "^30.0.13",
     "is-uuid": "^1.0.2",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
     "@balena/jellyfish-config": "^2.0.6",
-    "@balena/jellyfish-plugin-default": "^27.8.3",
-    "@balena/jellyfish-plugin-product-os": "^7.0.23",
+    "@balena/jellyfish-plugin-default": "^27.8.7",
+    "@balena/jellyfish-plugin-product-os": "^7.0.24",
     "@balena/jellyfish-types": "^2.0.5",
     "@balena/lint": "^6.2.0",
     "@types/is-uuid": "^1.0.0",
