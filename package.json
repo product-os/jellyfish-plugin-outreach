@@ -46,15 +46,15 @@
   "author": "Balena.io. <hello@balena.io>",
   "license": "AGPL-3.0",
   "dependencies": {
-    "@balena/jellyfish-assert": "^1.2.38",
-    "@balena/jellyfish-environment": "^12.0.11",
-    "@balena/jellyfish-worker": "^30.0.21",
+    "@balena/jellyfish-assert": "^1.2.39",
+    "@balena/jellyfish-environment": "^12.0.12",
+    "@balena/jellyfish-worker": "^30.0.25",
     "is-uuid": "^1.0.2",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "@balena/jellyfish-plugin-default": "^27.8.13",
-    "@balena/jellyfish-plugin-product-os": "^7.0.27",
+    "@balena/jellyfish-plugin-default": "^27.8.19",
+    "@balena/jellyfish-plugin-product-os": "^7.0.29",
     "@balena/jellyfish-types": "^2.0.5",
     "@balena/lint": "^6.2.0",
     "@types/is-uuid": "^1.0.0",
