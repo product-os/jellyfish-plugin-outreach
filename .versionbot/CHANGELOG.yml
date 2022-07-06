@@ -1,4 +1,18 @@
 - commits:
+    - subject: Drop jellyfish-types
+      hash: 802053956261355812ceea2a4f3f1596cddc7c98
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 4.2.1
+  title: "'Drop jellyfish-types'"
+  date: 2022-07-06T08:14:06.778Z
+- commits:
     - subject: Add contract type interface definitions
       hash: 0c772745d35f563167157589c7569b6b298c5086
       body: ""

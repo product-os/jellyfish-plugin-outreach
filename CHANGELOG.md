@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 4.2.1 - 2022-07-06
+
+* Drop jellyfish-types [Josh Bowling]
+
 ## 4.2.0 - 2022-07-06
 
 * Add contract type interface definitions [Josh Bowling]
