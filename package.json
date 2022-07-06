@@ -53,7 +53,7 @@
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "@balena/jellyfish-plugin-default": "^27.8.19",
+    "@balena/jellyfish-plugin-default": "^27.9.1",
     "@balena/jellyfish-plugin-product-os": "^7.1.0",
     "@balena/jellyfish-types": "^2.0.5",
     "@balena/lint": "^6.2.0",
