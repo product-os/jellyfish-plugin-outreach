@@ -1,5 +1,4 @@
 import * as assert from '@balena/jellyfish-assert';
-import type { Contract } from '@balena/jellyfish-types/build/core';
 import {
 	Integration,
 	IntegrationDefinition,
@@ -7,6 +6,7 @@ import {
 	SequenceItem,
 	syncErrors,
 } from '@balena/jellyfish-worker';
+import type { Contract } from 'autumndb';
 import crypto from 'crypto';
 import _ from 'lodash';
 import { v4 as isUUID } from 'is-uuid';
