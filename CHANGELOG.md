@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 4.2.0 - 2022-07-06
+
+* Add contract type interface definitions [Josh Bowling]
+
 ## 4.1.35 - 2022-07-06
 
 * Update @balena/jellyfish-plugin-default from 27.8.19 to 27.9.1 [renovate[bot]]
