@@ -1,4 +1,18 @@
 - commits:
+    - subject: Rename translate test file
+      hash: d5b02c7dc25dea00f4f3a48bc4841625f35f39cb
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 4.2.6
+  title: "'Rename translate test file'"
+  date: 2022-07-15T02:48:59.808Z
+- commits:
     - subject: Update @balena/jellyfish-plugin-product-os from 7.1.3 to 8.0.0
       hash: f77e10c2455b28175fcc220521a33370539f2e19
       body: ""
