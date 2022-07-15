@@ -1,5 +1,4 @@
 import { defaultPlugin } from '@balena/jellyfish-plugin-default';
-import { productOsPlugin } from '@balena/jellyfish-plugin-product-os';
 import { testUtils as workerTestUtils } from '@balena/jellyfish-worker';
 import _ from 'lodash';
 import path from 'path';
@@ -11,7 +10,7 @@ let ctx: workerTestUtils.TestContext;
 
 beforeAll(async () => {
 	ctx = await workerTestUtils.newContext({
-		plugins: [productOsPlugin(), defaultPlugin(), outreachPlugin()],
+		plugins: [defaultPlugin(), outreachPlugin()],
 	});
 	await patchUser(ctx);
 
