@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 4.2.7 - 2022-07-15
+
+* Drop plugin-product-os [Josh Bowling]
+
 ## 4.2.6 - 2022-07-15
 
 * Rename translate test file [Josh Bowling]

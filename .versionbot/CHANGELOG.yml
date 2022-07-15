@@ -1,4 +1,18 @@
 - commits:
+    - subject: Drop plugin-product-os
+      hash: 99f206958d3a50b25fabb4d314a046c33cc7ada3
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 4.2.7
+  title: "'Drop plugin-product-os'"
+  date: 2022-07-15T06:00:56.425Z
+- commits:
     - subject: Rename translate test file
       hash: d5b02c7dc25dea00f4f3a48bc4841625f35f39cb
       body: ""
