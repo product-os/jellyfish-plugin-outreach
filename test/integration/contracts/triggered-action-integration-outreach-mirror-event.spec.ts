@@ -1,5 +1,4 @@
 import { strict as assert } from 'assert';
-import { defaultPlugin } from '@balena/jellyfish-plugin-default';
 import { testUtils as workerTestUtils } from '@balena/jellyfish-worker';
 import _ from 'lodash';
 import nock from 'nock';
@@ -13,7 +12,7 @@ const apiPath = '/api/v2/prospects';
 
 beforeAll(async () => {
 	ctx = await workerTestUtils.newContext({
-		plugins: [defaultPlugin(), outreachPlugin()],
+		plugins: [outreachPlugin()],
 	});
 	await patchUser(ctx);
 

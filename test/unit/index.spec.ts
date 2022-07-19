@@ -1,9 +1,8 @@
-import { defaultPlugin } from '@balena/jellyfish-plugin-default';
 import { PluginManager } from '@balena/jellyfish-worker';
 import _ from 'lodash';
 import { outreachPlugin } from '../../lib';
 
-const pluginManager = new PluginManager([defaultPlugin(), outreachPlugin()]);
+const pluginManager = new PluginManager([outreachPlugin()]);
 
 test('Expected contracts are loaded', () => {
 	const contracts = pluginManager.getCards();
