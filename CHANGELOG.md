@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 5.0.1 - 2022-07-19
+
+* Add mirror tests [Lucian Buzzo]
+
 ## 5.0.0 - 2022-07-19
 
 * Update to latest worker v32.x [Lucian Buzzo]

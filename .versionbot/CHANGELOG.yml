@@ -1,4 +1,20 @@
 - commits:
+    - subject: Add mirror tests
+      hash: d17b18cf2e9d02c58429f821976bdb3dd4c00016
+      body: >
+        These tests have been adapted from
+        https://github.com/product-os/jellyfish/blob/v55.0.6/apps/server/test/integration/outreach-mirror.spec.ts
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+        signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+      author: Lucian Buzzo
+      nested: []
+  version: 5.0.1
+  title: "'Add mirror tests'"
+  date: 2022-07-19T20:37:52.293Z
+- commits:
     - subject: Update to latest worker v32.x
       hash: c64f81a4c0fe4fe99ba49d294a1e63be96169981
       body: |
