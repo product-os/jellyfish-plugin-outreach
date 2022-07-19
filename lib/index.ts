@@ -18,11 +18,5 @@ export const outreachPlugin = (): PluginDefinition => {
 		actions,
 		contracts,
 		integrationMap: integrations,
-		requires: [
-			{
-				slug: 'plugin-default',
-				version: '>=23.x',
-			},
-		],
 	};
 };
