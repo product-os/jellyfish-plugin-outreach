@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update autumndb from 21.0.0 to 21.1.0
+      hash: d31d1aa9d460266cbe418822a39326edd48af7ed
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 5.0.2
+  title: "'Update autumndb from 21.0.0 to 21.1.0'"
+  date: 2022-07-20T20:01:30.816Z
+- commits:
     - subject: Add mirror tests
       hash: d17b18cf2e9d02c58429f821976bdb3dd4c00016
       body: >

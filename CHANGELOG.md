@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 5.0.2 - 2022-07-20
+
+* Update autumndb from 21.0.0 to 21.1.0 [renovate[bot]]
+
 ## 5.0.1 - 2022-07-19
 
 * Add mirror tests [Lucian Buzzo]
