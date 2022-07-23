@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 5.0.4 - 2022-07-23
+
+* CI: Disable redis persistence [Josh Bowling]
+
 ## 5.0.3 - 2022-07-21
 
 * Update @balena/jellyfish-environment from 12.2.0 to 12.3.0 [renovate[bot]]

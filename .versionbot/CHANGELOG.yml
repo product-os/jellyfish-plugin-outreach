@@ -1,4 +1,18 @@
 - commits:
+    - subject: "CI: Disable redis persistence"
+      hash: 7d806bc222ba5584a438e9801058f570514d3f6a
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@monarci.com>
+        signed-off-by: Josh Bowling <josh@monarci.com>
+      author: Josh Bowling
+      nested: []
+  version: 5.0.4
+  title: "'CI: Disable redis persistence'"
+  date: 2022-07-23T09:20:34.528Z
+- commits:
     - subject: Update @balena/jellyfish-environment from 12.2.0 to 12.3.0
       hash: 852296ec079e59866ec2c8d3b6cd2f59e8c94a33
       body: ""
