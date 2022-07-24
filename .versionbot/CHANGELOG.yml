@@ -1,4 +1,18 @@
 - commits:
+    - subject: Update repo.yml
+      hash: 0dfad5ffccf12f9cbbebe1d709c67f124bfdfb73
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@monarci.com>
+        signed-off-by: Josh Bowling <josh@monarci.com>
+      author: Josh Bowling
+      nested: []
+  version: 5.0.5
+  title: "'Update repo.yml'"
+  date: 2022-07-24T06:27:14.842Z
+- commits:
     - subject: "CI: Disable redis persistence"
       hash: 7d806bc222ba5584a438e9801058f570514d3f6a
       body: ""
