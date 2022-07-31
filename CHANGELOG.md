@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 5.0.13 - 2022-07-31
+
+* Update @balena/jellyfish-assert from 1.2.46 to 1.2.50 [renovate[bot]]
+
 ## 5.0.12 - 2022-07-31
 
 * Update jest monorepo [renovate[bot]]
