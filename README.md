@@ -7,12 +7,11 @@ Provides a sync integration for Outreach.
 Below is an example how to use this library:
 
 ```js
-import { defaultPlugin } from '@balena/jellyfish-plugin-default';
 import { outreachPlugin } from '@balena/jellyfish-plugin-outreach';
 import { PluginManager } from '@balena/jellyfish-worker';
 
 // Load contracts from this plugin
-const pluginManager = new PluginManager([defaultPlugin(), outreachPlugin()]);
+const pluginManager = new PluginManager([outreachPlugin()]);
 const contracts = pluginManager.getCards();
 console.dir(contracts);
 ```
