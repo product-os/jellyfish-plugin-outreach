@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update lint-staged from 13.0.2 to 13.0.3
+      hash: ffa8c96d84fceb453ad71d488259f743215172d8
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 5.0.35
+  title: "'Update lint-staged from 13.0.2 to 13.0.3'"
+  date: 2022-08-16T00:26:58.555Z
+- commits:
     - subject: Update autumndb from 22.1.0 to 22.1.8
       hash: eeba4df2b3007f1893c229cdc5d80b5e685e9696
       body: ""
