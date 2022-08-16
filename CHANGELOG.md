@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 5.0.37 - 2022-08-16
+
+* Update example usage in readme [Josh Bowling]
+
 ## 5.0.36 - 2022-08-16
 
 * Update @balena/jellyfish-worker from 32.6.7 to 33.0.7 [renovate[bot]]
