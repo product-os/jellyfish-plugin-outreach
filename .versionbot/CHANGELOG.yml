@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update @types/lodash from 4.14.182 to 4.14.184
+      hash: 44bbe29b616eb2f9c88393e728b2189fe79beae7
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 5.0.48
+  title: "'Update @types/lodash from 4.14.182 to 4.14.184'"
+  date: 2022-08-20T01:16:51.939Z
+- commits:
     - subject: Update @types/jest from 28.1.6 to 28.1.7
       hash: b5cd22ab851a6fa22c4da2089dd80097d9a38b41
       body: ""
