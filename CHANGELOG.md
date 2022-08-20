@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 5.0.52 - 2022-08-20
+
+* Update nock from 13.2.7 to 13.2.9 [renovate[bot]]
+
 ## 5.0.51 - 2022-08-20
 
 * Update autumndb from 22.1.14 to 22.1.19 [renovate[bot]]
