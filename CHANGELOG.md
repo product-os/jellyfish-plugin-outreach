@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 5.0.53 - 2022-08-20
+
+* Update @balena/jellyfish-worker from 33.0.17 to 33.0.19 [renovate[bot]]
+
 ## 5.0.52 - 2022-08-20
 
 * Update nock from 13.2.7 to 13.2.9 [renovate[bot]]
