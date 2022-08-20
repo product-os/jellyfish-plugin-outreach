@@ -61,7 +61,7 @@
     "@balena/lint": "^6.2.0",
     "@types/is-uuid": "^1.0.0",
     "@types/jest": "^28.1.7",
-    "@types/lodash": "^4.14.182",
+    "@types/lodash": "^4.14.184",
     "@types/uuid": "^8.3.4",
     "autumndb": "^22.1.14",
     "axios": "^0.27.2",
