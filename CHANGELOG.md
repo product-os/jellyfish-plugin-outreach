@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 5.0.77 - 2022-09-07
+
+* bump [Ramiro González Maciel]
+
 ## 5.0.76 - 2022-08-28
 
 * Update @balena/jellyfish-environment from 13.0.6 to 13.0.7 [renovate[bot]]

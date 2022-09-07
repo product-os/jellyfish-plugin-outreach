@@ -1,4 +1,18 @@
 - commits:
+    - subject: bump
+      hash: 390f199096ba9f8ea125bcfb9841c16f04960481
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Ramiro Gonzalez <ramiro.gonzalez@balena.io>
+        signed-off-by: Ramiro Gonzalez <ramiro.gonzalez@balena.io>
+      author: Ramiro González Maciel
+      nested: []
+  version: 5.0.77
+  title: "'bump'"
+  date: 2022-09-07T12:38:18.540Z
+- commits:
     - subject: Update @balena/jellyfish-environment from 13.0.6 to 13.0.7
       hash: ce4f70a7109138ec7a9d5eed90b98f9efa2ede13
       body: ""
