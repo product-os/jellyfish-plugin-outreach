@@ -8,7 +8,7 @@ export * from './types';
 const { version } = require('../package.json');
 
 /**
- * The Outreach Jellyfish plugin.
+ * The Outreach Jellyfish plugin
  */
 export const outreachPlugin = (): PluginDefinition => {
 	return {
