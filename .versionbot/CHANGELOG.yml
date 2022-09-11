@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update @balena/jellyfish-assert from 1.2.61 to 1.2.62
+      hash: d5f7ac2fddd434723417659fed872681acfd26f1
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 5.0.94
+  title: "'Update @balena/jellyfish-assert from 1.2.61 to 1.2.62'"
+  date: 2022-09-11T10:41:28.812Z
+- commits:
     - subject: Update autumndb from 22.2.22 to 22.2.25
       hash: c2531f42002984cb503247ec2c3fc2e1a818e467
       body: ""
