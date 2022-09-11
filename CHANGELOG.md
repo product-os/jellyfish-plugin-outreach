@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 5.0.102 - 2022-09-11
+
+* Update autumndb from 22.2.26 to 22.2.31 [renovate[bot]]
+
 ## 5.0.101 - 2022-09-11
 
 * Update @types/jest from 29.0.0 to 29.0.1 [renovate[bot]]
