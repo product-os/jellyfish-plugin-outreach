@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 5.0.111 - 2022-09-13
+
+* Update @balena/jellyfish-assert from 1.2.63 to 1.2.67 [renovate[bot]]
+
 ## 5.0.110 - 2022-09-13
 
 * CI: Move to Flowzone [Josh Bowling]
