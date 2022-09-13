@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update @balena/jellyfish-worker from 33.4.29 to 33.4.30
+      hash: 68202b5015da0537727334010470d08209372f49
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 5.0.113
+  title: ""
+  date: 2022-09-13T19:49:11.377Z
+- commits:
     - subject: Update @balena/jellyfish-environment from 14.0.0 to 14.0.3
       hash: cb92e06c3d5e3dc9beaba7249ad3fe13a267e2a5
       body: ""
