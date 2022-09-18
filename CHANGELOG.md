@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 5.0.131 - 2022-09-18
+
+* Drop test:compose script, update compose version [Josh Bowling]
+
 ## 5.0.130 - 2022-09-18
 
 * Update @balena/jellyfish-worker from 33.4.50 to 33.4.53 [renovate[bot]]
