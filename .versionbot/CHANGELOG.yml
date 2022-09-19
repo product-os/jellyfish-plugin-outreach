@@ -1,4 +1,18 @@
 - commits:
+    - subject: Move CodeQL workflow config
+      hash: 5fb3d8ce510995e43c24120a1111a5596c5a8018
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@monarci.com>
+        signed-off-by: Josh Bowling <josh@monarci.com>
+      author: Josh Bowling
+      nested: []
+  version: 5.0.150
+  title: ""
+  date: 2022-09-19T08:46:18.057Z
+- commits:
     - subject: Update @balena/jellyfish-assert from 1.2.72 to 1.2.73
       hash: a8754bc4cbc690dfc1f6f30f8d5449fb7f8fbb78
       body: ""
