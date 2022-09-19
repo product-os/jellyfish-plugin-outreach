@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 5.0.143 - 2022-09-19
+
+* Dev: Add .nvmrc [Josh Bowling]
+
 ## 5.0.142 - 2022-09-19
 
 * Update autumndb from 22.2.57 to 22.2.59 [renovate[bot]]
