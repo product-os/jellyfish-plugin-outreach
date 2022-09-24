@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 5.0.175 - 2022-09-24
+
+* Update ts-jest from 29.0.1 to 29.0.2 [renovate[bot]]
+
 ## 5.0.174 - 2022-09-24
 
 * Update autumndb from 22.2.84 to 22.2.85 [renovate[bot]]
