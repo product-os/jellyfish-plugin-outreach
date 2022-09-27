@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 5.0.176 - 2022-09-27
+
+* Update @balena/jellyfish-assert from 1.2.74 to 1.2.75 [renovate[bot]]
+
 ## 5.0.175 - 2022-09-24
 
 * Update ts-jest from 29.0.1 to 29.0.2 [renovate[bot]]
