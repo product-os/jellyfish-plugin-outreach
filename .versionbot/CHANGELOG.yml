@@ -1,4 +1,16 @@
 - commits:
+    - subject: Rely on flowzone for docs publishing
+      hash: 1a979c037aa903c03c2f399bfc7ba77ef156a140
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Page-
+      nested: []
+  version: 5.0.178
+  title: ""
+  date: 2022-09-27T14:41:25.925Z
+- commits:
     - subject: Update @balena/jellyfish-environment from 14.0.13 to 14.0.14
       hash: ccf6e5a2c040a5e17e7b675acc6e9eeabd33ea29
       body: ""
