@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 5.0.179 - 2022-09-27
+
+* Update @balena/jellyfish-assert from 1.2.75 to 1.2.76 [renovate[bot]]
+
 ## 5.0.178 - 2022-09-27
 
 * Rely on flowzone for docs publishing [Page-]
