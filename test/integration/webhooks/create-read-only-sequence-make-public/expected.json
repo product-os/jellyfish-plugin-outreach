@@ -9,9 +9,7 @@
     "requires": [],
     "capabilities": [],
     "data": {
-      "mirrors": [
-        "https://api.outreach.io/api/v2/sequences/50"
-      ]
+      "mirrors": ["https://api.outreach.io/api/v2/sequences/50"]
     }
   },
   "tail": [
@@ -38,9 +36,7 @@
           "requires": [],
           "capabilities": [],
           "data": {
-            "mirrors": [
-              "https://api.outreach.io/api/v2/sequences/50"
-            ]
+            "mirrors": ["https://api.outreach.io/api/v2/sequences/50"]
           }
         }
       }
