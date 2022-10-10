@@ -1,4 +1,18 @@
 - commits:
+    - subject: "CI: Use JSON for Jest config"
+      hash: be6807875cd5da710366313064bf09f1f4e1d2ed
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@monarci.com>
+        signed-off-by: Josh Bowling <josh@monarci.com>
+      author: Josh Bowling
+      nested: []
+  version: 5.0.260
+  title: ""
+  date: 2022-10-10T14:05:34.660Z
+- commits:
     - subject: Update @balena/jellyfish-worker from 35.0.25 to 35.0.29
       hash: 52a62f6255bf6e8e5c9be4f6d1ec8299e1f61847
       body: ""
