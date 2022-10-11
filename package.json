@@ -55,7 +55,7 @@
   "dependencies": {
     "@balena/jellyfish-assert": "^1.2.86",
     "@balena/jellyfish-environment": "^14.3.12",
-    "@balena/jellyfish-worker": "^35.0.34",
+    "@balena/jellyfish-worker": "^35.0.39",
     "is-uuid": "^1.0.2",
     "lodash": "^4.17.21"
   },
