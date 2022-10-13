@@ -212,6 +212,8 @@ async function upsertProspect(
 	context.log.info('Mirroring Outreach', {
 		url: uri,
 		remote: card,
+		method,
+		body,
 	});
 
 	const result = await context
@@ -223,6 +225,9 @@ async function upsertProspect(
 			data: body,
 		})
 		.catch((error: any) => {
+			context.log.info('Outreach mirror request error', {
+				error,
+			});
 			if (error.expected && error.name === 'SyncOAuthNoUserError') {
 				return null;
 			}
@@ -231,6 +236,9 @@ async function upsertProspect(
 		});
 
 	if (!result) {
+		context.log.info('No results, giving up on Outreach mirror', {
+			url: uri,
+		});
 		return [];
 	}
 
