@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 5.0.271 - 2022-10-13
+
+* Add more complete mirror logs [Josh Bowling]
+
 ## 5.0.270 - 2022-10-11
 
 * Update @balena/jellyfish-worker from 35.0.34 to 35.0.39 [renovate[bot]]
