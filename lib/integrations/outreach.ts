@@ -6,6 +6,7 @@ import {
 	SequenceItem,
 	syncErrors,
 } from '@balena/jellyfish-worker';
+import { strict } from 'assert';
 import type { Contract } from 'autumndb';
 import crypto from 'crypto';
 import _ from 'lodash';
@@ -438,16 +439,24 @@ export class OutreachIntegration implements Integration {
 
 	public async mirror(
 		card: Contract,
-		options: { actor: string },
+		_options: { actor: string },
 	): Promise<SequenceItem[]> {
 		const baseType = card.type.split('@')[0];
 		if (baseType !== 'contact') {
 			return [];
 		}
 
+		// Use default actor to send requests as it should have
+		// the necessary data.oauth.outreach tokens
+		const defaultUser = await this.context.getElementBySlug(
+			`user-${this.options.defaultUser}@1.0.0`,
+			true,
+		);
+		strict(defaultUser, `user-${this.options.defaultUser} not found`);
+
 		const upsertResult = await upsertProspect(
 			this.context,
-			options.actor,
+			defaultUser.id,
 			this.baseUrl,
 			card,
 		);
