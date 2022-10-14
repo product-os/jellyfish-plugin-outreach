@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 5.0.272 - 2022-10-14
+
+* Use default actor for mirror requests [Josh Bowling]
+
 ## 5.0.271 - 2022-10-13
 
 * Add more complete mirror logs [Josh Bowling]
