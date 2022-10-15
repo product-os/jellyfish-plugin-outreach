@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 5.0.273 - 2022-10-15
+
+* Update jest from 29.1.2 to 29.2.0 [renovate[bot]]
+
 ## 5.0.272 - 2022-10-14
 
 * Use default actor for mirror requests [Josh Bowling]

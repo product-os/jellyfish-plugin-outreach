@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update jest from 29.1.2 to 29.2.0
+      hash: f2f3a645c017a68e4fd0867e9509786da6f26463
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 5.0.273
+  title: ""
+  date: 2022-10-15T01:00:18.747Z
+- commits:
     - subject: Use default actor for mirror requests
       hash: 6190bc039e90315ddfc9fa210af015d8347bfa3a
       body: ""
