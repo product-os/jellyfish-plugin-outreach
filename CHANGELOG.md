@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 5.0.277 - 2022-10-17
+
+* Update @balena/jellyfish-worker from 35.0.39 to 35.0.51 [renovate[bot]]
+
 ## 5.0.276 - 2022-10-17
 
 * Use older flowzone tag [Josh Bowling]
