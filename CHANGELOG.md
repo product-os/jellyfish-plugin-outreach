@@ -4,6 +4,11 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 5.0.276 - 2022-10-17
+
+* Use older flowzone tag [Josh Bowling]
+* Revert "Use default actor for mirror requests" [Josh Bowling]
+
 ## 5.0.275 - 2022-10-15
 
 * Update @balena/jellyfish-environment from 14.3.12 to 14.3.13 [renovate[bot]]
