@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update @balena/jellyfish-environment from 14.4.3 to 14.4.4
+      hash: 5c74b9cb15bcf15f5e5a50d3eb41512dde9a7052
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 5.0.300
+  title: ""
+  date: 2022-10-23T12:34:06.669Z
+- commits:
     - subject: Update jest monorepo
       hash: 5d3e64366eabdf4ac0bcdcbc0ef61a498a2e873b
       body: ""
