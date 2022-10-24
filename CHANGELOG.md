@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 5.0.306 - 2022-10-24
+
+* Docs: Remove badge from readme [Josh Bowling]
+
 ## 5.0.305 - 2022-10-24
 
 * Update @balena/jellyfish-worker from 36.0.9 to 36.0.14 [renovate[bot]]
