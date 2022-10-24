@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 5.0.307 - 2022-10-24
+
+* Update @balena/jellyfish-assert from 1.2.91 to 1.2.92 [renovate[bot]]
+
 ## 5.0.306 - 2022-10-24
 
 * Docs: Remove badge from readme [Josh Bowling]
