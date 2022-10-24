@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 5.0.304 - 2022-10-24
+
+* Update @balena/jellyfish-environment from 14.4.4 to 14.4.5 [renovate[bot]]
+
 ## 5.0.303 - 2022-10-24
 
 * Update @balena/jellyfish-assert from 1.2.90 to 1.2.91 [renovate[bot]]
