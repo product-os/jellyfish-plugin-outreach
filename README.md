@@ -18,8 +18,6 @@ console.dir(contracts);
 
 # Documentation
 
-[![Publish Documentation](https://github.com/product-os/jellyfish-plugin-outreach/actions/workflows/publish-docs.yml/badge.svg)](https://github.com/product-os/jellyfish-plugin-outreach/actions/workflows/publish-docs.yml)
-
 Visit the website for complete documentation: https://product-os.github.io/jellyfish-plugin-outreach
 
 # Testing
