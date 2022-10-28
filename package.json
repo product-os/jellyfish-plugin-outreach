@@ -1,7 +1,7 @@
 {
   "name": "@balena/jellyfish-plugin-outreach",
   "description": "Outreach Jellyfish Plugin",
-  "version": "5.0.321",
+  "version": "5.0.322",
   "repository": {
     "type": "git",
     "url": "https://github.com/product-os/jellyfish-plugin-outreach"
@@ -83,6 +83,6 @@
     "pre-commit": "npx lint-staged"
   },
   "versionist": {
-    "publishedAt": "2022-10-27T20:46:09.254Z"
+    "publishedAt": "2022-10-28T04:51:59.983Z"
   }
 }
