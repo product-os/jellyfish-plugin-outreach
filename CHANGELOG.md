@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 5.0.333 - 2022-11-03
+
+* Update typedoc from 0.23.19 to 0.23.20 [renovate[bot]]
+
 ## 5.0.332 - 2022-11-03
 
 * Update @balena/jellyfish-environment from 14.6.2 to 14.6.3 [renovate[bot]]
