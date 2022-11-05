@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 5.0.337 - 2022-11-05
+
+* Update @balena/jellyfish-worker from 37.0.21 to 37.0.22 [renovate[bot]]
+
 ## 5.0.336 - 2022-11-05
 
 * Update @types/lodash from 4.14.186 to 4.14.188 [renovate[bot]]
