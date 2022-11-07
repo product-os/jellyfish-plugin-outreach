@@ -60,7 +60,7 @@
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "@balena/lint": "^6.2.0",
+    "@balena/lint": "^6.2.1",
     "@types/is-uuid": "^1.0.0",
     "@types/jest": "^29.2.2",
     "@types/lodash": "^4.14.188",
