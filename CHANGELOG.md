@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 5.0.342 - 2022-11-07
+
+* Update @balena/lint from 6.2.0 to 6.2.1 [renovate[bot]]
+
 ## 5.0.341 - 2022-11-07
 
 * Update @balena/jellyfish-assert from 1.2.97 to 1.2.98 [renovate[bot]]
