@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 5.0.343 - 2022-11-12
+
+* Update @balena/jellyfish-environment from 14.6.5 to 14.6.7 [renovate[bot]]
+
 ## 5.0.342 - 2022-11-07
 
 * Update @balena/lint from 6.2.0 to 6.2.1 [renovate[bot]]
