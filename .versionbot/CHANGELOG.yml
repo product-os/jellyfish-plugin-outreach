@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update @balena/jellyfish-assert from 1.2.99 to 1.2.100
+      hash: a2ea898b1efe600c82ed3ab9154173a719fc0bf1
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 5.0.350
+  title: ""
+  date: 2022-11-14T04:49:23.900Z
+- commits:
     - subject: Update typedoc from 0.23.20 to 0.23.21
       hash: 44d4e24bf8bfdb2c4c1592e4d712c2b4e467b079
       body: ""
