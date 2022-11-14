@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 5.0.348 - 2022-11-14
+
+* Update @balena/jellyfish-environment from 14.6.7 to 14.6.8 [renovate[bot]]
+
 ## 5.0.347 - 2022-11-12
 
 * Update jest from 29.2.2 to 29.3.1 [renovate[bot]]
