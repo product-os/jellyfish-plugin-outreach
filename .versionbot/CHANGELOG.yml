@@ -1,4 +1,18 @@
 - commits:
+    - subject: Add Outreach Account contract type
+      hash: a11386c33aad8b923416d0e1a7f08459be389c02
+      body: ""
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Josh Bowling <josh@monarci.com>
+        signed-off-by: Josh Bowling <josh@monarci.com>
+      author: Josh Bowling
+      nested: []
+  version: 5.1.0
+  title: ""
+  date: 2022-11-16T03:31:14.397Z
+- commits:
     - subject: Update @balena/jellyfish-worker from 37.0.41 to 37.0.45
       hash: cc18e8fa5679229781ea7510c99213a2b6b254e2
       body: ""
