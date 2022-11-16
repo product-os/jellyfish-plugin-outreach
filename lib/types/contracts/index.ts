@@ -9,3 +9,8 @@ export type {
 	EmailSequenceContractDefinition,
 	EmailSequenceData,
 } from './email-sequence';
+export type {
+	OutreachAccountContract,
+	OutreachAccountContractDefinition,
+	OutreachAccountData,
+} from './outreach-account';
