@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update @balena/jellyfish-worker from 37.0.45 to 37.1.1
+      hash: ca0b9757117edfbdb83eae5b36bcfd3ad79a2989
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 5.1.1
+  title: ""
+  date: 2022-11-18T05:17:33.727Z
+- commits:
     - subject: Add Outreach Account contract type
       hash: a11386c33aad8b923416d0e1a7f08459be389c02
       body: ""

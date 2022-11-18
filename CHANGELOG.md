@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 5.1.1 - 2022-11-18
+
+* Update @balena/jellyfish-worker from 37.0.45 to 37.1.1 [renovate[bot]]
+
 ## 5.1.0 - 2022-11-16
 
 * Add Outreach Account contract type [Josh Bowling]
