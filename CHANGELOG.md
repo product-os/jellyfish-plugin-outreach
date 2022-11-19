@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 5.1.5 - 2022-11-19
+
+* Update typescript from 4.8.4 to 4.9.3 [renovate[bot]]
+
 ## 5.1.4 - 2022-11-19
 
 * Update @types/lodash from 4.14.188 to 4.14.189 [renovate[bot]]
