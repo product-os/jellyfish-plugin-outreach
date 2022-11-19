@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 5.1.3 - 2022-11-19
+
+* Update @types/jest from 29.2.2 to 29.2.3 [renovate[bot]]
+
 ## 5.1.2 - 2022-11-19
 
 * Update @balena/jellyfish-assert from 1.2.100 to 1.2.102 [renovate[bot]]
