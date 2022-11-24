@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 5.1.12 - 2022-11-24
+
+* Add accounts.all to oauth scopes [Josh Bowling]
+
 ## 5.1.11 - 2022-11-19
 
 * Update @balena/jellyfish-worker from 37.1.11 to 37.1.12 [renovate[bot]]
