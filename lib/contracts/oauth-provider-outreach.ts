@@ -3,6 +3,7 @@ import type { ContractDefinition } from 'autumndb';
 import qs from 'qs';
 
 const scopes = [
+	'accounts.all',
 	'mailboxes.all',
 	'prospects.all',
 	'sequences.all',
