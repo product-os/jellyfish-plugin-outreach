@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 5.1.14 - 2022-11-24
+
+* Update @balena/jellyfish-worker from 37.1.12 to 37.1.13 [renovate[bot]]
+
 ## 5.1.13 - 2022-11-24
 
 * Update product-os/flowzone action from v0.36.4 to v0.39.7 [renovate[bot]]
