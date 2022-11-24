@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update product-os/flowzone action from v0.36.4 to v0.39.7
+      hash: ff7911b554918559a3b2569ed1039c73c9f5cdf6
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 5.1.13
+  title: ""
+  date: 2022-11-24T02:24:47.863Z
+- commits:
     - subject: Add accounts.all to oauth scopes
       hash: ec2b26f7c4be64e54da2e389e4f06a909f8a372e
       body: ""

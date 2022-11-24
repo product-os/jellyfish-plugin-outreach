@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 5.1.13 - 2022-11-24
+
+* Update product-os/flowzone action from v0.36.4 to v0.39.7 [renovate[bot]]
+
 ## 5.1.12 - 2022-11-24
 
 * Add accounts.all to oauth scopes [Josh Bowling]
