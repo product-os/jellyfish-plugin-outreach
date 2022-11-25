@@ -747,7 +747,7 @@ test('should not update a synced contact with an excluded address', async () => 
 test('should link a user with an existing prospect', async () => {
 	const username = `test-link-existing-prospect-${uuid()}`;
 
-	const prospectResult = await outreachMock.postProspect({
+	const prospectResult = outreachMock.postProspect({
 		data: {
 			type: 'prospect',
 			attributes: {
@@ -864,7 +864,7 @@ test('should sync a contact with multiple emails', async () => {
 
 	expect(prospect.data.attributes.name).toBe(username);
 	expect(prospect.data.attributes.nickname).toBe(username);
-	expect(prospect.data.attributes.company).toBe('Balena');
+	expect(prospect.data.attributes.company).toBe('');
 	expect(prospect.data.attributes.githubUsername).toBeFalsy();
 	expect(prospect.data.attributes.custom1).toBe(
 		`https://jel.ly.fish/${contact.id}`,
@@ -878,7 +878,7 @@ test('should sync a contact with multiple emails', async () => {
 				const: 'outreach-account@1.0.0',
 			},
 			name: {
-				const: prospect.data.attributes.company,
+				const: (createResult.data.profile as any).company,
 			},
 			data: {
 				type: 'object',
@@ -1002,7 +1002,7 @@ test('should sync the contact type', async () => {
 	expect(prospect.data.attributes.emails).toEqual([`${username}@test.io`]);
 	expect(prospect.data.attributes.name).toBe(username);
 	expect(prospect.data.attributes.nickname).toBe(username);
-	expect(prospect.data.attributes.company).toBe('Balena');
+	expect(prospect.data.attributes.company).toBe('');
 	expect(prospect.data.attributes.title).toBe('professional');
 	expect(prospect.data.attributes.githubUsername).toBeFalsy();
 	expect(prospect.data.attributes.custom1).toBe(
@@ -1017,89 +1017,7 @@ test('should sync the contact type', async () => {
 				const: 'outreach-account@1.0.0',
 			},
 			name: {
-				const: prospect.data.attributes.company,
-			},
-			data: {
-				type: 'object',
-				required: ['mirrors'],
-				properties: {
-					mirrors: {
-						type: 'array',
-						contains: {
-							type: 'string',
-							pattern: 'https://api.outreach.io/api/v2/accounts/',
-						},
-					},
-				},
-			},
-		},
-	});
-});
-
-test('should sync company name', async () => {
-	const username = `test-sync-company-name-${uuid()}`;
-
-	const createResult = await ctx.worker.insertCard(
-		ctx.logContext,
-		ctx.session,
-		ctx.worker.typeContracts['contact@1.0.0'],
-		{
-			attachEvents: true,
-			actor: ctx.adminUserId,
-		},
-		{
-			slug: `contact-${username}`,
-			type: 'contact',
-			data: {
-				profile: {
-					email: `${username}@test.io`,
-					company: 'Balena',
-				},
-			},
-		},
-	);
-
-	assert(createResult);
-
-	await ctx.flushAll(ctx.session);
-
-	const contact: any = await waitForContactWithMirror(createResult.slug);
-
-	expect(contact.data).toEqual({
-		mirrors: contact.data.mirrors,
-		profile: {
-			company: 'Balena',
-			email: `${username}@test.io`,
-		},
-	});
-
-	expect(contact.data.mirrors.length).toBe(1);
-	expect(
-		contact.data.mirrors[0].startsWith(
-			'https://api.outreach.io/api/v2/prospects/',
-		),
-	).toBe(true);
-	const prospectId = _.parseInt(_.last(contact.data.mirrors[0].split('/'))!);
-	const prospect = await getProspect(prospectId);
-
-	expect(prospect.data.attributes.emails).toEqual([`${username}@test.io`]);
-	expect(prospect.data.attributes.name).toBe(username);
-	expect(prospect.data.attributes.nickname).toBe(username);
-	expect(prospect.data.attributes.company).toBe('Balena');
-	expect(prospect.data.attributes.githubUsername).toBeFalsy();
-	expect(prospect.data.attributes.custom1).toBe(
-		`https://jel.ly.fish/${contact.id}`,
-	);
-
-	await ctx.waitForMatch({
-		type: 'object',
-		required: ['type', 'name', 'data'],
-		properties: {
-			type: {
-				const: 'outreach-account@1.0.0',
-			},
-			name: {
-				const: prospect.data.attributes.company,
+				const: contact.data.profile.company,
 			},
 			data: {
 				type: 'object',
