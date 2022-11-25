@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 5.2.1 - 2022-11-25
+
+* No longer sync prospect company attribute [Josh Bowling]
+
 ## 5.2.0 - 2022-11-25
 
 * Create Outreach accounts on prospect mirror [Josh Bowling]
