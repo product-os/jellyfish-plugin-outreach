@@ -1,4 +1,18 @@
 - commits:
+    - subject: Create Outreach accounts on prospect mirror
+      hash: 1f01809f70a3f455604a3a286a211a27fa14fc75
+      body: ""
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Josh Bowling <josh@monarci.com>
+        signed-off-by: Josh Bowling <josh@monarci.com>
+      author: Josh Bowling
+      nested: []
+  version: 5.2.0
+  title: ""
+  date: 2022-11-25T01:37:44.734Z
+- commits:
     - subject: Update product-os/flowzone action from v0.39.7 to v0.39.9
       hash: f715dd5f34795b666f8f2c2e264a0a39ec375061
       body: ""

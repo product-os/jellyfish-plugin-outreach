@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 5.2.0 - 2022-11-25
+
+* Create Outreach accounts on prospect mirror [Josh Bowling]
+
 ## 5.1.20 - 2022-11-25
 
 * Update product-os/flowzone action from v0.39.7 to v0.39.9 [renovate[bot]]
