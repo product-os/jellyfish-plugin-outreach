@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update product-os/flowzone action from v0.39.7 to v0.39.9
+      hash: f715dd5f34795b666f8f2c2e264a0a39ec375061
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 5.1.20
+  title: ""
+  date: 2022-11-25T01:17:47.141Z
+- commits:
     - subject: Update autumndb from 22.2.171 to 22.2.172
       hash: 246decc78222b2cd62efdefe65dac8b09a9813f5
       body: ""

@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 5.1.20 - 2022-11-25
+
+* Update product-os/flowzone action from v0.39.7 to v0.39.9 [renovate[bot]]
+
 ## 5.1.19 - 2022-11-24
 
 * Update autumndb from 22.2.171 to 22.2.172 [renovate[bot]]
