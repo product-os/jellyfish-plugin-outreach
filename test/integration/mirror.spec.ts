@@ -92,6 +92,20 @@ beforeEach(async () => {
 
 	nock('https://api.outreach.io', NOCK_OPTS)
 		.persist()
+		.get('/api/v2/accounts')
+		.query((object: any) => {
+			return object['filter[name]'];
+		})
+		.reply((uri, _body, callback) => {
+			const params = querystring.parse(_.last(uri.split('?'))!);
+			const result = outreachMock.getAccountByName(
+				params['filter[emails]'] as any as string,
+			);
+			return callback(null, [result.code, result.response]);
+		});
+
+	nock('https://api.outreach.io', NOCK_OPTS)
+		.persist()
 		.post('/api/v2/accounts')
 		.reply((_uri, body, callback) => {
 			const result = outreachMock.postAccount(body as any);
