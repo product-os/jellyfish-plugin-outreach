@@ -21,10 +21,6 @@ const USER_PROSPECT_MAPPING = [
 		user: ['data', 'profile', 'city'],
 	},
 	{
-		prospect: ['company'],
-		user: ['data', 'profile', 'company'],
-	},
-	{
 		prospect: ['addressCountry'],
 		user: ['data', 'profile', 'country'],
 	},
@@ -79,6 +75,7 @@ const getProspectAttributes = (contact: any) => {
 		githubUsername,
 		nickname: contact.slug.replace(/^contact-/g, ''),
 		custom1: `https://jel.ly.fish/${contact.id}`,
+		company: '',
 	};
 
 	for (const mapping of USER_PROSPECT_MAPPING) {
