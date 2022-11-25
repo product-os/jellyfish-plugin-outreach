@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 5.2.4 - 2022-11-25
+
+* Search for account before creating one [Josh Bowling]
+
 ## 5.2.3 - 2022-11-25
 
 * Update autumndb from 22.2.172 to 22.2.173 [renovate[bot]]

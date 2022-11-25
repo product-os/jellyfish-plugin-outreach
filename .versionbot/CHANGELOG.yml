@@ -1,4 +1,18 @@
 - commits:
+    - subject: Search for account before creating one
+      hash: ca8359a7de520de4a8a5e25b53a40ac3db959c81
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@monarci.com>
+        signed-off-by: Josh Bowling <josh@monarci.com>
+      author: Josh Bowling
+      nested: []
+  version: 5.2.4
+  title: ""
+  date: 2022-11-25T05:22:10.926Z
+- commits:
     - subject: Update autumndb from 22.2.172 to 22.2.173
       hash: 3671e2e2ff13ea9520bb71222616e79839fa0c82
       body: ""
