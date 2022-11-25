@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 5.2.2 - 2022-11-25
+
+* Update @balena/jellyfish-worker from 37.1.15 to 37.1.16 [renovate[bot]]
+
 ## 5.2.1 - 2022-11-25
 
 * No longer sync prospect company attribute [Josh Bowling]

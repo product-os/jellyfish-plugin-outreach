@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update @balena/jellyfish-worker from 37.1.15 to 37.1.16
+      hash: a102da6f526c14c6bb88fa0fb8c157d1c4c24fb4
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 5.2.2
+  title: ""
+  date: 2022-11-25T03:38:02.457Z
+- commits:
     - subject: No longer sync prospect company attribute
       hash: 96362e7ab5b503e043d8d4a1e9910544697b16a3
       body: ""
