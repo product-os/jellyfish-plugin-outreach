@@ -417,37 +417,26 @@ async function upsertProspect(
 	];
 }
 
-async function createAccount(
+async function getAccountByName(
 	context: Options['context'],
 	actor: string,
 	baseUrl: string,
 	name: string,
-): Promise<SequenceItem[]> {
-	const uri = `${baseUrl}/api/v2/accounts`;
-	const method = 'POST';
-	const body: any = {
-		data: {
-			type: 'account',
-			attributes: {
-				name,
-			},
-		},
-	};
-
-	context.log.info('Creating new account in Outreach', {
-		url: uri,
+): Promise<string | undefined> {
+	const uri = `${baseUrl}/api/v2/accounts?filter[name]=${name.replace(
+		/ /g,
+		'+',
+	)}`;
+	context.log.info('Searching for existing account', {
 		name,
-		method,
-		body,
+		uri,
 	});
 
 	const result = await context
 		.request(actor, {
-			method,
-			json: true,
-			uri: '',
+			method: 'GET',
 			baseUrl: uri,
-			data: body,
+			uri: '',
 		})
 		.catch((error: any) => {
 			context.log.info('Outreach mirror request error', {
@@ -460,42 +449,108 @@ async function createAccount(
 			throw error;
 		});
 
-	if (!result) {
-		context.log.info('No results, giving up on Outreach mirror', {
-			url: uri,
-		});
-		return [];
+	if (result) {
+		assert.INTERNAL(
+			null,
+			result.code === 200,
+			syncErrors.SyncExternalRequestError,
+			`Failed to search for existing Outreach account: Got ${
+				result.code
+			} ${JSON.stringify(result.body, null, 2)}`,
+		);
+		return result.body.data[0].links.self as string;
+	} else {
+		context.log.info(
+			'No results when searching for existing Outreach account',
+			{
+				url: uri,
+			},
+		);
 	}
+}
 
-	assert.INTERNAL(
-		null,
-		result.code === 201,
-		syncErrors.SyncExternalRequestError,
-		() => {
-			return [
-				`Could not create Outreach account: Got ${result.code} ${JSON.stringify(
-					result.body,
-					null,
-					2,
-				)}`,
-				`when sending ${JSON.stringify(body, null, 2)} to ${uri}`,
-			].join('\n');
-		},
-	);
+async function createAccount(
+	context: Options['context'],
+	actor: string,
+	baseUrl: string,
+	name: string,
+): Promise<SequenceItem[]> {
+	// Try to find matching existing account first
+	let mirror = await getAccountByName(context, actor, baseUrl, name);
+
+	// Account doesn't exist in Outreach, create it
+	if (!mirror) {
+		const uri = `${baseUrl}/api/v2/accounts`;
+		const method = 'POST';
+		const body: any = {
+			data: {
+				type: 'account',
+				attributes: {
+					name,
+				},
+			},
+		};
+
+		context.log.info('Creating new account in Outreach', {
+			url: uri,
+			name,
+			method,
+			body,
+		});
+
+		const result = await context
+			.request(actor, {
+				method,
+				json: true,
+				uri: '',
+				baseUrl: uri,
+				data: body,
+			})
+			.catch((error: any) => {
+				context.log.info('Outreach mirror request error', {
+					error,
+				});
+				if (error.expected && error.name === 'SyncOAuthNoUserError') {
+					return null;
+				}
+
+				throw error;
+			});
+
+		if (!result) {
+			context.log.info('No results, giving up on Outreach mirror', {
+				url: uri,
+			});
+			return [];
+		}
+
+		assert.INTERNAL(
+			null,
+			result.code === 201,
+			syncErrors.SyncExternalRequestError,
+			() => {
+				return [
+					`Could not create Outreach account: Got ${
+						result.code
+					} ${JSON.stringify(result.body, null, 2)}`,
+					`when sending ${JSON.stringify(body, null, 2)} to ${uri}`,
+				].join('\n');
+			},
+		);
+		mirror = result.body.data.links.self;
+	}
 
 	const card = {
 		type: 'outreach-account@1.0.0',
 		slug: `outreach-account-${uuid()}`,
 		name,
 		data: {
-			mirrors: [result.body.data.links.self],
+			mirrors: [mirror],
 		},
 	};
 
 	context.log.info('Created Outreach account', {
 		account: card,
-		url: uri,
-		data: result.body,
 	});
 
 	return [

@@ -303,6 +303,37 @@ export const getProspectByEmail = (email: string) => {
 	};
 };
 
+export const getAccountByName = (name: string) => {
+	const date = new Date().toISOString();
+	const index = DATA.length;
+	const id = index + 1;
+
+	DATA[index] = {
+		type: 'account',
+		id,
+		attributes: Object.assign(
+			{},
+			DEFAULT_ATTRIBUTES,
+			{ name },
+			{
+				createdAt: date,
+				updatedAt: date,
+			},
+		),
+		relationships: getRelationships(id),
+		links: {
+			self: `https://api.outreach.io/api/v2/accounts/${id}`,
+		},
+	};
+
+	return {
+		code: 200,
+		response: {
+			data: [DATA[index]],
+		},
+	};
+};
+
 export const postAccount = (body: {
 	data: {
 		type: 'account';
