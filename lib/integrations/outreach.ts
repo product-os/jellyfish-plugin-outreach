@@ -10,6 +10,7 @@ import type { Contract } from 'autumndb';
 import crypto from 'crypto';
 import _ from 'lodash';
 import { v4 as isUUID } from 'is-uuid';
+import { v4 as uuid } from 'uuid';
 
 const MAX_NAME_LENGTH = 50;
 const SLUG = 'outreach';
@@ -20,7 +21,7 @@ const USER_PROSPECT_MAPPING = [
 		user: ['data', 'profile', 'city'],
 	},
 	{
-		prospect: ['occupation'],
+		prospect: ['company'],
 		user: ['data', 'profile', 'company'],
 	},
 	{
@@ -164,8 +165,9 @@ async function upsertProspect(
 	actor: string,
 	baseUrl: string,
 	card: any,
-	retries = 5,
-): Promise<any> {
+	retries: number,
+	accountId?: number,
+): Promise<SequenceItem[]> {
 	const contactEmail = card.data.profile && card.data.profile.email;
 	const prospect = await getProspectByEmail(
 		context,
@@ -189,6 +191,16 @@ async function upsertProspect(
 			attributes: getProspectAttributes(card),
 		},
 	};
+	if (accountId) {
+		body.data.relationships = {
+			account: {
+				data: {
+					type: 'account',
+					id: accountId,
+				},
+			},
+		};
+	}
 
 	if (card.data.origin) {
 		const origin = await getByIdOrSlug(context, card.data.origin);
@@ -286,7 +298,14 @@ async function upsertProspect(
 			},
 		);
 
-		return upsertProspect(context, actor, baseUrl, card, retries - 1);
+		return upsertProspect(
+			context,
+			actor,
+			baseUrl,
+			card,
+			retries - 1,
+			accountId,
+		);
 	}
 
 	if (outreachUrl) {
@@ -401,6 +420,96 @@ async function upsertProspect(
 	];
 }
 
+async function createAccount(
+	context: Options['context'],
+	actor: string,
+	baseUrl: string,
+	name: string,
+): Promise<SequenceItem[]> {
+	const uri = `${baseUrl}/api/v2/accounts`;
+	const method = 'POST';
+	const body: any = {
+		data: {
+			type: 'account',
+			attributes: {
+				name,
+			},
+		},
+	};
+
+	context.log.info('Creating new account in Outreach', {
+		url: uri,
+		name,
+		method,
+		body,
+	});
+
+	const result = await context
+		.request(actor, {
+			method,
+			json: true,
+			uri: '',
+			baseUrl: uri,
+			data: body,
+		})
+		.catch((error: any) => {
+			context.log.info('Outreach mirror request error', {
+				error,
+			});
+			if (error.expected && error.name === 'SyncOAuthNoUserError') {
+				return null;
+			}
+
+			throw error;
+		});
+
+	if (!result) {
+		context.log.info('No results, giving up on Outreach mirror', {
+			url: uri,
+		});
+		return [];
+	}
+
+	assert.INTERNAL(
+		null,
+		result.code === 201,
+		syncErrors.SyncExternalRequestError,
+		() => {
+			return [
+				`Could not create Outreach account: Got ${result.code} ${JSON.stringify(
+					result.body,
+					null,
+					2,
+				)}`,
+				`when sending ${JSON.stringify(body, null, 2)} to ${uri}`,
+			].join('\n');
+		},
+	);
+
+	const card = {
+		type: 'outreach-account@1.0.0',
+		slug: `outreach-account-${uuid()}`,
+		name,
+		data: {
+			mirrors: [result.body.data.links.self],
+		},
+	};
+
+	context.log.info('Created Outreach account', {
+		account: card,
+		url: uri,
+		data: result.body,
+	});
+
+	return [
+		{
+			time: new Date(),
+			actor,
+			card,
+		},
+	];
+}
+
 function getSequenceCard(url: string, attributes: any, options: any): any {
 	return {
 		name: attributes.name,
@@ -445,14 +554,55 @@ export class OutreachIntegration implements Integration {
 			return [];
 		}
 
+		// Create Outreach account if necessary
+		let accountCreateResults: SequenceItem[] = [];
+		let accountId: string | undefined;
+		const accountName = _.get(card, ['data', 'profile', 'company']);
+		if (accountName && typeof accountName === 'string') {
+			const [account] = await this.context.query(
+				{
+					type: 'object',
+					properties: {
+						type: {
+							const: 'outreach-account@1.0.0',
+						},
+						name: {
+							const: accountName,
+						},
+					},
+				},
+				{
+					limit: 1,
+				},
+			);
+			if (account && account.data.mirrors && account.data.mirrors[0]) {
+				accountId = new URL(account.data.mirrors[0]).pathname.split('/').pop();
+			} else {
+				accountCreateResults = await createAccount(
+					this.context,
+					options.actor,
+					this.baseUrl,
+					accountName,
+				);
+				accountId = new URL(
+					(accountCreateResults[0].card as any).data.mirrors[0],
+				).pathname
+					.split('/')
+					.pop();
+			}
+		}
+
+		// Upsert Outreach prospect
 		const upsertResult = await upsertProspect(
 			this.context,
 			options.actor,
 			this.baseUrl,
 			card,
+			5,
+			accountId ? parseInt(accountId, 10) : undefined,
 		);
 
-		return upsertResult;
+		return upsertResult.concat(accountCreateResults);
 	}
 
 	// TS-TODO: May want to use EventContract with typed data.payload

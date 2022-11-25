@@ -150,7 +150,7 @@ const DEFAULT_ATTRIBUTES = {
 };
 
 interface Entity {
-	type: 'prospect';
+	type: 'prospect' | 'account';
 	id: number;
 	attributes: typeof DEFAULT_ATTRIBUTES & {
 		createdAt: string;
@@ -299,6 +299,39 @@ export const getProspectByEmail = (email: string) => {
 			meta: {
 				count: results.length,
 			},
+		},
+	};
+};
+
+export const postAccount = (body: {
+	data: {
+		type: 'account';
+		attributes: {
+			name: string;
+		};
+	};
+}) => {
+	const date = new Date().toISOString();
+	const index = DATA.length;
+	const id = index + 1;
+
+	DATA[index] = {
+		type: 'account',
+		id,
+		attributes: Object.assign({}, DEFAULT_ATTRIBUTES, body.data.attributes, {
+			createdAt: date,
+			updatedAt: date,
+		}),
+		relationships: getRelationships(id),
+		links: {
+			self: `https://api.outreach.io/api/v2/accounts/${id}`,
+		},
+	};
+
+	return {
+		code: 201,
+		response: {
+			data: DATA[index],
 		},
 	};
 };
