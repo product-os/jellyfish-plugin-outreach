@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 5.2.5 - 2022-11-25
+
+* Update @balena/jellyfish-worker from 37.1.16 to 37.1.17 [renovate[bot]]
+
 ## 5.2.4 - 2022-11-25
 
 * Search for account before creating one [Josh Bowling]
