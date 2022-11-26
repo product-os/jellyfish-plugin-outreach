@@ -188,16 +188,19 @@ async function upsertProspect(
 			attributes: getProspectAttributes(card),
 		},
 	};
-	if (accountId) {
-		body.data.relationships = {
-			account: {
-				data: {
-					type: 'account',
-					id: accountId,
-				},
-			},
-		};
-	}
+
+	// Set account relationship
+	const accountData = accountId
+		? {
+				type: 'account',
+				id: accountId,
+		  }
+		: null;
+	body.data.relationships = {
+		account: {
+			data: accountData,
+		},
+	};
 
 	if (card.data.origin) {
 		const origin = await getByIdOrSlug(context, card.data.origin);
