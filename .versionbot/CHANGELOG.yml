@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update @balena/jellyfish-worker from 37.1.17 to 37.1.18
+      hash: d1a757446a6cbb91cb5cf592521138ae442d7195
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 5.2.8
+  title: ""
+  date: 2022-11-26T00:36:08.120Z
+- commits:
     - subject: Update @types/lodash from 4.14.189 to 4.14.190
       hash: 58f146fa62518aaa14d427e24a6711ae2e9f19ae
       body: ""
