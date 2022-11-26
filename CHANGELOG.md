@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 5.2.7 - 2022-11-26
+
+* Update @types/lodash from 4.14.189 to 4.14.190 [renovate[bot]]
+
 ## 5.2.6 - 2022-11-26
 
 * Update product-os/flowzone action from v0.39.9 to v0.39.11 [renovate[bot]]
