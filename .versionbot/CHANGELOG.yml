@@ -1,4 +1,18 @@
 - commits:
+    - subject: Nullify account relationship if no account
+      hash: 73917a0ae8c1fb085bff659bfa82e38bac879a53
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@monarci.com>
+        signed-off-by: Josh Bowling <josh@monarci.com>
+      author: Josh Bowling
+      nested: []
+  version: 5.2.17
+  title: ""
+  date: 2022-11-26T08:54:37.772Z
+- commits:
     - subject: Update autumndb from 22.2.173 to 22.2.180
       hash: c3fef9e1de6ddf57896f030903073ac597fce003
       body: ""
