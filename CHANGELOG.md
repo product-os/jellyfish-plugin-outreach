@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 5.2.19 - 2022-11-26
+
+* Update prettier from 2.7.1 to 2.8.0 [renovate[bot]]
+
 ## 5.2.18 - 2022-11-26
 
 * Update lint-staged from 13.0.3 to 13.0.4 [renovate[bot]]
