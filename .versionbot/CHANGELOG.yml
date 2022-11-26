@@ -1,4 +1,18 @@
 - commits:
+    - subject: Add extra checks when getting account
+      hash: e2314ab988fd6a274374772d047f64eddaf4407e
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@monarci.com>
+        signed-off-by: Josh Bowling <josh@monarci.com>
+      author: Josh Bowling
+      nested: []
+  version: 5.2.14
+  title: ""
+  date: 2022-11-26T07:23:28.296Z
+- commits:
     - subject: Update @balena/jellyfish-environment from 14.6.13 to 14.6.14
       hash: e90afd5f4bc0ef89bb0902e6ec7dd8f64e91f8f7
       body: ""
