@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update @balena/jellyfish-worker from 37.1.22 to 37.1.26
+      hash: 8ff937c95a58d5e392ad7f3f1fa3a25dbbde43be
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 5.2.15
+  title: ""
+  date: 2022-11-26T07:31:09.718Z
+- commits:
     - subject: Add extra checks when getting account
       hash: e2314ab988fd6a274374772d047f64eddaf4407e
       body: ""

@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 5.2.15 - 2022-11-26
+
+* Update @balena/jellyfish-worker from 37.1.22 to 37.1.26 [renovate[bot]]
+
 ## 5.2.14 - 2022-11-26
 
 * Add extra checks when getting account [Josh Bowling]
