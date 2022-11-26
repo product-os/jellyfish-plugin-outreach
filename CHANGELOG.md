@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 5.2.18 - 2022-11-26
+
+* Update lint-staged from 13.0.3 to 13.0.4 [renovate[bot]]
+
 ## 5.2.17 - 2022-11-26
 
 * Nullify account relationship if no account [Josh Bowling]

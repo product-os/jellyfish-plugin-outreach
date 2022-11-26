@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update lint-staged from 13.0.3 to 13.0.4
+      hash: 9c5bcd2a76bdaa13731b4dea568647f308bf39e4
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 5.2.18
+  title: ""
+  date: 2022-11-26T09:02:28.613Z
+- commits:
     - subject: Nullify account relationship if no account
       hash: 73917a0ae8c1fb085bff659bfa82e38bac879a53
       body: ""
