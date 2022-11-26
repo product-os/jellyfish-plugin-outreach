@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update product-os/flowzone action from v0.39.9 to v0.39.11
+      hash: 02c51b781ca39f3c8dfc3b8317d6b3a950ccb7dc
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 5.2.6
+  title: ""
+  date: 2022-11-26T00:18:12.019Z
+- commits:
     - subject: Update @balena/jellyfish-worker from 37.1.16 to 37.1.17
       hash: 1a9bdbe7f5a87f469b498ad31fce0cf776489806
       body: ""
