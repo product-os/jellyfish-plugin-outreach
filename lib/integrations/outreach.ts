@@ -458,7 +458,14 @@ async function getAccountByName(
 				result.code
 			} ${JSON.stringify(result.body, null, 2)}`,
 		);
-		return result.body.data[0].links.self as string;
+		if (
+			result.body &&
+			result.body.data &&
+			result.body.data[0] &&
+			result.body.data[0]?.links?.self
+		) {
+			return result.body.data[0].links.self as string;
+		}
 	} else {
 		context.log.info(
 			'No results when searching for existing Outreach account',
