@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 5.2.24 - 2022-12-13
+
+* CI: Stop extending renovate config [Josh Bowling]
+
 ## 5.2.23 - 2022-12-13
 
 * CI: Use flowzone master [Josh Bowling]
