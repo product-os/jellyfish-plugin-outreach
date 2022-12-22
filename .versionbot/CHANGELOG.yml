@@ -1,4 +1,19 @@
 - commits:
+    - subject: Update Node.js to v19
+      hash: 52d0547e285e7ae075d1f37258330acaf64bd28b
+      body: |
+        Update node to 19
+
+        Update node from 16 to 19
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Renovate Bot
+      nested: []
+  version: 5.6.0
+  title: ""
+  date: 2022-12-22T02:01:09.834Z
+- commits:
     - subject: Pin dependencies
       hash: f15321174707e7985559108fcee994189ea18e0d
       body: |
