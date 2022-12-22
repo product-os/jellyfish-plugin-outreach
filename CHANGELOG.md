@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 5.6.1 - 2022-12-22
+
+* Update dependency uuid to 9.0.0 [Renovate Bot]
+
 ## 5.6.0 - 2022-12-22
 
 * Update Node.js to v19 [Renovate Bot]
