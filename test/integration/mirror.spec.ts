@@ -3,9 +3,9 @@ import { testUtils } from '@balena/jellyfish-worker';
 import { strict as assert } from 'assert';
 import _ from 'lodash';
 import nock from 'nock';
+import { randomUUID } from 'node:crypto';
 import querystring from 'querystring';
 import axios, { AxiosRequestConfig } from 'axios';
-import { v4 as uuid } from 'uuid';
 import * as outreachMock from './outreach-mock';
 
 import { outreachPlugin } from '../../lib';
@@ -202,7 +202,7 @@ const waitForContactWithMirror = async (slug: string) => {
 };
 
 test('should update mirror URL to prospect with new email address', async () => {
-	const username = `test-update-mirror-url-${uuid()}`;
+	const username = `test-update-mirror-url-${randomUUID()}`;
 
 	const prospectResult = outreachMock.postProspect({
 		data: {
@@ -270,7 +270,7 @@ test('should update mirror URL to prospect with new email address', async () => 
 });
 
 test('should not update remote prospects that do not exist', async () => {
-	const username = `test-not-update-remote-prospects-${uuid()}`;
+	const username = `test-not-update-remote-prospects-${randomUUID()}`;
 
 	const createResult = await ctx.createContract(
 		ctx.adminUserId,
@@ -324,7 +324,7 @@ test('should not update remote prospects that do not exist', async () => {
 });
 
 test('should handle pointless contact updates', async () => {
-	const username = `test-handle-pointless-contact-updates-${uuid()}`;
+	const username = `test-handle-pointless-contact-updates-${randomUUID()}`;
 
 	const createResult = await ctx.worker.insertCard(
 		ctx.logContext,
@@ -400,7 +400,7 @@ test('should handle pointless contact updates', async () => {
 });
 
 test('should add a tag with the linked user external event slug origin type', async () => {
-	const username = `test-add-tag-event-origin-type-${uuid()}`;
+	const username = `test-add-tag-event-origin-type-${randomUUID()}`;
 
 	const event = await ctx.createContract(
 		ctx.adminUserId,
@@ -470,7 +470,7 @@ test('should add a tag with the linked user external event slug origin type', as
 });
 
 test('should store the user country and city', async () => {
-	const username = `test-country-city-${uuid()}`;
+	const username = `test-country-city-${randomUUID()}`;
 
 	const event = await ctx.createContract(
 		ctx.adminUserId,
@@ -544,7 +544,7 @@ test('should store the user country and city', async () => {
 });
 
 test('should add a tag with the linked user external event id origin type', async () => {
-	const username = `test-add-tag-event-id-origin-type-${uuid()}`;
+	const username = `test-add-tag-event-id-origin-type-${randomUUID()}`;
 
 	const event = await ctx.createContract(
 		ctx.adminUserId,
@@ -613,7 +613,7 @@ test('should add a tag with the linked user external event id origin type', asyn
 });
 
 test('should correctly add an email address to a contact with more than one address', async () => {
-	const username = `test-add-email-more-than-one-address-${uuid()}`;
+	const username = `test-add-email-more-than-one-address-${randomUUID()}`;
 
 	const createResult = await ctx.createContract(
 		ctx.adminUserId,
@@ -687,7 +687,7 @@ test('should correctly add an email address to a contact with more than one addr
 });
 
 test('should not update a synced contact with an excluded address', async () => {
-	const username = `test-not-update-excluded-address-${uuid()}`;
+	const username = `test-not-update-excluded-address-${randomUUID()}`;
 
 	const createResult = await ctx.worker.insertCard(
 		ctx.logContext,
@@ -759,7 +759,7 @@ test('should not update a synced contact with an excluded address', async () => 
 });
 
 test('should link a user with an existing prospect', async () => {
-	const username = `test-link-existing-prospect-${uuid()}`;
+	const username = `test-link-existing-prospect-${randomUUID()}`;
 
 	const prospectResult = outreachMock.postProspect({
 		data: {
@@ -826,7 +826,7 @@ test('should link a user with an existing prospect', async () => {
 });
 
 test('should sync a contact with multiple emails', async () => {
-	const username = `test-sync-contact-multiple-emails-${uuid()}`;
+	const username = `test-sync-contact-multiple-emails-${randomUUID()}`;
 
 	const createResult = await ctx.worker.insertCard(
 		ctx.logContext,
@@ -912,7 +912,7 @@ test('should sync a contact with multiple emails', async () => {
 });
 
 test('should create a simple contact', async () => {
-	const username = `test-create-simple-contact-${uuid()}`;
+	const username = `test-create-simple-contact-${randomUUID()}`;
 
 	const createResult = await ctx.worker.insertCard(
 		ctx.logContext,
@@ -966,7 +966,7 @@ test('should create a simple contact', async () => {
 });
 
 test('should sync the contact type', async () => {
-	const username = `test-sync-contact-type-${uuid()}`;
+	const username = `test-sync-contact-type-${randomUUID()}`;
 
 	const createResult = await ctx.worker.insertCard(
 		ctx.logContext,
@@ -1051,7 +1051,7 @@ test('should sync the contact type', async () => {
 });
 
 test('should truncate long first names', async () => {
-	const username = `test-truncate-long-first-name-${uuid()}`;
+	const username = `test-truncate-long-first-name-${randomUUID()}`;
 
 	const createResult = await ctx.worker.insertCard(
 		ctx.logContext,
@@ -1113,7 +1113,7 @@ test('should truncate long first names', async () => {
 });
 
 test('should truncate long last names', async () => {
-	const username = `test-truncate-long-last-name-${uuid()}`;
+	const username = `test-truncate-long-last-name-${randomUUID()}`;
 
 	const createResult = await ctx.worker.insertCard(
 		ctx.logContext,
@@ -1175,7 +1175,7 @@ test('should truncate long last names', async () => {
 });
 
 test('should use username as GitHub handle if slug starts with user-gh- (from Balena Cloud)', async () => {
-	const handle = uuid();
+	const handle = randomUUID();
 	const username = `gh-${handle}`;
 
 	const createResult = await ctx.worker.insertCard(
@@ -1229,7 +1229,7 @@ test('should use username as GitHub handle if slug starts with user-gh- (from Ba
 });
 
 test('should create a simple contact without an email', async () => {
-	const username = `test-simple-contact-without-email-${uuid()}`;
+	const username = `test-simple-contact-without-email-${randomUUID()}`;
 
 	const createResult = await ctx.worker.insertCard(
 		ctx.logContext,
@@ -1275,7 +1275,7 @@ test('should create a simple contact without an email', async () => {
 });
 
 test('should not mirror a user card type', async () => {
-	const username = `test-not-mirror-user-card-type-${uuid()}`;
+	const username = `test-not-mirror-user-card-type-${randomUUID()}`;
 
 	const user = await ctx.createContract(
 		ctx.adminUserId,
@@ -1309,7 +1309,7 @@ test('should not mirror a user card type', async () => {
 });
 
 test('should not create a prospect with an excluded email address', async () => {
-	const username = `test-not-create-prospect-excluded-email-address-${uuid()}`;
+	const username = `test-not-create-prospect-excluded-email-address-${randomUUID()}`;
 
 	const contact = await ctx.worker.insertCard(
 		ctx.logContext,
@@ -1353,7 +1353,7 @@ test('should not create a prospect with an excluded email address', async () => 
 });
 
 test('should not sync emails on contacts with new@change.me', async () => {
-	const username = `test-not-sync-emails-new-changeme-${uuid()}`;
+	const username = `test-not-sync-emails-new-changeme-${randomUUID()}`;
 
 	const createResult = await ctx.worker.insertCard(
 		ctx.logContext,
@@ -1406,7 +1406,7 @@ test('should not sync emails on contacts with new@change.me', async () => {
 });
 
 test('should not sync emails on contacts with unknown@change.me', async () => {
-	const username = `test-not-sync-emails-unknown-change-me-${uuid()}`;
+	const username = `test-not-sync-emails-unknown-change-me-${randomUUID()}`;
 
 	const createResult = await ctx.worker.insertCard(
 		ctx.logContext,
@@ -1459,7 +1459,7 @@ test('should not sync emails on contacts with unknown@change.me', async () => {
 });
 
 test('should sync tags', async () => {
-	const username = `test-sync-tags-${uuid()}`;
+	const username = `test-sync-tags-${randomUUID()}`;
 	const email = `${username}@test.io`;
 	const tags = ['foo'];
 
