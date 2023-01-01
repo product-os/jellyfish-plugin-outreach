@@ -10,7 +10,6 @@ import type { Contract } from 'autumndb';
 import crypto from 'crypto';
 import _ from 'lodash';
 import { v4 as isUUID } from 'is-uuid';
-import { v4 as uuid } from 'uuid';
 
 const MAX_NAME_LENGTH = 50;
 const SLUG = 'outreach';
@@ -552,7 +551,7 @@ async function createAccount(
 
 	const card = {
 		type: 'outreach-account@1.0.0',
-		slug: `outreach-account-${uuid()}`,
+		slug: `outreach-account-${crypto.randomUUID()}`,
 		name,
 		data: {
 			mirrors: [mirror],

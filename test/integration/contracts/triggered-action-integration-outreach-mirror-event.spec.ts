@@ -2,12 +2,12 @@ import { strict as assert } from 'assert';
 import { testUtils as workerTestUtils } from '@balena/jellyfish-worker';
 import _ from 'lodash';
 import nock from 'nock';
-import { v4 as uuidv4 } from 'uuid';
+import { randomUUID } from 'node:crypto';
 import { outreachPlugin } from '../../../lib';
 import { patchUser } from '../helpers';
 
 let ctx: workerTestUtils.TestContext;
-const prospectId = uuidv4().split('-')[0];
+const prospectId = randomUUID().split('-')[0];
 const apiPath = '/api/v2/prospects';
 
 beforeAll(async () => {
