@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 5.8.0 - 2023-01-04
+
+* Update dependency @balena/jellyfish-environment to 15.0.1 [Renovate Bot]
+
 ## 5.7.1 - 2023-01-01
 
 * Drop uuid [Josh Bowling]
