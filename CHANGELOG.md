@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-24
 
+## 5.11.0 - 2023-01-12
+
+* Update github/codeql-action digest to 515828d [Renovate Bot]
+
 ## 5.10.0 - 2023-01-06
 
 * Update Node.js to 18.13.0 [Renovate Bot]
